@@ -34,3 +34,7 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+GDS_Task3_Chapter4/Assets/SampleScenes/
+GDS_Task3_Chapter4/Assets/Standard Assets/2D/Animations/RobotBoyJump01.anim.meta
+GDS_Task3_Chapter4/Assets/Standard Assets/
+GDS_Task3_Chapter4/Assets/DefaultAssets/
