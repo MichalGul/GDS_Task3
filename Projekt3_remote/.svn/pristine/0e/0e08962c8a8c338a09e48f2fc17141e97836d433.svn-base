@@ -1,0 +1,34 @@
+<tw-storydata name="grupa4" startnode="1" creator="Twine" creator-version="2.2.1" ifid="5BCC8DEA-19BF-4A75-A005-A9242485A10E" zoom="1" format="Harlowe" format-version="2.1.0" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">
+
+
+
+</style><script role="script" id="twine-user-script" type="text/twine-javascript">
+
+
+
+</script><tw-passagedata pid="1" name="/location/Outside/" tags="" position="940,28" size="100,100">[[/lclick/Wall/-&gt;/popup/WallAction/]]
+[[/rclick/Wall/-&gt;/popup/WallDesc/]]
+[[/lclick/Door/-&gt;/location/BarInside/]]
+[[/rclick/Door/-&gt;/popup/DoorDesc/]]</tw-passagedata><tw-passagedata pid="2" name="/location/BarInside/" tags="" position="1205,452" size="100,100">[[/lclick/ExitDoor/-&gt;/location/Outside/]]
+[[/rclick/ExitDoor/-&gt;/popup/ExitDoorDesc/]]
+
+[[/lclick/Bartender/-&gt;/talk/Bartender/T1/]]
+[[/rclick/Bartender/-&gt;/popup/BartenderDesc/]]
+
+(if: $keytalk is true)[[[/lclick/Key/-&gt;/action/KeyPickup/]]
+[[/rclick/Key/-&gt;/popup/KeyDesc/]]]
+
+(if: $key is true)[
+	[[/lclick/Door2/-&gt;/location/BackRoom/]]
+](else:) [
+	[[/lclick/Door2/-&gt;/popup/BackRoomLocked/]]
+]
+[[/rclick/Door2/-&gt;/popup/Door2Desc/]]</tw-passagedata><tw-passagedata pid="3" name="/popup/WallDesc/" tags="" position="795,222" size="100,100">Looks just like an ordinary wall.</tw-passagedata><tw-passagedata pid="4" name="/popup/DoorDesc/" tags="" position="1219,108" size="100,100">The door leads to the bar.</tw-passagedata><tw-passagedata pid="5" name="/popup/WallAction/" tags="" position="601,162" size="100,100">Nothing happens.</tw-passagedata><tw-passagedata pid="6" name="/popup/ExitDoorDesc/" tags="" position="1261,258" size="100,100">The door leads outside.</tw-passagedata><tw-passagedata pid="7" name="/talk/Bartender/T1/" tags="" position="1610,175" size="100,100">What do you want?
+
+[[How do I get to the backroom-&gt;/talk/Bartender/T2/]]
+[[Bye-&gt;/location/BarInside/]]</tw-passagedata><tw-passagedata pid="8" name="/popup/BartenderDesc/" tags="" position="1628,545" size="100,100">Looks just like an ordinary bartender.</tw-passagedata><tw-passagedata pid="9" name="/location/BackRoom/" tags="" position="766,587" size="100,100">YOU WIN!</tw-passagedata><tw-passagedata pid="10" name="/popup/Door2Desc/" tags="" position="740,442" size="100,100">The door leads to the backroom.</tw-passagedata><tw-passagedata pid="11" name="/talk/Bartender/T2/" tags="" position="1707,359" size="100,100">Just use the key. &#39;puts key on the bar&#39;
+
+(set: $keytalk to true)
+[[Bye-&gt;/location/BarInside/]]</tw-passagedata><tw-passagedata pid="12" name="/popup/KeyDesc/" tags="" position="1434,632" size="100,100">A key to the backroom.</tw-passagedata><tw-passagedata pid="13" name="/popup/BackRoomLocked/" tags="" position="934,656" size="100,100">The Doors are locked.</tw-passagedata><tw-passagedata pid="14" name="/action/KeyPickup/" tags="" position="1154,662" size="100,100">(set: $key to true)
+(set: $keytalk to false)
+[[/location/BarInside/]]</tw-passagedata></tw-storydata>
