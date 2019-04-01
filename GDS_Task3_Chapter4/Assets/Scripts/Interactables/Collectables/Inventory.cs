@@ -5,10 +5,10 @@ using UnityEngine;
 public class Inventory : MonoBehaviour
 {
     public List<Item> playerItems = new List<Item>();
+    public UIInventory inventoryUI;
+
+
     
-
-
-
     public void GiveItem(int id)
     {
         
@@ -21,14 +21,21 @@ public class Inventory : MonoBehaviour
     public void GiveItem(Item itemToGive)
     {
         playerItems.Add(itemToGive);
-
+        inventoryUI.AddNewItem(itemToGive);
     }
-
 
     public Item CheckForItem(int id)
     {
-        return new Item();
+        return playerItems.Find(item => item.id == id);
     }
+
+    public bool CheckIfItemInInventory(int itemId)
+    {
+        Item foundItem = playerItems.Find(item => item.id == itemId);
+        return foundItem != null;
+
+    }
+
 
     public void RemoveItem(int id)
     {
@@ -36,7 +43,7 @@ public class Inventory : MonoBehaviour
         if (itemToRemove != null)
         {
             playerItems.Remove(itemToRemove);
-            //inventoryUI.RemoveItem(itemToRemove);
+            inventoryUI.RemoveItem(itemToRemove);
             //Debug.Log("Removed: " + itemToRemove.title);
         }
     }

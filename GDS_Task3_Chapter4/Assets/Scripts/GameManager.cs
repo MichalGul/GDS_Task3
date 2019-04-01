@@ -5,17 +5,29 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
+    public GameObject selectedItem; //or UI item
+    public Inventory playerInventory;
+    //This field will be used to check using item on other interactables
+    public Item itemPointerSelectedItem;
 
-
+    private void Awake()
+    {
+        instance = this;
+    }
     // Start is called before the first frame update
     void Start()
     {
-        
+       
     }
 
-    // Update is called once per frame
-    void Update()
+
+
+
+    public void UpdatePointerSelectedItem()
     {
-        
+        itemPointerSelectedItem = selectedItem.GetComponent<UIItem>().selectedItem.item;
     }
+
+
+
 }
