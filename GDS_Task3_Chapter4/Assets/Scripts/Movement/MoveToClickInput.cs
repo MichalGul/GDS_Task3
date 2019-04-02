@@ -8,13 +8,13 @@ public class MoveToClickInput : MonoBehaviour
     Animator playerAnimator;
     SpriteRenderer playerSprite;
 
-
     [SerializeField]
-    //public Transform target;
-    //[SerializeField]
     public float speed = 6f;
+
     Vector3[] path;
-    int targetIndex; //waypoints index
+
+    //waypoints index
+    int targetIndex; 
 
     private Vector2 targerPosition;
 
@@ -44,7 +44,6 @@ public class MoveToClickInput : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             targerPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
- 
             RequestPathManager.RequestPath(transform.position, targerPosition, OnPathFound);
         }
 

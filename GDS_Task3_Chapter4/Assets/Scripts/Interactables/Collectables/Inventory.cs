@@ -43,7 +43,7 @@ public class Inventory : MonoBehaviour
         if (itemToRemove != null)
         {
             playerItems.Remove(itemToRemove);
-            inventoryUI.RemoveItem(itemToRemove);
+            //inventoryUI.RemoveItem(itemToRemove); ! cause problem when you use item on object - tries to delete UI Item that no longer exists
             //Debug.Log("Removed: " + itemToRemove.title);
         }
     }

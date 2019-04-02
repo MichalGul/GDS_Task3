@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// Clas that holds an item to take
+/// Clas that holds an item that player can take
 /// </summary>
 public class Collector : Interactable
 {
@@ -30,6 +30,6 @@ public class Collector : Interactable
             itemTaken = true;
             gameObject.SetActive(false);
         }
-        //TODO give the player an item, so this object must be connected to player somehow
+        
     }
 }

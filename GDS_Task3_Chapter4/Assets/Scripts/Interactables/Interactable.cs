@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Base abstract class responsible for interactions
+/// </summary>
 public abstract class Interactable : MonoBehaviour
 {
 
@@ -21,12 +24,12 @@ public abstract class Interactable : MonoBehaviour
     private void OnMouseDown()
     {
         UpdatePlayerPosition();
+
         if (Vector3.Distance( playerPosition.position, transform.position) < interactionDistance)
         {
             Interact();
         }
 
-     
     }
 
     private void UpdatePlayerPosition()

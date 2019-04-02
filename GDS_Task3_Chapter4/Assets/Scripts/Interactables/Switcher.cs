@@ -2,17 +2,25 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Switcher : MonoBehaviour
+/// <summary>
+/// Switcher class responsible for broadcasting its state to all listeners
+/// </summary>
+public class Switcher : Interactable
 {
-    // Start is called before the first frame update
-    void Start()
+    public bool State;
+
+    //setup event
+    public delegate void OnStateChange();
+    public event OnStateChange StateChange;
+
+    public override void Interact()
     {
-        
+        //change state
+        State = !State;
+
+        //broadcast event to all listeners (if exists)
+        StateChange?.Invoke();
+
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

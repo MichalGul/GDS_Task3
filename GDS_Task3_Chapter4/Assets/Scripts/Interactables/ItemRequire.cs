@@ -4,15 +4,18 @@ using UnityEngine;
 
 public class ItemRequire : Interactable
 {
-
     public Item itemRequiredToInteract;
-
 
     public override void Interact()
     {
         if (GameManager.instance.playerInventory.CheckIfItemInInventory(itemRequiredToInteract.id))
         {
             base.Interact();
+
+        }
+        else
+        {
+            Debug.Log("You need to have " + itemRequiredToInteract.title + " to use that!");
         }
     }
 }
