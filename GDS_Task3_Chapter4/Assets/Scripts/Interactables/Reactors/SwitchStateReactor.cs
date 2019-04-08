@@ -17,6 +17,6 @@ public abstract class SwitchStateReactor : MonoBehaviour
     //React on observer switcher state change
     public virtual void React()
     {
-        Debug.Log("Reacting on switcher: " + switcherToObserve.name + " state change");
+        Debug.Log("Reacting on switcher: " + switcherToObserve.interactableName + " state change");
     }
 }

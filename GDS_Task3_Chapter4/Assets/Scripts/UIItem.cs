@@ -9,13 +9,12 @@ public class UIItem : MonoBehaviour, IPointerDownHandler, IPointerEnterHandler, 
     public Item item;
     private Image spriteImage;
     public UIItem selectedItem;
-
-    //private ItemTooltip toolTip;
+    private Tooltip toolTip;
 
     private void Awake()
     {
         selectedItem = GameObject.Find("SelectedItem").GetComponent<UIItem>(); //znajdz obiekt i wez jego komponent, wykorzystane do drag and drop
-        //toolTip = GameObject.Find("Tooltip").GetComponent<ItemTooltip>();
+        toolTip = GameObject.Find("Tooltip").GetComponent<Tooltip>();
         spriteImage = GetComponent<Image>();
         UpdateItem(null);
         //selectedItem.UpdateItem(null);
@@ -69,14 +68,14 @@ public class UIItem : MonoBehaviour, IPointerDownHandler, IPointerEnterHandler, 
 
     public void OnPointerEnter(PointerEventData eventData)
     {
-        //if (this.item != null)
-        //{
-        //    toolTip.GenerateTooltip(this.item);
-        //}
+        if (this.item != null)
+        {
+            toolTip.GenerateTooltip(this.item);
+        }
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
-        //toolTip.gameObject.SetActive(false);
+        toolTip.gameObject.SetActive(false);
     }
 }

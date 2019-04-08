@@ -12,7 +12,7 @@ public class Collector : Interactable
     public bool itemTaken;
     SpriteRenderer spriteRenderer;
 
-    private void Awake()
+    private void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         if(spriteRenderer && item.worldIcon)

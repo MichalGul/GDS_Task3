@@ -36,6 +36,14 @@ public class Inventory : MonoBehaviour
 
     }
 
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.I))
+        {
+            inventoryUI.gameObject.SetActive(inventoryUI.gameObject.activeSelf);
+        }
+    }
+
 
     public void RemoveItem(int id)
     {
