@@ -35,7 +35,6 @@ public class GameManager : MonoBehaviour
        
     }
 
-
     public void UpdatePointerSelectedItem()
     {
         itemPointerSelectedItem = selectedItem.GetComponent<UIItem>().selectedItem.item;

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class MoveToClickInput : MonoBehaviour
 {
@@ -43,11 +44,18 @@ public class MoveToClickInput : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            targerPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            RequestPathManager.RequestPath(transform.position, targerPosition, OnPathFound);
+            if (!EventSystem.current.IsPointerOverGameObject()) //! prevent character to walk when clicking on inventory
+            {
+                Debug.Log(Input.mousePosition);
+                targerPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+                RequestPathManager.RequestPath(transform.position, targerPosition, OnPathFound);
+            }
         }
 
     }
+
+ 
+
 
     /// <summary>
     /// Follow given path

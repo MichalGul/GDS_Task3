@@ -5,7 +5,6 @@ using System;
 
 public class PathFinding : MonoBehaviour
 {
-   // public Transform seeker, target;
     Grid grid;
     RequestPathManager requestManager;
 
