@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.EventSystems;
+﻿using UnityEngine;
 
 /// <summary>
 /// Base abstract class responsible for interactions
@@ -27,23 +24,41 @@ public abstract class Interactable : MonoBehaviour
         Debug.Log("The interactable:  has been clicked");
     }
 
+    public virtual void SecondaryInteraction()
+    {
+        Debug.Log("Secondary interaction:  has been clicked");
+    }
+
+
     private void OnMouseDown()
     {
         UpdatePlayerPosition();
+             
+            if (Vector3.Distance(playerPosition.position, transform.position) < interactionDistance)
+            {
+                Interact();
+            }
+            else //Order player to come to object
+            {
+                //Debug.Log("PODCHODZE!!!");
+                Vector3 interactableDir = (transform.position - playerPosition.position).normalized;
+                //Debug.Log("INTERACTION DIR: " + interactableDir);
+                playerMovementController.ApproachInteractable(transform.position - 0.5f * (interactableDir * interactionDistance));
+            }
 
-        if (Vector3.Distance( playerPosition.position, transform.position) < interactionDistance)
+    }
+
+    // Handle right click action 
+    private void OnMouseOver()
+    {
+        if (Input.GetMouseButtonDown(1)) //Secondary interaction
         {
-            Interact();
-        }
-        else //Order player to come to object
-        {
-            //Debug.Log("PODCHODZE!!!");
-            Vector3 interactableDir = (transform.position - playerPosition.position).normalized;
-            //Debug.Log("INTERACTION DIR: " + interactableDir);
-            playerMovementController.ApproachInteractable(transform.position - 0.5f* (interactableDir * interactionDistance));
+            SecondaryInteraction();
         }
 
     }
+
+
 
     private void OnMouseEnter()
     {
@@ -53,7 +68,7 @@ public abstract class Interactable : MonoBehaviour
         }
         else
         {
-            Debug.Log("tooltip not created for interactgable");
+            Debug.Log("tooltip not created for interactable");
         }
 
     }
@@ -64,6 +79,9 @@ public abstract class Interactable : MonoBehaviour
             toolTip.gameObject.SetActive(false);
         }
     }
+
+
+
 
     private void UpdatePlayerPosition()
     {

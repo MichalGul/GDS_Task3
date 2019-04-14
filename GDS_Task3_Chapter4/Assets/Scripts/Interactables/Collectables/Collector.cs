@@ -13,6 +13,8 @@ public class Collector : Interactable
     public bool itemTaken;
     SpriteRenderer spriteRenderer;
 
+    public string secondaryInteractionComment;
+
     private void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -32,5 +34,9 @@ public class Collector : Interactable
             gameObject.SetActive(false);
         }
         
+    }
+    public override void SecondaryInteraction()
+    {
+        Debug.Log(secondaryInteractionComment);
     }
 }
