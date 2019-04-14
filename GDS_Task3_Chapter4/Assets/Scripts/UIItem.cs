@@ -38,32 +38,47 @@ public class UIItem : MonoBehaviour, IPointerDownHandler, IPointerEnterHandler, 
 
     public void OnPointerDown(PointerEventData eventData)
     {
-        if (this.item != null) // 
-        {  //selectedItem _. item ktory dragujemy
-            if (selectedItem.item != null) // if dragin and item clicked exists we need to clone that and replace
-            {
-                //Clone item
-                Item clone = new Item(selectedItem.item);//copy draging item
-                selectedItem.UpdateItem(this.item);//item that i want put to slot
-                GameManager.instance.UpdatePointerSelectedItem();
-                UpdateItem(clone);
-            }
-            else if (selectedItem.item == null || selectedItem.item.id == 0) //jezeli nic nie dragujemy i klikamy na obiekt
-            {
-                
-                selectedItem.UpdateItem(this.item);
-                GameManager.instance.UpdatePointerSelectedItem();           
-                UpdateItem(null);
-            }
-
-        }
-        else if (selectedItem.item != null) //jezeli cos draguje a slot jest pusty
+        if (eventData.button == PointerEventData.InputButton.Left)
         {
-            UpdateItem(selectedItem.item);
-            selectedItem.UpdateItem(null);
-            GameManager.instance.UpdatePointerSelectedItem();
+            if (this.item != null) // 
+            {  //selectedItem _. item ktory dragujemy
+                if (selectedItem.item != null) // if dragin and item clicked exists we need to clone that and replace
+                {
+                    //Clone item
+                    Item clone = new Item(selectedItem.item);//copy draging item
+                    selectedItem.UpdateItem(this.item);//item that i want put to slot
+                    GameManager.instance.UpdatePointerSelectedItem();
+                    UpdateItem(clone);
+                }
+                else if (selectedItem.item == null || selectedItem.item.id == 0) //jezeli nic nie dragujemy i klikamy na obiekt
+                {
+
+                    selectedItem.UpdateItem(this.item);
+                    GameManager.instance.UpdatePointerSelectedItem();
+                    UpdateItem(null);
+                }
+
+            }
+            else if (selectedItem.item != null) //jezeli cos draguje a slot jest pusty
+            {
+                UpdateItem(selectedItem.item);
+                selectedItem.UpdateItem(null);
+                GameManager.instance.UpdatePointerSelectedItem();
+
+            }
+        }
+        //Right click interaction
+        if (eventData.button == PointerEventData.InputButton.Right)
+        {
+            //comment an item here
+            if(this.item != null)
+            {
+                Debug.Log(item.interactionComment);
+            }
 
         }
+
+
     }
 
     public void OnPointerEnter(PointerEventData eventData)

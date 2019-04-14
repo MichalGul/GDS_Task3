@@ -11,7 +11,6 @@ public class ItemRequire : Interactable
         if (GameManager.instance.playerInventory.CheckIfItemInInventory(itemRequiredToInteract.id))
         {
             base.Interact();
-
         }
         else
         {
