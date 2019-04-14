@@ -20,7 +20,6 @@ public class Switcher : Interactable
 
         //broadcast event to all listeners (if exists)
         StateChange?.Invoke();
-
     }
 
 }

@@ -19,4 +19,11 @@ public class ClickItemReaction : Interactable
             Debug.Log("You need to use " + itemRequiredToClickOn.title + " to use that!");
         }
     }
+
+    public override void SecondaryInteraction()
+    {
+        Debug.Log(secondaryInteractionComment);
+    }
+
+
 }

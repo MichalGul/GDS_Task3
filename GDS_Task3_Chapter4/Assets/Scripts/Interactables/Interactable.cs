@@ -10,7 +10,7 @@ public abstract class Interactable : MonoBehaviour
     private Transform playerPosition;
     private Tooltip toolTip;
     private MoveToClickInput playerMovementController;
-
+    public string secondaryInteractionComment;
 
     private void Awake()
     {
@@ -26,7 +26,7 @@ public abstract class Interactable : MonoBehaviour
 
     public virtual void SecondaryInteraction()
     {
-        Debug.Log("Secondary interaction:  has been clicked");
+        Debug.Log("Secondary interaction:  has been clicked: " + secondaryInteractionComment);
     }
 
 

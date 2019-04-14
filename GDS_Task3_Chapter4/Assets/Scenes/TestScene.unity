@@ -1196,6 +1196,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactableName: SwitchDoor
   interactionDistance: 2
+  secondaryInteractionComment: 
   State: 0
 --- !u!61 &745398481
 BoxCollider2D:
@@ -2373,6 +2374,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactableName: Djamond
   interactionDistance: 3
+  secondaryInteractionComment: 
   item:
     id: 2
     title: Diamond
@@ -2691,6 +2693,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactableName: SwordRequirer
   interactionDistance: 2
+  secondaryInteractionComment: I could  use something sharp
   itemRequiredToInteract:
     id: 1
     title: Diamon Sword
@@ -3030,6 +3033,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactableName: JustClick
   interactionDistance: 3
+  secondaryInteractionComment: 
 --- !u!1 &2029155804
 GameObject:
   m_ObjectHideFlags: 0
@@ -3063,6 +3067,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactableName: RequireDiamondClick
   interactionDistance: 2
+  secondaryInteractionComment: 
   itemRequiredToClickOn:
     id: 2
     title: Diamond
@@ -3285,6 +3290,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactableName: Sword
   interactionDistance: 3
+  secondaryInteractionComment: That looks sharp!!!
   item:
     id: 1
     title: Diamon Sword

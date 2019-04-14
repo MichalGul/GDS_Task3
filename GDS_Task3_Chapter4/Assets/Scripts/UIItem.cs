@@ -74,6 +74,7 @@ public class UIItem : MonoBehaviour, IPointerDownHandler, IPointerEnterHandler, 
             if(this.item != null)
             {
                 Debug.Log(item.interactionComment);
+                // TODO Player comment on item
             }
 
         }

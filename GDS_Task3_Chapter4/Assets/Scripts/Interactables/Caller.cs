@@ -9,4 +9,9 @@ public class Caller : Interactable
     {
         base.Interact();
     }
+
+    public override void SecondaryInteraction()
+    {
+        base.SecondaryInteraction();
+    }
 }

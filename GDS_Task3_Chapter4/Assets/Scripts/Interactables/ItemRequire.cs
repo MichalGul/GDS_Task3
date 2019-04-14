@@ -17,4 +17,9 @@ public class ItemRequire : Interactable
             Debug.Log("You need to have " + itemRequiredToInteract.title + " to use that!");
         }
     }
+
+    public override void SecondaryInteraction()
+    {
+        base.SecondaryInteraction();
+    }
 }
