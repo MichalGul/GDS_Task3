@@ -54,9 +54,6 @@ public class MoveToClickInput : MonoBehaviour
 
     }
 
- 
-
-
     /// <summary>
     /// Follow given path
     /// </summary>
@@ -86,6 +83,12 @@ public class MoveToClickInput : MonoBehaviour
                 yield return null;
             }
          }
+    }
+
+
+    public void ApproachInteractable(Vector3 targetPosition)
+    {
+            RequestPathManager.RequestPath(transform.position, targetPosition, OnPathFound);       
     }
 
 

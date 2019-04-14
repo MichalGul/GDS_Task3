@@ -30,7 +30,7 @@ public class PlayerSizeScaler : MonoBehaviour
         if (Camera.main.WorldToScreenPoint(transform.position).y > scaleScreenPositionLimit)
         {
             scaleFactor = 1.0f - ((Camera.main.WorldToScreenPoint(transform.position).y - scaleScreenPositionLimit) / scaleScreenPositionLimit) * scaleSpeed;
-            Debug.Log(scaleFactor);
+            //Debug.Log(scaleFactor);
 
             if (scaleFactor >= scaleLimit)
             {              

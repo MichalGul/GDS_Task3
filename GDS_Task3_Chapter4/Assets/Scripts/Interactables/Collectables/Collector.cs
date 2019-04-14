@@ -9,6 +9,7 @@ public class Collector : Interactable
 {
     public Item item;
     public Inventory playerInventory; //! not good practice, change that
+
     public bool itemTaken;
     SpriteRenderer spriteRenderer;
 

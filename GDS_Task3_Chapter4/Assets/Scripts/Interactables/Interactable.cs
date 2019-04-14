@@ -12,10 +12,13 @@ public abstract class Interactable : MonoBehaviour
     public float interactionDistance;
     private Transform playerPosition;
     private Tooltip toolTip;
+    private MoveToClickInput playerMovementController;
+
 
     private void Awake()
     {
         toolTip = GameObject.Find("Tooltip").GetComponent<Tooltip>();
+        playerMovementController = GameObject.FindGameObjectWithTag("Player").GetComponent<MoveToClickInput>();
         UpdatePlayerPosition();
     }
 
@@ -31,6 +34,13 @@ public abstract class Interactable : MonoBehaviour
         if (Vector3.Distance( playerPosition.position, transform.position) < interactionDistance)
         {
             Interact();
+        }
+        else //Order player to come to object
+        {
+            //Debug.Log("PODCHODZE!!!");
+            Vector3 interactableDir = (transform.position - playerPosition.position).normalized;
+            //Debug.Log("INTERACTION DIR: " + interactableDir);
+            playerMovementController.ApproachInteractable(transform.position - 0.5f* (interactableDir * interactionDistance));
         }
 
     }
