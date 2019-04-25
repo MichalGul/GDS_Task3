@@ -1,0 +1,1259 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IHtmlDataListElement
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IHtmlDataListElement
+   ">
+    <meta name="generator" content="docfx 2.41.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AngleSharp.Html.Dom.IHtmlDataListElement">
+  
+  
+  <h1 id="AngleSharp_Html_Dom_IHtmlDataListElement" data-uid="AngleSharp.Html.Dom.IHtmlDataListElement" class="text-break">Interface IHtmlDataListElement
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Dom.IHtmlElement.html#AngleSharp_Html_Dom_IHtmlElement_DoClick">IHtmlElement.DoClick()</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Dom.IHtmlElement.html#AngleSharp_Html_Dom_IHtmlElement_DoFocus">IHtmlElement.DoFocus()</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Dom.IHtmlElement.html#AngleSharp_Html_Dom_IHtmlElement_DoBlur">IHtmlElement.DoBlur()</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Dom.IHtmlElement.html#AngleSharp_Html_Dom_IHtmlElement_DoSpellCheck">IHtmlElement.DoSpellCheck()</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Dom.IHtmlElement.html#AngleSharp_Html_Dom_IHtmlElement_Language">IHtmlElement.Language</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Dom.IHtmlElement.html#AngleSharp_Html_Dom_IHtmlElement_Title">IHtmlElement.Title</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Dom.IHtmlElement.html#AngleSharp_Html_Dom_IHtmlElement_Direction">IHtmlElement.Direction</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Dom.IHtmlElement.html#AngleSharp_Html_Dom_IHtmlElement_Dataset">IHtmlElement.Dataset</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Dom.IHtmlElement.html#AngleSharp_Html_Dom_IHtmlElement_IsTranslated">IHtmlElement.IsTranslated</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Dom.IHtmlElement.html#AngleSharp_Html_Dom_IHtmlElement_TabIndex">IHtmlElement.TabIndex</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Dom.IHtmlElement.html#AngleSharp_Html_Dom_IHtmlElement_IsSpellChecked">IHtmlElement.IsSpellChecked</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Dom.IHtmlElement.html#AngleSharp_Html_Dom_IHtmlElement_ContentEditable">IHtmlElement.ContentEditable</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Dom.IHtmlElement.html#AngleSharp_Html_Dom_IHtmlElement_IsContentEditable">IHtmlElement.IsContentEditable</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Dom.IHtmlElement.html#AngleSharp_Html_Dom_IHtmlElement_IsHidden">IHtmlElement.IsHidden</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Dom.IHtmlElement.html#AngleSharp_Html_Dom_IHtmlElement_IsDraggable">IHtmlElement.IsDraggable</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Dom.IHtmlElement.html#AngleSharp_Html_Dom_IHtmlElement_AccessKey">IHtmlElement.AccessKey</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Dom.IHtmlElement.html#AngleSharp_Html_Dom_IHtmlElement_AccessKeyLabel">IHtmlElement.AccessKeyLabel</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Dom.IHtmlElement.html#AngleSharp_Html_Dom_IHtmlElement_ContextMenu">IHtmlElement.ContextMenu</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Dom.IHtmlElement.html#AngleSharp_Html_Dom_IHtmlElement_DropZone">IHtmlElement.DropZone</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IElement.html#AngleSharp_Dom_IElement_Insert_AngleSharp_Dom_AdjacentPosition_System_String_">IElement.Insert(AdjacentPosition, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IElement.html#AngleSharp_Dom_IElement_HasAttribute_System_String_">IElement.HasAttribute(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IElement.html#AngleSharp_Dom_IElement_HasAttribute_System_String_System_String_">IElement.HasAttribute(String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IElement.html#AngleSharp_Dom_IElement_GetAttribute_System_String_">IElement.GetAttribute(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IElement.html#AngleSharp_Dom_IElement_GetAttribute_System_String_System_String_">IElement.GetAttribute(String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IElement.html#AngleSharp_Dom_IElement_SetAttribute_System_String_System_String_">IElement.SetAttribute(String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IElement.html#AngleSharp_Dom_IElement_SetAttribute_System_String_System_String_System_String_">IElement.SetAttribute(String, String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IElement.html#AngleSharp_Dom_IElement_RemoveAttribute_System_String_">IElement.RemoveAttribute(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IElement.html#AngleSharp_Dom_IElement_RemoveAttribute_System_String_System_String_">IElement.RemoveAttribute(String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IElement.html#AngleSharp_Dom_IElement_GetElementsByClassName_System_String_">IElement.GetElementsByClassName(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IElement.html#AngleSharp_Dom_IElement_GetElementsByTagName_System_String_">IElement.GetElementsByTagName(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IElement.html#AngleSharp_Dom_IElement_GetElementsByTagNameNS_System_String_System_String_">IElement.GetElementsByTagNameNS(String, String)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IElement.html#AngleSharp_Dom_IElement_Matches_System_String_">IElement.Matches(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IElement.html#AngleSharp_Dom_IElement_Closest_System_String_">IElement.Closest(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IElement.html#AngleSharp_Dom_IElement_AttachShadow_AngleSharp_Dom_ShadowRootMode_">IElement.AttachShadow(ShadowRootMode)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IElement.html#AngleSharp_Dom_IElement_Prefix">IElement.Prefix</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IElement.html#AngleSharp_Dom_IElement_LocalName">IElement.LocalName</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IElement.html#AngleSharp_Dom_IElement_NamespaceUri">IElement.NamespaceUri</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IElement.html#AngleSharp_Dom_IElement_Attributes">IElement.Attributes</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IElement.html#AngleSharp_Dom_IElement_ClassList">IElement.ClassList</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IElement.html#AngleSharp_Dom_IElement_ClassName">IElement.ClassName</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IElement.html#AngleSharp_Dom_IElement_Id">IElement.Id</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IElement.html#AngleSharp_Dom_IElement_InnerHtml">IElement.InnerHtml</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IElement.html#AngleSharp_Dom_IElement_OuterHtml">IElement.OuterHtml</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IElement.html#AngleSharp_Dom_IElement_TagName">IElement.TagName</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IElement.html#AngleSharp_Dom_IElement_AssignedSlot">IElement.AssignedSlot</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IElement.html#AngleSharp_Dom_IElement_Slot">IElement.Slot</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IElement.html#AngleSharp_Dom_IElement_ShadowRoot">IElement.ShadowRoot</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IElement.html#AngleSharp_Dom_IElement_IsFocused">IElement.IsFocused</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.INode.html#AngleSharp_Dom_INode_Clone_System_Boolean_">INode.Clone(Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.INode.html#AngleSharp_Dom_INode_Equals_AngleSharp_Dom_INode_">INode.Equals(INode)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.INode.html#AngleSharp_Dom_INode_CompareDocumentPosition_AngleSharp_Dom_INode_">INode.CompareDocumentPosition(INode)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.INode.html#AngleSharp_Dom_INode_Normalize">INode.Normalize()</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.INode.html#AngleSharp_Dom_INode_Contains_AngleSharp_Dom_INode_">INode.Contains(INode)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.INode.html#AngleSharp_Dom_INode_IsDefaultNamespace_System_String_">INode.IsDefaultNamespace(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.INode.html#AngleSharp_Dom_INode_LookupNamespaceUri_System_String_">INode.LookupNamespaceUri(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.INode.html#AngleSharp_Dom_INode_LookupPrefix_System_String_">INode.LookupPrefix(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.INode.html#AngleSharp_Dom_INode_AppendChild_AngleSharp_Dom_INode_">INode.AppendChild(INode)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.INode.html#AngleSharp_Dom_INode_InsertBefore_AngleSharp_Dom_INode_AngleSharp_Dom_INode_">INode.InsertBefore(INode, INode)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.INode.html#AngleSharp_Dom_INode_RemoveChild_AngleSharp_Dom_INode_">INode.RemoveChild(INode)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.INode.html#AngleSharp_Dom_INode_ReplaceChild_AngleSharp_Dom_INode_AngleSharp_Dom_INode_">INode.ReplaceChild(INode, INode)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.INode.html#AngleSharp_Dom_INode_BaseUri">INode.BaseUri</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.INode.html#AngleSharp_Dom_INode_BaseUrl">INode.BaseUrl</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.INode.html#AngleSharp_Dom_INode_NodeName">INode.NodeName</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.INode.html#AngleSharp_Dom_INode_ChildNodes">INode.ChildNodes</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.INode.html#AngleSharp_Dom_INode_Owner">INode.Owner</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.INode.html#AngleSharp_Dom_INode_ParentElement">INode.ParentElement</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.INode.html#AngleSharp_Dom_INode_Parent">INode.Parent</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.INode.html#AngleSharp_Dom_INode_FirstChild">INode.FirstChild</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.INode.html#AngleSharp_Dom_INode_LastChild">INode.LastChild</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.INode.html#AngleSharp_Dom_INode_NextSibling">INode.NextSibling</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.INode.html#AngleSharp_Dom_INode_PreviousSibling">INode.PreviousSibling</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.INode.html#AngleSharp_Dom_INode_NodeType">INode.NodeType</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.INode.html#AngleSharp_Dom_INode_NodeValue">INode.NodeValue</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.INode.html#AngleSharp_Dom_INode_TextContent">INode.TextContent</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.INode.html#AngleSharp_Dom_INode_HasChildNodes">INode.HasChildNodes</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IEventTarget.html#AngleSharp_Dom_IEventTarget_AddEventListener_System_String_AngleSharp_Dom_DomEventHandler_System_Boolean_">IEventTarget.AddEventListener(String, DomEventHandler, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IEventTarget.html#AngleSharp_Dom_IEventTarget_RemoveEventListener_System_String_AngleSharp_Dom_DomEventHandler_System_Boolean_">IEventTarget.RemoveEventListener(String, DomEventHandler, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IEventTarget.html#AngleSharp_Dom_IEventTarget_InvokeEventListener_AngleSharp_Dom_Events_Event_">IEventTarget.InvokeEventListener(Event)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IEventTarget.html#AngleSharp_Dom_IEventTarget_Dispatch_AngleSharp_Dom_Events_Event_">IEventTarget.Dispatch(Event)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.IMarkupFormattable.html#AngleSharp_IMarkupFormattable_ToHtml_System_IO_TextWriter_AngleSharp_IMarkupFormatter_">IMarkupFormattable.ToHtml(TextWriter, IMarkupFormatter)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IParentNode.html#AngleSharp_Dom_IParentNode_Append_AngleSharp_Dom_INode___">IParentNode.Append(INode[])</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IParentNode.html#AngleSharp_Dom_IParentNode_Prepend_AngleSharp_Dom_INode___">IParentNode.Prepend(INode[])</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IParentNode.html#AngleSharp_Dom_IParentNode_QuerySelector_System_String_">IParentNode.QuerySelector(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IParentNode.html#AngleSharp_Dom_IParentNode_QuerySelectorAll_System_String_">IParentNode.QuerySelectorAll(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IParentNode.html#AngleSharp_Dom_IParentNode_Children">IParentNode.Children</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IParentNode.html#AngleSharp_Dom_IParentNode_FirstElementChild">IParentNode.FirstElementChild</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IParentNode.html#AngleSharp_Dom_IParentNode_LastElementChild">IParentNode.LastElementChild</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IParentNode.html#AngleSharp_Dom_IParentNode_ChildElementCount">IParentNode.ChildElementCount</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IChildNode.html#AngleSharp_Dom_IChildNode_Before_AngleSharp_Dom_INode___">IChildNode.Before(INode[])</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IChildNode.html#AngleSharp_Dom_IChildNode_After_AngleSharp_Dom_INode___">IChildNode.After(INode[])</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IChildNode.html#AngleSharp_Dom_IChildNode_Replace_AngleSharp_Dom_INode___">IChildNode.Replace(INode[])</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IChildNode.html#AngleSharp_Dom_IChildNode_Remove">IChildNode.Remove()</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.INonDocumentTypeChildNode.html#AngleSharp_Dom_INonDocumentTypeChildNode_NextElementSibling">INonDocumentTypeChildNode.NextElementSibling</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.INonDocumentTypeChildNode.html#AngleSharp_Dom_INonDocumentTypeChildNode_PreviousElementSibling">INonDocumentTypeChildNode.PreviousElementSibling</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_Aborted_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_Aborted(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_Aborted_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_Aborted(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_Blurred_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_Blurred(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_Blurred_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_Blurred(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_Cancelled_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_Cancelled(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_Cancelled_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_Cancelled(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_CanPlay_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_CanPlay(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_CanPlay_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_CanPlay(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_CanPlayThrough_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_CanPlayThrough(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_CanPlayThrough_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_CanPlayThrough(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_Changed_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_Changed(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_Changed_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_Changed(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_Clicked_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_Clicked(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_Clicked_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_Clicked(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_CueChanged_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_CueChanged(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_CueChanged_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_CueChanged(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_DoubleClick_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_DoubleClick(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_DoubleClick_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_DoubleClick(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_Drag_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_Drag(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_Drag_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_Drag(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_DragEnd_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_DragEnd(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_DragEnd_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_DragEnd(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_DragEnter_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_DragEnter(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_DragEnter_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_DragEnter(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_DragExit_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_DragExit(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_DragExit_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_DragExit(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_DragLeave_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_DragLeave(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_DragLeave_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_DragLeave(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_DragOver_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_DragOver(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_DragOver_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_DragOver(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_DragStart_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_DragStart(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_DragStart_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_DragStart(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_Dropped_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_Dropped(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_Dropped_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_Dropped(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_DurationChanged_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_DurationChanged(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_DurationChanged_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_DurationChanged(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_Emptied_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_Emptied(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_Emptied_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_Emptied(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_Ended_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_Ended(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_Ended_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_Ended(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_Error_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_Error(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_Error_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_Error(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_Focused_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_Focused(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_Focused_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_Focused(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_Input_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_Input(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_Input_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_Input(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_Invalid_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_Invalid(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_Invalid_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_Invalid(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_KeyDown_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_KeyDown(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_KeyDown_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_KeyDown(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_KeyPress_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_KeyPress(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_KeyPress_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_KeyPress(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_KeyUp_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_KeyUp(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_KeyUp_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_KeyUp(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_Loaded_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_Loaded(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_Loaded_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_Loaded(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_LoadedData_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_LoadedData(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_LoadedData_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_LoadedData(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_LoadedMetadata_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_LoadedMetadata(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_LoadedMetadata_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_LoadedMetadata(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_Loading_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_Loading(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_Loading_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_Loading(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_MouseDown_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_MouseDown(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_MouseDown_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_MouseDown(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_MouseEnter_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_MouseEnter(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_MouseEnter_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_MouseEnter(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_MouseLeave_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_MouseLeave(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_MouseLeave_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_MouseLeave(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_MouseMove_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_MouseMove(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_MouseMove_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_MouseMove(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_MouseOut_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_MouseOut(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_MouseOut_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_MouseOut(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_MouseOver_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_MouseOver(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_MouseOver_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_MouseOver(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_MouseUp_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_MouseUp(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_MouseUp_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_MouseUp(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_MouseWheel_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_MouseWheel(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_MouseWheel_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_MouseWheel(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_Paused_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_Paused(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_Paused_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_Paused(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_Played_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_Played(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_Played_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_Played(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_Playing_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_Playing(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_Playing_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_Playing(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_Progress_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_Progress(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_Progress_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_Progress(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_RateChanged_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_RateChanged(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_RateChanged_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_RateChanged(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_Resetted_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_Resetted(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_Resetted_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_Resetted(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_Resized_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_Resized(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_Resized_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_Resized(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_Scrolled_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_Scrolled(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_Scrolled_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_Scrolled(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_Seeked_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_Seeked(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_Seeked_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_Seeked(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_Seeking_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_Seeking(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_Seeking_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_Seeking(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_Selected_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_Selected(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_Selected_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_Selected(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_Shown_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_Shown(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_Shown_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_Shown(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_Stalled_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_Stalled(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_Stalled_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_Stalled(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_Submitted_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_Submitted(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_Submitted_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_Submitted(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_Suspended_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_Suspended(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_Suspended_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_Suspended(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_TimeUpdated_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_TimeUpdated(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_TimeUpdated_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_TimeUpdated(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_Toggled_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_Toggled(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_Toggled_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_Toggled(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_VolumeChanged_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_VolumeChanged(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_VolumeChanged_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_VolumeChanged(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_add_Waiting_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.add_Waiting(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_remove_Waiting_AngleSharp_Dom_DomEventHandler_">IGlobalEventHandlers.remove_Waiting(DomEventHandler)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_Aborted">IGlobalEventHandlers.Aborted</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_Blurred">IGlobalEventHandlers.Blurred</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_Cancelled">IGlobalEventHandlers.Cancelled</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_CanPlay">IGlobalEventHandlers.CanPlay</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_CanPlayThrough">IGlobalEventHandlers.CanPlayThrough</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_Changed">IGlobalEventHandlers.Changed</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_Clicked">IGlobalEventHandlers.Clicked</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_CueChanged">IGlobalEventHandlers.CueChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_DoubleClick">IGlobalEventHandlers.DoubleClick</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_Drag">IGlobalEventHandlers.Drag</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_DragEnd">IGlobalEventHandlers.DragEnd</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_DragEnter">IGlobalEventHandlers.DragEnter</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_DragExit">IGlobalEventHandlers.DragExit</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_DragLeave">IGlobalEventHandlers.DragLeave</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_DragOver">IGlobalEventHandlers.DragOver</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_DragStart">IGlobalEventHandlers.DragStart</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_Dropped">IGlobalEventHandlers.Dropped</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_DurationChanged">IGlobalEventHandlers.DurationChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_Emptied">IGlobalEventHandlers.Emptied</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_Ended">IGlobalEventHandlers.Ended</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_Error">IGlobalEventHandlers.Error</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_Focused">IGlobalEventHandlers.Focused</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_Input">IGlobalEventHandlers.Input</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_Invalid">IGlobalEventHandlers.Invalid</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_KeyDown">IGlobalEventHandlers.KeyDown</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_KeyPress">IGlobalEventHandlers.KeyPress</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_KeyUp">IGlobalEventHandlers.KeyUp</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_Loaded">IGlobalEventHandlers.Loaded</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_LoadedData">IGlobalEventHandlers.LoadedData</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_LoadedMetadata">IGlobalEventHandlers.LoadedMetadata</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_Loading">IGlobalEventHandlers.Loading</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_MouseDown">IGlobalEventHandlers.MouseDown</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_MouseEnter">IGlobalEventHandlers.MouseEnter</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_MouseLeave">IGlobalEventHandlers.MouseLeave</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_MouseMove">IGlobalEventHandlers.MouseMove</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_MouseOut">IGlobalEventHandlers.MouseOut</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_MouseOver">IGlobalEventHandlers.MouseOver</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_MouseUp">IGlobalEventHandlers.MouseUp</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_MouseWheel">IGlobalEventHandlers.MouseWheel</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_Paused">IGlobalEventHandlers.Paused</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_Played">IGlobalEventHandlers.Played</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_Playing">IGlobalEventHandlers.Playing</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_Progress">IGlobalEventHandlers.Progress</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_RateChanged">IGlobalEventHandlers.RateChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_Resetted">IGlobalEventHandlers.Resetted</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_Resized">IGlobalEventHandlers.Resized</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_Scrolled">IGlobalEventHandlers.Scrolled</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_Seeked">IGlobalEventHandlers.Seeked</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_Seeking">IGlobalEventHandlers.Seeking</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_Selected">IGlobalEventHandlers.Selected</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_Shown">IGlobalEventHandlers.Shown</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_Stalled">IGlobalEventHandlers.Stalled</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_Submitted">IGlobalEventHandlers.Submitted</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_Suspended">IGlobalEventHandlers.Suspended</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_TimeUpdated">IGlobalEventHandlers.TimeUpdated</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_Toggled">IGlobalEventHandlers.Toggled</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_VolumeChanged">IGlobalEventHandlers.VolumeChanged</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.IGlobalEventHandlers.html#AngleSharp_Dom_Events_IGlobalEventHandlers_Waiting">IGlobalEventHandlers.Waiting</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AngleSharp.Html.Dom.html">AngleSharp.Html.Dom</a></h6>
+  <h6><strong>Assembly</strong>: AngleSharp.dll</h6>
+  <h5 id="AngleSharp_Html_Dom_IHtmlDataListElement_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;HTMLDataListElement&quot;)]
+public interface IHtmlDataListElement : IHtmlElement, IElement, INode, IEventTarget, IMarkupFormattable, IParentNode, IChildNode, INonDocumentTypeChildNode, IGlobalEventHandlers</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="AngleSharp_Html_Dom_IHtmlDataListElement_Options_" data-uid="AngleSharp.Html.Dom.IHtmlDataListElement.Options*"></a>
+  <h4 id="AngleSharp_Html_Dom_IHtmlDataListElement_Options" data-uid="AngleSharp.Html.Dom.IHtmlDataListElement.Options">Options</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;options&quot;)]
+IHtmlCollection&lt;IHtmlOptionElement&gt; Options { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.IHtmlCollection-1.html">IHtmlCollection</a>&lt;<a class="xref" href="AngleSharp.Html.Dom.IHtmlOptionElement.html">IHtmlOptionElement</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="AngleSharp.FormatExtensions.html#AngleSharp_FormatExtensions_ToHtml_AngleSharp_IMarkupFormattable_">FormatExtensions.ToHtml(IMarkupFormattable)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.FormatExtensions.html#AngleSharp_FormatExtensions_ToHtml_AngleSharp_IMarkupFormattable_AngleSharp_IMarkupFormatter_">FormatExtensions.ToHtml(IMarkupFormattable, IMarkupFormatter)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.FormatExtensions.html#AngleSharp_FormatExtensions_ToHtml_AngleSharp_IMarkupFormattable_System_IO_TextWriter_">FormatExtensions.ToHtml(IMarkupFormattable, TextWriter)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Common.ObjectExtensions.html#AngleSharp_Common_ObjectExtensions_ToDictionary_System_Object_">ObjectExtensions.ToDictionary(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ElementExtensions.html#AngleSharp_Dom_ElementExtensions_LocatePrefixFor_AngleSharp_Dom_IElement_System_String_">ElementExtensions.LocatePrefixFor(IElement, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ElementExtensions.html#AngleSharp_Dom_ElementExtensions_LocateNamespaceFor_AngleSharp_Dom_IElement_System_String_">ElementExtensions.LocateNamespaceFor(IElement, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ElementExtensions.html#AngleSharp_Dom_ElementExtensions_GetNamespaceUri_AngleSharp_Dom_IElement_">ElementExtensions.GetNamespaceUri(IElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ElementExtensions.html#AngleSharp_Dom_ElementExtensions_TryLocateCustomNamespace_AngleSharp_Dom_IElement_System_String_System_String__">ElementExtensions.TryLocateCustomNamespace(IElement, String, out String)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ElementExtensions.html#AngleSharp_Dom_ElementExtensions_TryLocateStandardNamespace_AngleSharp_Dom_IElement_System_String__">ElementExtensions.TryLocateStandardNamespace(IElement, out String)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ElementExtensions.html#AngleSharp_Dom_ElementExtensions_CreateRequestFor_AngleSharp_Dom_IElement_AngleSharp_Url_">ElementExtensions.CreateRequestFor(IElement, Url)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ElementExtensions.html#AngleSharp_Dom_ElementExtensions_MatchesCssNamespace_AngleSharp_Dom_IElement_System_String_">ElementExtensions.MatchesCssNamespace(IElement, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ElementExtensions.html#AngleSharp_Dom_ElementExtensions_GetCssNamespace_AngleSharp_Dom_IElement_System_String_">ElementExtensions.GetCssNamespace(IElement, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ElementExtensions.html#AngleSharp_Dom_ElementExtensions_IsHovered_AngleSharp_Dom_IElement_">ElementExtensions.IsHovered(IElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ElementExtensions.html#AngleSharp_Dom_ElementExtensions_IsOnlyOfType_AngleSharp_Dom_IElement_">ElementExtensions.IsOnlyOfType(IElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ElementExtensions.html#AngleSharp_Dom_ElementExtensions_IsFirstOfType_AngleSharp_Dom_IElement_">ElementExtensions.IsFirstOfType(IElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ElementExtensions.html#AngleSharp_Dom_ElementExtensions_IsLastOfType_AngleSharp_Dom_IElement_">ElementExtensions.IsLastOfType(IElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ElementExtensions.html#AngleSharp_Dom_ElementExtensions_IsTarget_AngleSharp_Dom_IElement_">ElementExtensions.IsTarget(IElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ElementExtensions.html#AngleSharp_Dom_ElementExtensions_IsEnabled_AngleSharp_Dom_IElement_">ElementExtensions.IsEnabled(IElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ElementExtensions.html#AngleSharp_Dom_ElementExtensions_IsDisabled_AngleSharp_Dom_IElement_">ElementExtensions.IsDisabled(IElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ElementExtensions.html#AngleSharp_Dom_ElementExtensions_IsDefault_AngleSharp_Dom_IElement_">ElementExtensions.IsDefault(IElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ElementExtensions.html#AngleSharp_Dom_ElementExtensions_IsPseudo_AngleSharp_Dom_IElement_System_String_">ElementExtensions.IsPseudo(IElement, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ElementExtensions.html#AngleSharp_Dom_ElementExtensions_IsChecked_AngleSharp_Dom_IElement_">ElementExtensions.IsChecked(IElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ElementExtensions.html#AngleSharp_Dom_ElementExtensions_IsIndeterminate_AngleSharp_Dom_IElement_">ElementExtensions.IsIndeterminate(IElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ElementExtensions.html#AngleSharp_Dom_ElementExtensions_IsPlaceholderShown_AngleSharp_Dom_IElement_">ElementExtensions.IsPlaceholderShown(IElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ElementExtensions.html#AngleSharp_Dom_ElementExtensions_IsUnchecked_AngleSharp_Dom_IElement_">ElementExtensions.IsUnchecked(IElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ElementExtensions.html#AngleSharp_Dom_ElementExtensions_IsActive_AngleSharp_Dom_IElement_">ElementExtensions.IsActive(IElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ElementExtensions.html#AngleSharp_Dom_ElementExtensions_IsVisited_AngleSharp_Dom_IElement_">ElementExtensions.IsVisited(IElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ElementExtensions.html#AngleSharp_Dom_ElementExtensions_IsLink_AngleSharp_Dom_IElement_">ElementExtensions.IsLink(IElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ElementExtensions.html#AngleSharp_Dom_ElementExtensions_IsShadow_AngleSharp_Dom_IElement_">ElementExtensions.IsShadow(IElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ElementExtensions.html#AngleSharp_Dom_ElementExtensions_IsOptional_AngleSharp_Dom_IElement_">ElementExtensions.IsOptional(IElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ElementExtensions.html#AngleSharp_Dom_ElementExtensions_IsRequired_AngleSharp_Dom_IElement_">ElementExtensions.IsRequired(IElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ElementExtensions.html#AngleSharp_Dom_ElementExtensions_IsInvalid_AngleSharp_Dom_IElement_">ElementExtensions.IsInvalid(IElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ElementExtensions.html#AngleSharp_Dom_ElementExtensions_IsValid_AngleSharp_Dom_IElement_">ElementExtensions.IsValid(IElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ElementExtensions.html#AngleSharp_Dom_ElementExtensions_IsReadOnly_AngleSharp_Dom_IElement_">ElementExtensions.IsReadOnly(IElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ElementExtensions.html#AngleSharp_Dom_ElementExtensions_IsEditable_AngleSharp_Dom_IElement_">ElementExtensions.IsEditable(IElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ElementExtensions.html#AngleSharp_Dom_ElementExtensions_IsOutOfRange_AngleSharp_Dom_IElement_">ElementExtensions.IsOutOfRange(IElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ElementExtensions.html#AngleSharp_Dom_ElementExtensions_IsInRange_AngleSharp_Dom_IElement_">ElementExtensions.IsInRange(IElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ElementExtensions.html#AngleSharp_Dom_ElementExtensions_IsOnlyChild_AngleSharp_Dom_IElement_">ElementExtensions.IsOnlyChild(IElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ElementExtensions.html#AngleSharp_Dom_ElementExtensions_IsFirstChild_AngleSharp_Dom_IElement_">ElementExtensions.IsFirstChild(IElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ElementExtensions.html#AngleSharp_Dom_ElementExtensions_IsLastChild_AngleSharp_Dom_IElement_">ElementExtensions.IsLastChild(IElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ElementExtensions.html#AngleSharp_Dom_ElementExtensions_ClearAttr_AngleSharp_Dom_IElement_">ElementExtensions.ClearAttr(IElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ElementExtensions.html#AngleSharp_Dom_ElementExtensions_Empty_AngleSharp_Dom_IElement_">ElementExtensions.Empty(IElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ElementExtensions.html#AngleSharp_Dom_ElementExtensions_Html_AngleSharp_Dom_IElement_">ElementExtensions.Html(IElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.EventTargetExtensions.html#AngleSharp_Dom_EventTargetExtensions_FireSimpleEvent_AngleSharp_Dom_IEventTarget_System_String_System_Boolean_System_Boolean_">EventTargetExtensions.FireSimpleEvent(IEventTarget, String, Boolean, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.EventTargetExtensions.html#AngleSharp_Dom_EventTargetExtensions_Fire_AngleSharp_Dom_IEventTarget_AngleSharp_Dom_Events_Event_">EventTargetExtensions.Fire(IEventTarget, Event)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.EventTargetExtensions.html#AngleSharp_Dom_EventTargetExtensions_Fire__1_AngleSharp_Dom_IEventTarget_System_Action___0__AngleSharp_Dom_IEventTarget_">EventTargetExtensions.Fire&lt;T&gt;(IEventTarget, Action&lt;T&gt;, IEventTarget)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.EventTargetExtensions.html#AngleSharp_Dom_EventTargetExtensions_AwaitEventAsync__1___0_System_String_">EventTargetExtensions.AwaitEventAsync&lt;TEventTarget&gt;(TEventTarget, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.CollectionExtensions.html#AngleSharp_Dom_CollectionExtensions_GetNodes__1_AngleSharp_Dom_INode_System_Boolean_System_Func___0_System_Boolean__">CollectionExtensions.GetNodes&lt;T&gt;(INode, Boolean, Func&lt;T, Boolean&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_GetRoot_AngleSharp_Dom_INode_">NodeExtensions.GetRoot(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_IsEndPoint_AngleSharp_Dom_INode_">NodeExtensions.IsEndPoint(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_IsInsertable_AngleSharp_Dom_INode_">NodeExtensions.IsInsertable(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_HyperReference_AngleSharp_Dom_INode_System_String_">NodeExtensions.HyperReference(INode, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_IsDescendantOf_AngleSharp_Dom_INode_AngleSharp_Dom_INode_">NodeExtensions.IsDescendantOf(INode, INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_GetDescendants_AngleSharp_Dom_INode_">NodeExtensions.GetDescendants(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_GetDescendantsAndSelf_AngleSharp_Dom_INode_">NodeExtensions.GetDescendantsAndSelf(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_IsInclusiveDescendantOf_AngleSharp_Dom_INode_AngleSharp_Dom_INode_">NodeExtensions.IsInclusiveDescendantOf(INode, INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_IsAncestorOf_AngleSharp_Dom_INode_AngleSharp_Dom_INode_">NodeExtensions.IsAncestorOf(INode, INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_GetAncestors_AngleSharp_Dom_INode_">NodeExtensions.GetAncestors(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_GetInclusiveAncestors_AngleSharp_Dom_INode_">NodeExtensions.GetInclusiveAncestors(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_IsInclusiveAncestorOf_AngleSharp_Dom_INode_AngleSharp_Dom_INode_">NodeExtensions.IsInclusiveAncestorOf(INode, INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_GetAncestor__1_AngleSharp_Dom_INode_">NodeExtensions.GetAncestor&lt;T&gt;(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_HasDataListAncestor_AngleSharp_Dom_INode_">NodeExtensions.HasDataListAncestor(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_IsSiblingOf_AngleSharp_Dom_INode_AngleSharp_Dom_INode_">NodeExtensions.IsSiblingOf(INode, INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_Index_AngleSharp_Dom_INode_">NodeExtensions.Index(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_IndexOf_AngleSharp_Dom_INode_AngleSharp_Dom_INode_">NodeExtensions.IndexOf(INode, INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_IsPreceding_AngleSharp_Dom_INode_AngleSharp_Dom_INode_">NodeExtensions.IsPreceding(INode, INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_IsFollowing_AngleSharp_Dom_INode_AngleSharp_Dom_INode_">NodeExtensions.IsFollowing(INode, INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_GetAssociatedHost_AngleSharp_Dom_INode_">NodeExtensions.GetAssociatedHost(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_IsHostIncludingInclusiveAncestor_AngleSharp_Dom_INode_AngleSharp_Dom_INode_">NodeExtensions.IsHostIncludingInclusiveAncestor(INode, INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_EnsurePreInsertionValidity_AngleSharp_Dom_INode_AngleSharp_Dom_INode_AngleSharp_Dom_INode_">NodeExtensions.EnsurePreInsertionValidity(INode, INode, INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_PreInsert_AngleSharp_Dom_INode_AngleSharp_Dom_INode_AngleSharp_Dom_INode_">NodeExtensions.PreInsert(INode, INode, INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_PreRemove_AngleSharp_Dom_INode_AngleSharp_Dom_INode_">NodeExtensions.PreRemove(INode, INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_HasTextNodes_AngleSharp_Dom_INode_">NodeExtensions.HasTextNodes(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_IsFollowedByDoctype_AngleSharp_Dom_INode_">NodeExtensions.IsFollowedByDoctype(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_IsPrecededByElement_AngleSharp_Dom_INode_">NodeExtensions.IsPrecededByElement(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_GetElementCount_AngleSharp_Dom_INode_">NodeExtensions.GetElementCount(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_FindChild__1_AngleSharp_Dom_INode_">NodeExtensions.FindChild&lt;TNode&gt;(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_FindDescendant__1_AngleSharp_Dom_INode_">NodeExtensions.FindDescendant&lt;TNode&gt;(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_Text_AngleSharp_Dom_INode_">NodeExtensions.Text(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ParentNodeExtensions.html#AngleSharp_Dom_ParentNodeExtensions_PrependNodes_AngleSharp_Dom_INode_AngleSharp_Dom_INode___">ParentNodeExtensions.PrependNodes(INode, INode[])</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ParentNodeExtensions.html#AngleSharp_Dom_ParentNodeExtensions_AppendNodes_AngleSharp_Dom_INode_AngleSharp_Dom_INode___">ParentNodeExtensions.AppendNodes(INode, INode[])</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ParentNodeExtensions.html#AngleSharp_Dom_ParentNodeExtensions_InsertBefore_AngleSharp_Dom_INode_AngleSharp_Dom_INode___">ParentNodeExtensions.InsertBefore(INode, INode[])</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ParentNodeExtensions.html#AngleSharp_Dom_ParentNodeExtensions_InsertAfter_AngleSharp_Dom_INode_AngleSharp_Dom_INode___">ParentNodeExtensions.InsertAfter(INode, INode[])</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ParentNodeExtensions.html#AngleSharp_Dom_ParentNodeExtensions_ReplaceWith_AngleSharp_Dom_INode_AngleSharp_Dom_INode___">ParentNodeExtensions.ReplaceWith(INode, INode[])</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ParentNodeExtensions.html#AngleSharp_Dom_ParentNodeExtensions_RemoveFromParent_AngleSharp_Dom_INode_">ParentNodeExtensions.RemoveFromParent(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ParentNodeExtensions.html#AngleSharp_Dom_ParentNodeExtensions_AppendElement__1_AngleSharp_Dom_INode___0_">ParentNodeExtensions.AppendElement&lt;TElement&gt;(INode, TElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ParentNodeExtensions.html#AngleSharp_Dom_ParentNodeExtensions_InsertElement__1_AngleSharp_Dom_INode___0_AngleSharp_Dom_INode_">ParentNodeExtensions.InsertElement&lt;TElement&gt;(INode, TElement, INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ParentNodeExtensions.html#AngleSharp_Dom_ParentNodeExtensions_RemoveElement__1_AngleSharp_Dom_INode___0_">ParentNodeExtensions.RemoveElement&lt;TElement&gt;(INode, TElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ParentNodeExtensions.html#AngleSharp_Dom_ParentNodeExtensions_QuerySelector__1_AngleSharp_Dom_IParentNode_System_String_">ParentNodeExtensions.QuerySelector&lt;TElement&gt;(IParentNode, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ParentNodeExtensions.html#AngleSharp_Dom_ParentNodeExtensions_QuerySelectorAll__1_AngleSharp_Dom_IParentNode_System_String_">ParentNodeExtensions.QuerySelectorAll&lt;TElement&gt;(IParentNode, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ParentNodeExtensions.html#AngleSharp_Dom_ParentNodeExtensions_Descendents__1_AngleSharp_Dom_INode_">ParentNodeExtensions.Descendents&lt;TNode&gt;(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ParentNodeExtensions.html#AngleSharp_Dom_ParentNodeExtensions_Descendents_AngleSharp_Dom_INode_">ParentNodeExtensions.Descendents(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ParentNodeExtensions.html#AngleSharp_Dom_ParentNodeExtensions_DescendentsAndSelf__1_AngleSharp_Dom_INode_">ParentNodeExtensions.DescendentsAndSelf&lt;TNode&gt;(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ParentNodeExtensions.html#AngleSharp_Dom_ParentNodeExtensions_DescendentsAndSelf_AngleSharp_Dom_INode_">ParentNodeExtensions.DescendentsAndSelf(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ParentNodeExtensions.html#AngleSharp_Dom_ParentNodeExtensions_Ancestors__1_AngleSharp_Dom_INode_">ParentNodeExtensions.Ancestors&lt;TNode&gt;(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ParentNodeExtensions.html#AngleSharp_Dom_ParentNodeExtensions_Ancestors_AngleSharp_Dom_INode_">ParentNodeExtensions.Ancestors(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Css.Dom.StyleExtensions.html#AngleSharp_Css_Dom_StyleExtensions_CreateStyleSheets_AngleSharp_Dom_INode_">StyleExtensions.CreateStyleSheets(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Css.Dom.StyleExtensions.html#AngleSharp_Css_Dom_StyleExtensions_CreateStyleSheetSets_AngleSharp_Dom_INode_">StyleExtensions.CreateStyleSheetSets(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Css.Dom.StyleExtensions.html#AngleSharp_Css_Dom_StyleExtensions_GetStyleSheets_AngleSharp_Dom_INode_">StyleExtensions.GetStyleSheets(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Html.Dom.FormExtensions.html#AngleSharp_Html_Dom_FormExtensions_SubmitAsync_AngleSharp_Html_Dom_IHtmlElement_System_Object_">FormExtensions.SubmitAsync(IHtmlElement, Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Html.Dom.FormExtensions.html#AngleSharp_Html_Dom_FormExtensions_SubmitAsync_AngleSharp_Html_Dom_IHtmlElement_System_Collections_Generic_IDictionary_System_String_System_String__System_Boolean_">FormExtensions.SubmitAsync(IHtmlElement, IDictionary&lt;String, String&gt;, Boolean)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

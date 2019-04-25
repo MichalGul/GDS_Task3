@@ -1,0 +1,501 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Event
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Event
+   ">
+    <meta name="generator" content="docfx 2.41.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AngleSharp.Dom.Events.Event">
+  
+  
+  <h1 id="AngleSharp_Dom_Events_Event" data-uid="AngleSharp.Dom.Events.Event" class="text-break">Class Event
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Event</span></div>
+      <div class="level2"><a class="xref" href="AngleSharp.Browser.Dom.Events.InteractivityEvent-1.html">InteractivityEvent&lt;T&gt;</a></div>
+      <div class="level2"><a class="xref" href="AngleSharp.Dom.Events.CustomEvent.html">CustomEvent</a></div>
+      <div class="level2"><a class="xref" href="AngleSharp.Dom.Events.ErrorEvent.html">ErrorEvent</a></div>
+      <div class="level2"><a class="xref" href="AngleSharp.Dom.Events.HashChangedEvent.html">HashChangedEvent</a></div>
+      <div class="level2"><a class="xref" href="AngleSharp.Dom.Events.MessageEvent.html">MessageEvent</a></div>
+      <div class="level2"><a class="xref" href="AngleSharp.Dom.Events.PageTransitionEvent.html">PageTransitionEvent</a></div>
+      <div class="level2"><a class="xref" href="AngleSharp.Dom.Events.RequestEvent.html">RequestEvent</a></div>
+      <div class="level2"><a class="xref" href="AngleSharp.Dom.Events.UiEvent.html">UiEvent</a></div>
+      <div class="level2"><a class="xref" href="AngleSharp.Html.Dom.Events.HtmlErrorEvent.html">HtmlErrorEvent</a></div>
+      <div class="level2"><a class="xref" href="AngleSharp.Html.Dom.Events.HtmlParseEvent.html">HtmlParseEvent</a></div>
+      <div class="level2"><a class="xref" href="AngleSharp.Html.Dom.Events.InputEvent.html">InputEvent</a></div>
+      <div class="level2"><a class="xref" href="AngleSharp.Html.Dom.Events.TrackEvent.html">TrackEvent</a></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AngleSharp.Dom.Events.html">AngleSharp.Dom.Events</a></h6>
+  <h6><strong>Assembly</strong>: AngleSharp.dll</h6>
+  <h5 id="AngleSharp_Dom_Events_Event_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;Event&quot;)]
+public class Event : EventArgs</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="AngleSharp_Dom_Events_Event__ctor_" data-uid="AngleSharp.Dom.Events.Event.#ctor*"></a>
+  <h4 id="AngleSharp_Dom_Events_Event__ctor" data-uid="AngleSharp.Dom.Events.Event.#ctor">Event()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Event()</code></pre>
+  </div>
+  
+  
+  <a id="AngleSharp_Dom_Events_Event__ctor_" data-uid="AngleSharp.Dom.Events.Event.#ctor*"></a>
+  <h4 id="AngleSharp_Dom_Events_Event__ctor_System_String_System_Boolean_System_Boolean_" data-uid="AngleSharp.Dom.Events.Event.#ctor(System.String,System.Boolean,System.Boolean)">Event(String, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomConstructor]
+[DomInitDict(1, true)]
+public Event(string type, bool bubbles = false, bool cancelable = false)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">bubbles</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">cancelable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="AngleSharp_Dom_Events_Event_CurrentTarget_" data-uid="AngleSharp.Dom.Events.Event.CurrentTarget*"></a>
+  <h4 id="AngleSharp_Dom_Events_Event_CurrentTarget" data-uid="AngleSharp.Dom.Events.Event.CurrentTarget">CurrentTarget</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;currentTarget&quot;)]
+public IEventTarget CurrentTarget { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.IEventTarget.html">IEventTarget</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Dom_Events_Event_IsBubbling_" data-uid="AngleSharp.Dom.Events.Event.IsBubbling*"></a>
+  <h4 id="AngleSharp_Dom_Events_Event_IsBubbling" data-uid="AngleSharp.Dom.Events.Event.IsBubbling">IsBubbling</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;bubbles&quot;)]
+public bool IsBubbling { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Dom_Events_Event_IsCancelable_" data-uid="AngleSharp.Dom.Events.Event.IsCancelable*"></a>
+  <h4 id="AngleSharp_Dom_Events_Event_IsCancelable" data-uid="AngleSharp.Dom.Events.Event.IsCancelable">IsCancelable</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;cancelable&quot;)]
+public bool IsCancelable { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Dom_Events_Event_IsDefaultPrevented_" data-uid="AngleSharp.Dom.Events.Event.IsDefaultPrevented*"></a>
+  <h4 id="AngleSharp_Dom_Events_Event_IsDefaultPrevented" data-uid="AngleSharp.Dom.Events.Event.IsDefaultPrevented">IsDefaultPrevented</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;defaultPrevented&quot;)]
+public bool IsDefaultPrevented { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Dom_Events_Event_IsTrusted_" data-uid="AngleSharp.Dom.Events.Event.IsTrusted*"></a>
+  <h4 id="AngleSharp_Dom_Events_Event_IsTrusted" data-uid="AngleSharp.Dom.Events.Event.IsTrusted">IsTrusted</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;isTrusted&quot;)]
+public bool IsTrusted { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Dom_Events_Event_OriginalTarget_" data-uid="AngleSharp.Dom.Events.Event.OriginalTarget*"></a>
+  <h4 id="AngleSharp_Dom_Events_Event_OriginalTarget" data-uid="AngleSharp.Dom.Events.Event.OriginalTarget">OriginalTarget</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;target&quot;)]
+public IEventTarget OriginalTarget { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.IEventTarget.html">IEventTarget</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Dom_Events_Event_Phase_" data-uid="AngleSharp.Dom.Events.Event.Phase*"></a>
+  <h4 id="AngleSharp_Dom_Events_Event_Phase" data-uid="AngleSharp.Dom.Events.Event.Phase">Phase</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;eventPhase&quot;)]
+public EventPhase Phase { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.Events.EventPhase.html">EventPhase</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Dom_Events_Event_Time_" data-uid="AngleSharp.Dom.Events.Event.Time*"></a>
+  <h4 id="AngleSharp_Dom_Events_Event_Time" data-uid="AngleSharp.Dom.Events.Event.Time">Time</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;timeStamp&quot;)]
+public DateTime Time { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.DateTime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Dom_Events_Event_Type_" data-uid="AngleSharp.Dom.Events.Event.Type*"></a>
+  <h4 id="AngleSharp_Dom_Events_Event_Type" data-uid="AngleSharp.Dom.Events.Event.Type">Type</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;type&quot;)]
+public string Type { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="AngleSharp_Dom_Events_Event_Cancel_" data-uid="AngleSharp.Dom.Events.Event.Cancel*"></a>
+  <h4 id="AngleSharp_Dom_Events_Event_Cancel" data-uid="AngleSharp.Dom.Events.Event.Cancel">Cancel()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;preventDefault&quot;)]
+public void Cancel()</code></pre>
+  </div>
+  
+  
+  <a id="AngleSharp_Dom_Events_Event_Init_" data-uid="AngleSharp.Dom.Events.Event.Init*"></a>
+  <h4 id="AngleSharp_Dom_Events_Event_Init_System_String_System_Boolean_System_Boolean_" data-uid="AngleSharp.Dom.Events.Event.Init(System.String,System.Boolean,System.Boolean)">Init(String, Boolean, Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;initEvent&quot;)]
+public void Init(string type, bool bubbles, bool cancelable)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">bubbles</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">cancelable</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Dom_Events_Event_Stop_" data-uid="AngleSharp.Dom.Events.Event.Stop*"></a>
+  <h4 id="AngleSharp_Dom_Events_Event_Stop" data-uid="AngleSharp.Dom.Events.Event.Stop">Stop()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;stopPropagation&quot;)]
+public void Stop()</code></pre>
+  </div>
+  
+  
+  <a id="AngleSharp_Dom_Events_Event_StopImmediately_" data-uid="AngleSharp.Dom.Events.Event.StopImmediately*"></a>
+  <h4 id="AngleSharp_Dom_Events_Event_StopImmediately" data-uid="AngleSharp.Dom.Events.Event.StopImmediately">StopImmediately()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;stopImmediatePropagation&quot;)]
+public void StopImmediately()</code></pre>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="AngleSharp.Common.ObjectExtensions.html#AngleSharp_Common_ObjectExtensions_ToDictionary_System_Object_">ObjectExtensions.ToDictionary(Object)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

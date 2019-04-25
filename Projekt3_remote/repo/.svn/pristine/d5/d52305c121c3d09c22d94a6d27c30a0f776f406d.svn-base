@@ -1,0 +1,848 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IApplicationCache
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IApplicationCache
+   ">
+    <meta name="generator" content="docfx 2.41.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AngleSharp.Browser.Dom.IApplicationCache">
+  
+  
+  <h1 id="AngleSharp_Browser_Dom_IApplicationCache" data-uid="AngleSharp.Browser.Dom.IApplicationCache" class="text-break">Interface IApplicationCache
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IEventTarget.html#AngleSharp_Dom_IEventTarget_AddEventListener_System_String_AngleSharp_Dom_DomEventHandler_System_Boolean_">IEventTarget.AddEventListener(String, DomEventHandler, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IEventTarget.html#AngleSharp_Dom_IEventTarget_RemoveEventListener_System_String_AngleSharp_Dom_DomEventHandler_System_Boolean_">IEventTarget.RemoveEventListener(String, DomEventHandler, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IEventTarget.html#AngleSharp_Dom_IEventTarget_InvokeEventListener_AngleSharp_Dom_Events_Event_">IEventTarget.InvokeEventListener(Event)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IEventTarget.html#AngleSharp_Dom_IEventTarget_Dispatch_AngleSharp_Dom_Events_Event_">IEventTarget.Dispatch(Event)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AngleSharp.Browser.Dom.html">AngleSharp.Browser.Dom</a></h6>
+  <h6><strong>Assembly</strong>: AngleSharp.dll</h6>
+  <h5 id="AngleSharp_Browser_Dom_IApplicationCache_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;ApplicationCache&quot;)]
+public interface IApplicationCache : IEventTarget</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="AngleSharp_Browser_Dom_IApplicationCache_Status_" data-uid="AngleSharp.Browser.Dom.IApplicationCache.Status*"></a>
+  <h4 id="AngleSharp_Browser_Dom_IApplicationCache_Status" data-uid="AngleSharp.Browser.Dom.IApplicationCache.Status">Status</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;status&quot;)]
+CacheStatus Status { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Browser.Dom.CacheStatus.html">CacheStatus</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="AngleSharp_Browser_Dom_IApplicationCache_Abort_" data-uid="AngleSharp.Browser.Dom.IApplicationCache.Abort*"></a>
+  <h4 id="AngleSharp_Browser_Dom_IApplicationCache_Abort" data-uid="AngleSharp.Browser.Dom.IApplicationCache.Abort">Abort()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;abort&quot;)]
+void Abort()</code></pre>
+  </div>
+  
+  
+  <a id="AngleSharp_Browser_Dom_IApplicationCache_add_Cached_" data-uid="AngleSharp.Browser.Dom.IApplicationCache.add_Cached*"></a>
+  <h4 id="AngleSharp_Browser_Dom_IApplicationCache_add_Cached_AngleSharp_Dom_DomEventHandler_" data-uid="AngleSharp.Browser.Dom.IApplicationCache.add_Cached(AngleSharp.Dom.DomEventHandler)">add_Cached(DomEventHandler)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void add_Cached(DomEventHandler value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.DomEventHandler.html">DomEventHandler</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Browser_Dom_IApplicationCache_add_Checking_" data-uid="AngleSharp.Browser.Dom.IApplicationCache.add_Checking*"></a>
+  <h4 id="AngleSharp_Browser_Dom_IApplicationCache_add_Checking_AngleSharp_Dom_DomEventHandler_" data-uid="AngleSharp.Browser.Dom.IApplicationCache.add_Checking(AngleSharp.Dom.DomEventHandler)">add_Checking(DomEventHandler)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void add_Checking(DomEventHandler value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.DomEventHandler.html">DomEventHandler</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Browser_Dom_IApplicationCache_add_Downloading_" data-uid="AngleSharp.Browser.Dom.IApplicationCache.add_Downloading*"></a>
+  <h4 id="AngleSharp_Browser_Dom_IApplicationCache_add_Downloading_AngleSharp_Dom_DomEventHandler_" data-uid="AngleSharp.Browser.Dom.IApplicationCache.add_Downloading(AngleSharp.Dom.DomEventHandler)">add_Downloading(DomEventHandler)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void add_Downloading(DomEventHandler value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.DomEventHandler.html">DomEventHandler</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Browser_Dom_IApplicationCache_add_Error_" data-uid="AngleSharp.Browser.Dom.IApplicationCache.add_Error*"></a>
+  <h4 id="AngleSharp_Browser_Dom_IApplicationCache_add_Error_AngleSharp_Dom_DomEventHandler_" data-uid="AngleSharp.Browser.Dom.IApplicationCache.add_Error(AngleSharp.Dom.DomEventHandler)">add_Error(DomEventHandler)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void add_Error(DomEventHandler value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.DomEventHandler.html">DomEventHandler</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Browser_Dom_IApplicationCache_add_NoUpdate_" data-uid="AngleSharp.Browser.Dom.IApplicationCache.add_NoUpdate*"></a>
+  <h4 id="AngleSharp_Browser_Dom_IApplicationCache_add_NoUpdate_AngleSharp_Dom_DomEventHandler_" data-uid="AngleSharp.Browser.Dom.IApplicationCache.add_NoUpdate(AngleSharp.Dom.DomEventHandler)">add_NoUpdate(DomEventHandler)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void add_NoUpdate(DomEventHandler value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.DomEventHandler.html">DomEventHandler</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Browser_Dom_IApplicationCache_add_Obsolete_" data-uid="AngleSharp.Browser.Dom.IApplicationCache.add_Obsolete*"></a>
+  <h4 id="AngleSharp_Browser_Dom_IApplicationCache_add_Obsolete_AngleSharp_Dom_DomEventHandler_" data-uid="AngleSharp.Browser.Dom.IApplicationCache.add_Obsolete(AngleSharp.Dom.DomEventHandler)">add_Obsolete(DomEventHandler)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void add_Obsolete(DomEventHandler value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.DomEventHandler.html">DomEventHandler</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Browser_Dom_IApplicationCache_add_Progress_" data-uid="AngleSharp.Browser.Dom.IApplicationCache.add_Progress*"></a>
+  <h4 id="AngleSharp_Browser_Dom_IApplicationCache_add_Progress_AngleSharp_Dom_DomEventHandler_" data-uid="AngleSharp.Browser.Dom.IApplicationCache.add_Progress(AngleSharp.Dom.DomEventHandler)">add_Progress(DomEventHandler)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void add_Progress(DomEventHandler value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.DomEventHandler.html">DomEventHandler</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Browser_Dom_IApplicationCache_add_UpdateReady_" data-uid="AngleSharp.Browser.Dom.IApplicationCache.add_UpdateReady*"></a>
+  <h4 id="AngleSharp_Browser_Dom_IApplicationCache_add_UpdateReady_AngleSharp_Dom_DomEventHandler_" data-uid="AngleSharp.Browser.Dom.IApplicationCache.add_UpdateReady(AngleSharp.Dom.DomEventHandler)">add_UpdateReady(DomEventHandler)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void add_UpdateReady(DomEventHandler value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.DomEventHandler.html">DomEventHandler</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Browser_Dom_IApplicationCache_remove_Cached_" data-uid="AngleSharp.Browser.Dom.IApplicationCache.remove_Cached*"></a>
+  <h4 id="AngleSharp_Browser_Dom_IApplicationCache_remove_Cached_AngleSharp_Dom_DomEventHandler_" data-uid="AngleSharp.Browser.Dom.IApplicationCache.remove_Cached(AngleSharp.Dom.DomEventHandler)">remove_Cached(DomEventHandler)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void remove_Cached(DomEventHandler value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.DomEventHandler.html">DomEventHandler</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Browser_Dom_IApplicationCache_remove_Checking_" data-uid="AngleSharp.Browser.Dom.IApplicationCache.remove_Checking*"></a>
+  <h4 id="AngleSharp_Browser_Dom_IApplicationCache_remove_Checking_AngleSharp_Dom_DomEventHandler_" data-uid="AngleSharp.Browser.Dom.IApplicationCache.remove_Checking(AngleSharp.Dom.DomEventHandler)">remove_Checking(DomEventHandler)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void remove_Checking(DomEventHandler value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.DomEventHandler.html">DomEventHandler</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Browser_Dom_IApplicationCache_remove_Downloading_" data-uid="AngleSharp.Browser.Dom.IApplicationCache.remove_Downloading*"></a>
+  <h4 id="AngleSharp_Browser_Dom_IApplicationCache_remove_Downloading_AngleSharp_Dom_DomEventHandler_" data-uid="AngleSharp.Browser.Dom.IApplicationCache.remove_Downloading(AngleSharp.Dom.DomEventHandler)">remove_Downloading(DomEventHandler)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void remove_Downloading(DomEventHandler value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.DomEventHandler.html">DomEventHandler</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Browser_Dom_IApplicationCache_remove_Error_" data-uid="AngleSharp.Browser.Dom.IApplicationCache.remove_Error*"></a>
+  <h4 id="AngleSharp_Browser_Dom_IApplicationCache_remove_Error_AngleSharp_Dom_DomEventHandler_" data-uid="AngleSharp.Browser.Dom.IApplicationCache.remove_Error(AngleSharp.Dom.DomEventHandler)">remove_Error(DomEventHandler)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void remove_Error(DomEventHandler value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.DomEventHandler.html">DomEventHandler</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Browser_Dom_IApplicationCache_remove_NoUpdate_" data-uid="AngleSharp.Browser.Dom.IApplicationCache.remove_NoUpdate*"></a>
+  <h4 id="AngleSharp_Browser_Dom_IApplicationCache_remove_NoUpdate_AngleSharp_Dom_DomEventHandler_" data-uid="AngleSharp.Browser.Dom.IApplicationCache.remove_NoUpdate(AngleSharp.Dom.DomEventHandler)">remove_NoUpdate(DomEventHandler)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void remove_NoUpdate(DomEventHandler value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.DomEventHandler.html">DomEventHandler</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Browser_Dom_IApplicationCache_remove_Obsolete_" data-uid="AngleSharp.Browser.Dom.IApplicationCache.remove_Obsolete*"></a>
+  <h4 id="AngleSharp_Browser_Dom_IApplicationCache_remove_Obsolete_AngleSharp_Dom_DomEventHandler_" data-uid="AngleSharp.Browser.Dom.IApplicationCache.remove_Obsolete(AngleSharp.Dom.DomEventHandler)">remove_Obsolete(DomEventHandler)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void remove_Obsolete(DomEventHandler value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.DomEventHandler.html">DomEventHandler</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Browser_Dom_IApplicationCache_remove_Progress_" data-uid="AngleSharp.Browser.Dom.IApplicationCache.remove_Progress*"></a>
+  <h4 id="AngleSharp_Browser_Dom_IApplicationCache_remove_Progress_AngleSharp_Dom_DomEventHandler_" data-uid="AngleSharp.Browser.Dom.IApplicationCache.remove_Progress(AngleSharp.Dom.DomEventHandler)">remove_Progress(DomEventHandler)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void remove_Progress(DomEventHandler value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.DomEventHandler.html">DomEventHandler</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Browser_Dom_IApplicationCache_remove_UpdateReady_" data-uid="AngleSharp.Browser.Dom.IApplicationCache.remove_UpdateReady*"></a>
+  <h4 id="AngleSharp_Browser_Dom_IApplicationCache_remove_UpdateReady_AngleSharp_Dom_DomEventHandler_" data-uid="AngleSharp.Browser.Dom.IApplicationCache.remove_UpdateReady(AngleSharp.Dom.DomEventHandler)">remove_UpdateReady(DomEventHandler)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void remove_UpdateReady(DomEventHandler value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.DomEventHandler.html">DomEventHandler</a></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Browser_Dom_IApplicationCache_Swap_" data-uid="AngleSharp.Browser.Dom.IApplicationCache.Swap*"></a>
+  <h4 id="AngleSharp_Browser_Dom_IApplicationCache_Swap" data-uid="AngleSharp.Browser.Dom.IApplicationCache.Swap">Swap()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;swapCache&quot;)]
+void Swap()</code></pre>
+  </div>
+  
+  
+  <a id="AngleSharp_Browser_Dom_IApplicationCache_Update_" data-uid="AngleSharp.Browser.Dom.IApplicationCache.Update*"></a>
+  <h4 id="AngleSharp_Browser_Dom_IApplicationCache_Update" data-uid="AngleSharp.Browser.Dom.IApplicationCache.Update">Update()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;update&quot;)]
+void Update()</code></pre>
+  </div>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="AngleSharp_Browser_Dom_IApplicationCache_Cached" data-uid="AngleSharp.Browser.Dom.IApplicationCache.Cached">Cached</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;oncached&quot;)]
+event DomEventHandler Cached</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.DomEventHandler.html">DomEventHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Browser_Dom_IApplicationCache_Checking" data-uid="AngleSharp.Browser.Dom.IApplicationCache.Checking">Checking</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;onchecking&quot;)]
+event DomEventHandler Checking</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.DomEventHandler.html">DomEventHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Browser_Dom_IApplicationCache_Downloading" data-uid="AngleSharp.Browser.Dom.IApplicationCache.Downloading">Downloading</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;ondownloading&quot;)]
+event DomEventHandler Downloading</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.DomEventHandler.html">DomEventHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Browser_Dom_IApplicationCache_Error" data-uid="AngleSharp.Browser.Dom.IApplicationCache.Error">Error</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;onerror&quot;)]
+event DomEventHandler Error</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.DomEventHandler.html">DomEventHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Browser_Dom_IApplicationCache_NoUpdate" data-uid="AngleSharp.Browser.Dom.IApplicationCache.NoUpdate">NoUpdate</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;onnoupdate&quot;)]
+event DomEventHandler NoUpdate</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.DomEventHandler.html">DomEventHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Browser_Dom_IApplicationCache_Obsolete" data-uid="AngleSharp.Browser.Dom.IApplicationCache.Obsolete">Obsolete</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;onobsolete&quot;)]
+event DomEventHandler Obsolete</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.DomEventHandler.html">DomEventHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Browser_Dom_IApplicationCache_Progress" data-uid="AngleSharp.Browser.Dom.IApplicationCache.Progress">Progress</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;onprogress&quot;)]
+event DomEventHandler Progress</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.DomEventHandler.html">DomEventHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Browser_Dom_IApplicationCache_UpdateReady" data-uid="AngleSharp.Browser.Dom.IApplicationCache.UpdateReady">UpdateReady</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;onupdateready&quot;)]
+event DomEventHandler UpdateReady</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.DomEventHandler.html">DomEventHandler</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="AngleSharp.Common.ObjectExtensions.html#AngleSharp_Common_ObjectExtensions_ToDictionary_System_Object_">ObjectExtensions.ToDictionary(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.EventTargetExtensions.html#AngleSharp_Dom_EventTargetExtensions_FireSimpleEvent_AngleSharp_Dom_IEventTarget_System_String_System_Boolean_System_Boolean_">EventTargetExtensions.FireSimpleEvent(IEventTarget, String, Boolean, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.EventTargetExtensions.html#AngleSharp_Dom_EventTargetExtensions_Fire_AngleSharp_Dom_IEventTarget_AngleSharp_Dom_Events_Event_">EventTargetExtensions.Fire(IEventTarget, Event)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.EventTargetExtensions.html#AngleSharp_Dom_EventTargetExtensions_Fire__1_AngleSharp_Dom_IEventTarget_System_Action___0__AngleSharp_Dom_IEventTarget_">EventTargetExtensions.Fire&lt;T&gt;(IEventTarget, Action&lt;T&gt;, IEventTarget)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.EventTargetExtensions.html#AngleSharp_Dom_EventTargetExtensions_AwaitEventAsync__1___0_System_String_">EventTargetExtensions.AwaitEventAsync&lt;TEventTarget&gt;(TEventTarget, String)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

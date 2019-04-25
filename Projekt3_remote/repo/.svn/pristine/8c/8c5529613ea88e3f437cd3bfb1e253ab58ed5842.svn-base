@@ -1,0 +1,549 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class WheelEvent
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class WheelEvent
+   ">
+    <meta name="generator" content="docfx 2.41.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AngleSharp.Html.Dom.Events.WheelEvent">
+  
+  
+  <h1 id="AngleSharp_Html_Dom_Events_WheelEvent" data-uid="AngleSharp.Html.Dom.Events.WheelEvent" class="text-break">Class WheelEvent
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="AngleSharp.Dom.Events.Event.html">Event</a></div>
+    <div class="level2"><a class="xref" href="AngleSharp.Dom.Events.UiEvent.html">UiEvent</a></div>
+    <div class="level3"><a class="xref" href="AngleSharp.Html.Dom.Events.MouseEvent.html">MouseEvent</a></div>
+    <div class="level4"><span class="xref">WheelEvent</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Dom.Events.MouseEvent.html#AngleSharp_Html_Dom_Events_MouseEvent_GetModifierState_System_String_">MouseEvent.GetModifierState(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Dom.Events.MouseEvent.html#AngleSharp_Html_Dom_Events_MouseEvent_Init_System_String_System_Boolean_System_Boolean_AngleSharp_Dom_IWindow_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_System_Boolean_System_Boolean_System_Boolean_System_Boolean_AngleSharp_Html_Dom_Events_MouseButton_AngleSharp_Dom_IEventTarget_">MouseEvent.Init(String, Boolean, Boolean, IWindow, Int32, Int32, Int32, Int32, Int32, Boolean, Boolean, Boolean, Boolean, MouseButton, IEventTarget)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Dom.Events.MouseEvent.html#AngleSharp_Html_Dom_Events_MouseEvent_ScreenX">MouseEvent.ScreenX</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Dom.Events.MouseEvent.html#AngleSharp_Html_Dom_Events_MouseEvent_ScreenY">MouseEvent.ScreenY</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Dom.Events.MouseEvent.html#AngleSharp_Html_Dom_Events_MouseEvent_ClientX">MouseEvent.ClientX</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Dom.Events.MouseEvent.html#AngleSharp_Html_Dom_Events_MouseEvent_ClientY">MouseEvent.ClientY</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Dom.Events.MouseEvent.html#AngleSharp_Html_Dom_Events_MouseEvent_IsCtrlPressed">MouseEvent.IsCtrlPressed</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Dom.Events.MouseEvent.html#AngleSharp_Html_Dom_Events_MouseEvent_IsShiftPressed">MouseEvent.IsShiftPressed</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Dom.Events.MouseEvent.html#AngleSharp_Html_Dom_Events_MouseEvent_IsAltPressed">MouseEvent.IsAltPressed</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Dom.Events.MouseEvent.html#AngleSharp_Html_Dom_Events_MouseEvent_IsMetaPressed">MouseEvent.IsMetaPressed</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Dom.Events.MouseEvent.html#AngleSharp_Html_Dom_Events_MouseEvent_Button">MouseEvent.Button</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Dom.Events.MouseEvent.html#AngleSharp_Html_Dom_Events_MouseEvent_Buttons">MouseEvent.Buttons</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Dom.Events.MouseEvent.html#AngleSharp_Html_Dom_Events_MouseEvent_Target">MouseEvent.Target</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.UiEvent.html#AngleSharp_Dom_Events_UiEvent_Init_System_String_System_Boolean_System_Boolean_AngleSharp_Dom_IWindow_System_Int32_">UiEvent.Init(String, Boolean, Boolean, IWindow, Int32)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.UiEvent.html#AngleSharp_Dom_Events_UiEvent_View">UiEvent.View</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.UiEvent.html#AngleSharp_Dom_Events_UiEvent_Detail">UiEvent.Detail</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.Event.html#AngleSharp_Dom_Events_Event_Stop">Event.Stop()</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.Event.html#AngleSharp_Dom_Events_Event_StopImmediately">Event.StopImmediately()</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.Event.html#AngleSharp_Dom_Events_Event_Cancel">Event.Cancel()</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.Event.html#AngleSharp_Dom_Events_Event_Init_System_String_System_Boolean_System_Boolean_">Event.Init(String, Boolean, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.Event.html#AngleSharp_Dom_Events_Event_Type">Event.Type</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.Event.html#AngleSharp_Dom_Events_Event_OriginalTarget">Event.OriginalTarget</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.Event.html#AngleSharp_Dom_Events_Event_CurrentTarget">Event.CurrentTarget</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.Event.html#AngleSharp_Dom_Events_Event_Phase">Event.Phase</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.Event.html#AngleSharp_Dom_Events_Event_IsBubbling">Event.IsBubbling</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.Event.html#AngleSharp_Dom_Events_Event_IsCancelable">Event.IsCancelable</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.Event.html#AngleSharp_Dom_Events_Event_IsDefaultPrevented">Event.IsDefaultPrevented</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.Event.html#AngleSharp_Dom_Events_Event_IsTrusted">Event.IsTrusted</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.Events.Event.html#AngleSharp_Dom_Events_Event_Time">Event.Time</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AngleSharp.Html.Dom.Events.html">AngleSharp.Html.Dom.Events</a></h6>
+  <h6><strong>Assembly</strong>: AngleSharp.dll</h6>
+  <h5 id="AngleSharp_Html_Dom_Events_WheelEvent_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;WheelEvent&quot;)]
+public class WheelEvent : MouseEvent</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="AngleSharp_Html_Dom_Events_WheelEvent__ctor_" data-uid="AngleSharp.Html.Dom.Events.WheelEvent.#ctor*"></a>
+  <h4 id="AngleSharp_Html_Dom_Events_WheelEvent__ctor" data-uid="AngleSharp.Html.Dom.Events.WheelEvent.#ctor">WheelEvent()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public WheelEvent()</code></pre>
+  </div>
+  
+  
+  <a id="AngleSharp_Html_Dom_Events_WheelEvent__ctor_" data-uid="AngleSharp.Html.Dom.Events.WheelEvent.#ctor*"></a>
+  <h4 id="AngleSharp_Html_Dom_Events_WheelEvent__ctor_System_String_System_Boolean_System_Boolean_AngleSharp_Dom_IWindow_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_AngleSharp_Html_Dom_Events_MouseButton_AngleSharp_Dom_IEventTarget_System_String_System_Double_System_Double_System_Double_AngleSharp_Html_Dom_Events_WheelMode_" data-uid="AngleSharp.Html.Dom.Events.WheelEvent.#ctor(System.String,System.Boolean,System.Boolean,AngleSharp.Dom.IWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,AngleSharp.Html.Dom.Events.MouseButton,AngleSharp.Dom.IEventTarget,System.String,System.Double,System.Double,System.Double,AngleSharp.Html.Dom.Events.WheelMode)">WheelEvent(String, Boolean, Boolean, IWindow, Int32, Int32, Int32, Int32, Int32, MouseButton, IEventTarget, String, Double, Double, Double, WheelMode)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomConstructor]
+[DomInitDict(1, true)]
+public WheelEvent(string type, bool bubbles = false, bool cancelable = false, IWindow view = null, int detail = 0, int screenX = 0, int screenY = 0, int clientX = 0, int clientY = 0, MouseButton button, IEventTarget target = null, string modifiersList = null, double deltaX = 0, double deltaY = 0, double deltaZ = 0, WheelMode deltaMode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">bubbles</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">cancelable</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.IWindow.html">IWindow</a></td>
+        <td><span class="parametername">view</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">detail</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">screenX</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">screenY</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">clientX</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">clientY</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Dom.Events.MouseButton.html">MouseButton</a></td>
+        <td><span class="parametername">button</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.IEventTarget.html">IEventTarget</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">modifiersList</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">deltaX</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">deltaY</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">deltaZ</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Dom.Events.WheelMode.html">WheelMode</a></td>
+        <td><span class="parametername">deltaMode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="AngleSharp_Html_Dom_Events_WheelEvent_DeltaMode_" data-uid="AngleSharp.Html.Dom.Events.WheelEvent.DeltaMode*"></a>
+  <h4 id="AngleSharp_Html_Dom_Events_WheelEvent_DeltaMode" data-uid="AngleSharp.Html.Dom.Events.WheelEvent.DeltaMode">DeltaMode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;deltaMode&quot;)]
+public WheelMode DeltaMode { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Dom.Events.WheelMode.html">WheelMode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Html_Dom_Events_WheelEvent_DeltaX_" data-uid="AngleSharp.Html.Dom.Events.WheelEvent.DeltaX*"></a>
+  <h4 id="AngleSharp_Html_Dom_Events_WheelEvent_DeltaX" data-uid="AngleSharp.Html.Dom.Events.WheelEvent.DeltaX">DeltaX</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;deltaX&quot;)]
+public double DeltaX { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Html_Dom_Events_WheelEvent_DeltaY_" data-uid="AngleSharp.Html.Dom.Events.WheelEvent.DeltaY*"></a>
+  <h4 id="AngleSharp_Html_Dom_Events_WheelEvent_DeltaY" data-uid="AngleSharp.Html.Dom.Events.WheelEvent.DeltaY">DeltaY</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;deltaY&quot;)]
+public double DeltaY { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Html_Dom_Events_WheelEvent_DeltaZ_" data-uid="AngleSharp.Html.Dom.Events.WheelEvent.DeltaZ*"></a>
+  <h4 id="AngleSharp_Html_Dom_Events_WheelEvent_DeltaZ" data-uid="AngleSharp.Html.Dom.Events.WheelEvent.DeltaZ">DeltaZ</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;deltaZ&quot;)]
+public double DeltaZ { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="AngleSharp_Html_Dom_Events_WheelEvent_Init_" data-uid="AngleSharp.Html.Dom.Events.WheelEvent.Init*"></a>
+  <h4 id="AngleSharp_Html_Dom_Events_WheelEvent_Init_System_String_System_Boolean_System_Boolean_AngleSharp_Dom_IWindow_System_Int32_System_Int32_System_Int32_System_Int32_System_Int32_AngleSharp_Html_Dom_Events_MouseButton_AngleSharp_Dom_IEventTarget_System_String_System_Double_System_Double_System_Double_AngleSharp_Html_Dom_Events_WheelMode_" data-uid="AngleSharp.Html.Dom.Events.WheelEvent.Init(System.String,System.Boolean,System.Boolean,AngleSharp.Dom.IWindow,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,AngleSharp.Html.Dom.Events.MouseButton,AngleSharp.Dom.IEventTarget,System.String,System.Double,System.Double,System.Double,AngleSharp.Html.Dom.Events.WheelMode)">Init(String, Boolean, Boolean, IWindow, Int32, Int32, Int32, Int32, Int32, MouseButton, IEventTarget, String, Double, Double, Double, WheelMode)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;initWheelEvent&quot;)]
+public void Init(string type, bool bubbles, bool cancelable, IWindow view, int detail, int screenX, int screenY, int clientX, int clientY, MouseButton button, IEventTarget target, string modifiersList, double deltaX, double deltaY, double deltaZ, WheelMode deltaMode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">type</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">bubbles</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">cancelable</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.IWindow.html">IWindow</a></td>
+        <td><span class="parametername">view</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">detail</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">screenX</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">screenY</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">clientX</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">clientY</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Dom.Events.MouseButton.html">MouseButton</a></td>
+        <td><span class="parametername">button</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.IEventTarget.html">IEventTarget</a></td>
+        <td><span class="parametername">target</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">modifiersList</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">deltaX</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">deltaY</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">deltaZ</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Dom.Events.WheelMode.html">WheelMode</a></td>
+        <td><span class="parametername">deltaMode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="AngleSharp.Common.ObjectExtensions.html#AngleSharp_Common_ObjectExtensions_ToDictionary_System_Object_">ObjectExtensions.ToDictionary(Object)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

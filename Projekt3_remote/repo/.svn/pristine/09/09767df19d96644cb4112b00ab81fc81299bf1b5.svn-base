@@ -1,0 +1,407 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class HtmlDoctypeToken
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class HtmlDoctypeToken
+   ">
+    <meta name="generator" content="docfx 2.41.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AngleSharp.Html.Parser.Tokens.HtmlDoctypeToken">
+  
+  
+  <h1 id="AngleSharp_Html_Parser_Tokens_HtmlDoctypeToken" data-uid="AngleSharp.Html.Parser.Tokens.HtmlDoctypeToken" class="text-break">Class HtmlDoctypeToken
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="AngleSharp.Html.Parser.Tokens.HtmlToken.html">HtmlToken</a></div>
+    <div class="level2"><span class="xref">HtmlDoctypeToken</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Parser.Tokens.HtmlToken.html#AngleSharp_Html_Parser_Tokens_HtmlToken_TrimStart">HtmlToken.TrimStart()</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Parser.Tokens.HtmlToken.html#AngleSharp_Html_Parser_Tokens_HtmlToken_RemoveNewLine">HtmlToken.RemoveNewLine()</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Parser.Tokens.HtmlToken.html#AngleSharp_Html_Parser_Tokens_HtmlToken_AsTag">HtmlToken.AsTag()</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Parser.Tokens.HtmlToken.html#AngleSharp_Html_Parser_Tokens_HtmlToken_IsStartTag_System_String_">HtmlToken.IsStartTag(String)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Parser.Tokens.HtmlToken.html#AngleSharp_Html_Parser_Tokens_HtmlToken_HasContent">HtmlToken.HasContent</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Parser.Tokens.HtmlToken.html#AngleSharp_Html_Parser_Tokens_HtmlToken_Name">HtmlToken.Name</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Parser.Tokens.HtmlToken.html#AngleSharp_Html_Parser_Tokens_HtmlToken_IsEmpty">HtmlToken.IsEmpty</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Parser.Tokens.HtmlToken.html#AngleSharp_Html_Parser_Tokens_HtmlToken_Data">HtmlToken.Data</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Parser.Tokens.HtmlToken.html#AngleSharp_Html_Parser_Tokens_HtmlToken_Position">HtmlToken.Position</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Parser.Tokens.HtmlToken.html#AngleSharp_Html_Parser_Tokens_HtmlToken_IsHtmlCompatible">HtmlToken.IsHtmlCompatible</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Parser.Tokens.HtmlToken.html#AngleSharp_Html_Parser_Tokens_HtmlToken_IsSvg">HtmlToken.IsSvg</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Parser.Tokens.HtmlToken.html#AngleSharp_Html_Parser_Tokens_HtmlToken_IsMathCompatible">HtmlToken.IsMathCompatible</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Html.Parser.Tokens.HtmlToken.html#AngleSharp_Html_Parser_Tokens_HtmlToken_Type">HtmlToken.Type</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AngleSharp.Html.Parser.Tokens.html">AngleSharp.Html.Parser.Tokens</a></h6>
+  <h6><strong>Assembly</strong>: AngleSharp.dll</h6>
+  <h5 id="AngleSharp_Html_Parser_Tokens_HtmlDoctypeToken_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class HtmlDoctypeToken : HtmlToken</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="AngleSharp_Html_Parser_Tokens_HtmlDoctypeToken__ctor_" data-uid="AngleSharp.Html.Parser.Tokens.HtmlDoctypeToken.#ctor*"></a>
+  <h4 id="AngleSharp_Html_Parser_Tokens_HtmlDoctypeToken__ctor_System_Boolean_AngleSharp_Text_TextPosition_" data-uid="AngleSharp.Html.Parser.Tokens.HtmlDoctypeToken.#ctor(System.Boolean,AngleSharp.Text.TextPosition)">HtmlDoctypeToken(Boolean, TextPosition)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public HtmlDoctypeToken(bool quirksForced, TextPosition position)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">quirksForced</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Text.TextPosition.html">TextPosition</a></td>
+        <td><span class="parametername">position</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="AngleSharp_Html_Parser_Tokens_HtmlDoctypeToken_IsFullQuirks_" data-uid="AngleSharp.Html.Parser.Tokens.HtmlDoctypeToken.IsFullQuirks*"></a>
+  <h4 id="AngleSharp_Html_Parser_Tokens_HtmlDoctypeToken_IsFullQuirks" data-uid="AngleSharp.Html.Parser.Tokens.HtmlDoctypeToken.IsFullQuirks">IsFullQuirks</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsFullQuirks { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Html_Parser_Tokens_HtmlDoctypeToken_IsLimitedQuirks_" data-uid="AngleSharp.Html.Parser.Tokens.HtmlDoctypeToken.IsLimitedQuirks*"></a>
+  <h4 id="AngleSharp_Html_Parser_Tokens_HtmlDoctypeToken_IsLimitedQuirks" data-uid="AngleSharp.Html.Parser.Tokens.HtmlDoctypeToken.IsLimitedQuirks">IsLimitedQuirks</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsLimitedQuirks { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Html_Parser_Tokens_HtmlDoctypeToken_IsPublicIdentifierMissing_" data-uid="AngleSharp.Html.Parser.Tokens.HtmlDoctypeToken.IsPublicIdentifierMissing*"></a>
+  <h4 id="AngleSharp_Html_Parser_Tokens_HtmlDoctypeToken_IsPublicIdentifierMissing" data-uid="AngleSharp.Html.Parser.Tokens.HtmlDoctypeToken.IsPublicIdentifierMissing">IsPublicIdentifierMissing</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsPublicIdentifierMissing { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Html_Parser_Tokens_HtmlDoctypeToken_IsQuirksForced_" data-uid="AngleSharp.Html.Parser.Tokens.HtmlDoctypeToken.IsQuirksForced*"></a>
+  <h4 id="AngleSharp_Html_Parser_Tokens_HtmlDoctypeToken_IsQuirksForced" data-uid="AngleSharp.Html.Parser.Tokens.HtmlDoctypeToken.IsQuirksForced">IsQuirksForced</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsQuirksForced { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Html_Parser_Tokens_HtmlDoctypeToken_IsSystemIdentifierMissing_" data-uid="AngleSharp.Html.Parser.Tokens.HtmlDoctypeToken.IsSystemIdentifierMissing*"></a>
+  <h4 id="AngleSharp_Html_Parser_Tokens_HtmlDoctypeToken_IsSystemIdentifierMissing" data-uid="AngleSharp.Html.Parser.Tokens.HtmlDoctypeToken.IsSystemIdentifierMissing">IsSystemIdentifierMissing</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsSystemIdentifierMissing { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Html_Parser_Tokens_HtmlDoctypeToken_IsValid_" data-uid="AngleSharp.Html.Parser.Tokens.HtmlDoctypeToken.IsValid*"></a>
+  <h4 id="AngleSharp_Html_Parser_Tokens_HtmlDoctypeToken_IsValid" data-uid="AngleSharp.Html.Parser.Tokens.HtmlDoctypeToken.IsValid">IsValid</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsValid { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Html_Parser_Tokens_HtmlDoctypeToken_PublicIdentifier_" data-uid="AngleSharp.Html.Parser.Tokens.HtmlDoctypeToken.PublicIdentifier*"></a>
+  <h4 id="AngleSharp_Html_Parser_Tokens_HtmlDoctypeToken_PublicIdentifier" data-uid="AngleSharp.Html.Parser.Tokens.HtmlDoctypeToken.PublicIdentifier">PublicIdentifier</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string PublicIdentifier { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Html_Parser_Tokens_HtmlDoctypeToken_SystemIdentifier_" data-uid="AngleSharp.Html.Parser.Tokens.HtmlDoctypeToken.SystemIdentifier*"></a>
+  <h4 id="AngleSharp_Html_Parser_Tokens_HtmlDoctypeToken_SystemIdentifier" data-uid="AngleSharp.Html.Parser.Tokens.HtmlDoctypeToken.SystemIdentifier">SystemIdentifier</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string SystemIdentifier { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="AngleSharp.Common.ObjectExtensions.html#AngleSharp_Common_ObjectExtensions_ToDictionary_System_Object_">ObjectExtensions.ToDictionary(Object)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

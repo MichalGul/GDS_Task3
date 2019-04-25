@@ -1,0 +1,2254 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class HtmlParseError
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class HtmlParseError
+   ">
+    <meta name="generator" content="docfx 2.41.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AngleSharp.Html.Parser.HtmlParseError">
+  
+  
+  <h1 id="AngleSharp_Html_Parser_HtmlParseError" data-uid="AngleSharp.Html.Parser.HtmlParseError" class="text-break">Class HtmlParseError
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">HtmlParseError</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AngleSharp.Html.Parser.html">AngleSharp.Html.Parser</a></h6>
+  <h6><strong>Assembly</strong>: AngleSharp.dll</h6>
+  <h5 id="AngleSharp_Html_Parser_HtmlParseError_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class HtmlParseError : Enum</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_AmbiguousOpenTag" data-uid="AngleSharp.Html.Parser.HtmlParseError.AmbiguousOpenTag">AmbiguousOpenTag</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;Ambiguous open tag.&quot;)]
+public const HtmlParseError AmbiguousOpenTag</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_AnchorNested" data-uid="AngleSharp.Html.Parser.HtmlParseError.AnchorNested">AnchorNested</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;Anchor elements cannot be nested.&quot;)]
+public const HtmlParseError AnchorNested</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_AttributeDuplicateOmitted" data-uid="AngleSharp.Html.Parser.HtmlParseError.AttributeDuplicateOmitted">AttributeDuplicateOmitted</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;The attribute has already been added.&quot;)]
+public const HtmlParseError AttributeDuplicateOmitted</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_AttributeNameExpected" data-uid="AngleSharp.Html.Parser.HtmlParseError.AttributeNameExpected">AttributeNameExpected</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;The beginning of a new attribute has been expected.&quot;)]
+public const HtmlParseError AttributeNameExpected</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_AttributeNameInvalid" data-uid="AngleSharp.Html.Parser.HtmlParseError.AttributeNameInvalid">AttributeNameInvalid</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;The attribute's name contains an invalid character.&quot;)]
+public const HtmlParseError AttributeNameInvalid</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_AttributeValueInvalid" data-uid="AngleSharp.Html.Parser.HtmlParseError.AttributeValueInvalid">AttributeValueInvalid</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;The attribute's value contains an invalid character.&quot;)]
+public const HtmlParseError AttributeValueInvalid</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_BlockNotInScope" data-uid="AngleSharp.Html.Parser.HtmlParseError.BlockNotInScope">BlockNotInScope</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;No block element has been found within the local scope.&quot;)]
+public const HtmlParseError BlockNotInScope</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_BodyClosedWrong" data-uid="AngleSharp.Html.Parser.HtmlParseError.BodyClosedWrong">BodyClosedWrong</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;The body has been closed wrong.&quot;)]
+public const HtmlParseError BodyClosedWrong</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_BodyNotInScope" data-uid="AngleSharp.Html.Parser.HtmlParseError.BodyNotInScope">BodyNotInScope</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;No body has been found within the local scope.&quot;)]
+public const HtmlParseError BodyNotInScope</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_BodyTagMisplaced" data-uid="AngleSharp.Html.Parser.HtmlParseError.BodyTagMisplaced">BodyTagMisplaced</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;The body tag can only be placed once inside the html tag.&quot;)]
+public const HtmlParseError BodyTagMisplaced</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_BogusComment" data-uid="AngleSharp.Html.Parser.HtmlParseError.BogusComment">BogusComment</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;Bogus comment detected.&quot;)]
+public const HtmlParseError BogusComment</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_ButtonInScope" data-uid="AngleSharp.Html.Parser.HtmlParseError.ButtonInScope">ButtonInScope</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;No button has been found within the local scope.&quot;)]
+public const HtmlParseError ButtonInScope</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_CaptionNotInScope" data-uid="AngleSharp.Html.Parser.HtmlParseError.CaptionNotInScope">CaptionNotInScope</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;No caption tag has been found within the local scope.&quot;)]
+public const HtmlParseError CaptionNotInScope</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_CharacterReferenceAttributeEqualsFound" data-uid="AngleSharp.Html.Parser.HtmlParseError.CharacterReferenceAttributeEqualsFound">CharacterReferenceAttributeEqualsFound</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;Character reference in attribute contains an invalid character (=).&quot;)]
+public const HtmlParseError CharacterReferenceAttributeEqualsFound</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_CharacterReferenceInvalidCode" data-uid="AngleSharp.Html.Parser.HtmlParseError.CharacterReferenceInvalidCode">CharacterReferenceInvalidCode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;Character reference is an invalid code.&quot;)]
+public const HtmlParseError CharacterReferenceInvalidCode</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_CharacterReferenceInvalidNumber" data-uid="AngleSharp.Html.Parser.HtmlParseError.CharacterReferenceInvalidNumber">CharacterReferenceInvalidNumber</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;Character reference is an invalid number.&quot;)]
+public const HtmlParseError CharacterReferenceInvalidNumber</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_CharacterReferenceInvalidRange" data-uid="AngleSharp.Html.Parser.HtmlParseError.CharacterReferenceInvalidRange">CharacterReferenceInvalidRange</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;Character reference within an invalid range.&quot;)]
+public const HtmlParseError CharacterReferenceInvalidRange</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_CharacterReferenceNotTerminated" data-uid="AngleSharp.Html.Parser.HtmlParseError.CharacterReferenceNotTerminated">CharacterReferenceNotTerminated</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;Character reference is not terminated by a semicolon.&quot;)]
+public const HtmlParseError CharacterReferenceNotTerminated</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_CharacterReferenceSemicolonMissing" data-uid="AngleSharp.Html.Parser.HtmlParseError.CharacterReferenceSemicolonMissing">CharacterReferenceSemicolonMissing</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;Character reference found no semicolon.&quot;)]
+public const HtmlParseError CharacterReferenceSemicolonMissing</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_CharacterReferenceWrongNumber" data-uid="AngleSharp.Html.Parser.HtmlParseError.CharacterReferenceWrongNumber">CharacterReferenceWrongNumber</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;Character reference found no numbers.&quot;)]
+public const HtmlParseError CharacterReferenceWrongNumber</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_ClosingSlashMisplaced" data-uid="AngleSharp.Html.Parser.HtmlParseError.ClosingSlashMisplaced">ClosingSlashMisplaced</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;The closing slash has been misplaced.&quot;)]
+public const HtmlParseError ClosingSlashMisplaced</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_CommentEndedUnexpected" data-uid="AngleSharp.Html.Parser.HtmlParseError.CommentEndedUnexpected">CommentEndedUnexpected</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;Comment ended with an unexpected character.&quot;)]
+public const HtmlParseError CommentEndedUnexpected</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_CommentEndedWithDash" data-uid="AngleSharp.Html.Parser.HtmlParseError.CommentEndedWithDash">CommentEndedWithDash</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;Comment ended with a dash.&quot;)]
+public const HtmlParseError CommentEndedWithDash</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_CommentEndedWithEM" data-uid="AngleSharp.Html.Parser.HtmlParseError.CommentEndedWithEM">CommentEndedWithEM</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;Comment ended with an exclamation mark.&quot;)]
+public const HtmlParseError CommentEndedWithEM</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_CurrentNodeIsNotRoot" data-uid="AngleSharp.Html.Parser.HtmlParseError.CurrentNodeIsNotRoot">CurrentNodeIsNotRoot</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;The current node is not the root element.&quot;)]
+public const HtmlParseError CurrentNodeIsNotRoot</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_CurrentNodeIsRoot" data-uid="AngleSharp.Html.Parser.HtmlParseError.CurrentNodeIsRoot">CurrentNodeIsRoot</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;The current node is the root element.&quot;)]
+public const HtmlParseError CurrentNodeIsRoot</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_DoctypeInvalid" data-uid="AngleSharp.Html.Parser.HtmlParseError.DoctypeInvalid">DoctypeInvalid</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;The given doctype tag is invalid.&quot;)]
+public const HtmlParseError DoctypeInvalid</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_DoctypeInvalidCharacter" data-uid="AngleSharp.Html.Parser.HtmlParseError.DoctypeInvalidCharacter">DoctypeInvalidCharacter</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;Invalid character in the doctype detected.&quot;)]
+public const HtmlParseError DoctypeInvalidCharacter</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_DoctypeMissing" data-uid="AngleSharp.Html.Parser.HtmlParseError.DoctypeMissing">DoctypeMissing</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;The doctype tag is missing.&quot;)]
+public const HtmlParseError DoctypeMissing</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_DoctypePublicInvalid" data-uid="AngleSharp.Html.Parser.HtmlParseError.DoctypePublicInvalid">DoctypePublicInvalid</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;Invalid character in the public identifier detected.&quot;)]
+public const HtmlParseError DoctypePublicInvalid</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_DoctypeSystemInvalid" data-uid="AngleSharp.Html.Parser.HtmlParseError.DoctypeSystemInvalid">DoctypeSystemInvalid</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;Invalid character in the system identifier detected.&quot;)]
+public const HtmlParseError DoctypeSystemInvalid</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_DoctypeTagInappropriate" data-uid="AngleSharp.Html.Parser.HtmlParseError.DoctypeTagInappropriate">DoctypeTagInappropriate</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;The doctype tag is misplaced and ignored.&quot;)]
+public const HtmlParseError DoctypeTagInappropriate</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_DoctypeUnexpected" data-uid="AngleSharp.Html.Parser.HtmlParseError.DoctypeUnexpected">DoctypeUnexpected</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;Doctype encountered unexpected character.&quot;)]
+public const HtmlParseError DoctypeUnexpected</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_DoctypeUnexpectedAfterName" data-uid="AngleSharp.Html.Parser.HtmlParseError.DoctypeUnexpectedAfterName">DoctypeUnexpectedAfterName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;Doctype unexpected character after the name detected.&quot;)]
+public const HtmlParseError DoctypeUnexpectedAfterName</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_DoubleQuotationMarkUnexpected" data-uid="AngleSharp.Html.Parser.HtmlParseError.DoubleQuotationMarkUnexpected">DoubleQuotationMarkUnexpected</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;The double quotation marks have been misplaced.&quot;)]
+public const HtmlParseError DoubleQuotationMarkUnexpected</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_ElementNotInScope" data-uid="AngleSharp.Html.Parser.HtmlParseError.ElementNotInScope">ElementNotInScope</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;No element has been found within the local scope.&quot;)]
+public const HtmlParseError ElementNotInScope</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_EncodingError" data-uid="AngleSharp.Html.Parser.HtmlParseError.EncodingError">EncodingError</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;The encoding operation (either encoded or decoding) failed.&quot;)]
+public const HtmlParseError EncodingError</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_EndTagCannotBeSelfClosed" data-uid="AngleSharp.Html.Parser.HtmlParseError.EndTagCannotBeSelfClosed">EndTagCannotBeSelfClosed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;End tags can never be self-closed.&quot;)]
+public const HtmlParseError EndTagCannotBeSelfClosed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_EndTagCannotHaveAttributes" data-uid="AngleSharp.Html.Parser.HtmlParseError.EndTagCannotHaveAttributes">EndTagCannotHaveAttributes</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;End tags cannot carry attributes.&quot;)]
+public const HtmlParseError EndTagCannotHaveAttributes</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_EOF" data-uid="AngleSharp.Html.Parser.HtmlParseError.EOF">EOF</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;Unexpected end of the given file.&quot;)]
+public const HtmlParseError EOF</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_FormAlreadyOpen" data-uid="AngleSharp.Html.Parser.HtmlParseError.FormAlreadyOpen">FormAlreadyOpen</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;There is already an open form.&quot;)]
+public const HtmlParseError FormAlreadyOpen</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_FormattingElementNotFound" data-uid="AngleSharp.Html.Parser.HtmlParseError.FormattingElementNotFound">FormattingElementNotFound</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;An expected formatting element has not been found.&quot;)]
+public const HtmlParseError FormattingElementNotFound</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_FormClosedWrong" data-uid="AngleSharp.Html.Parser.HtmlParseError.FormClosedWrong">FormClosedWrong</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;The form has been closed wrong.&quot;)]
+public const HtmlParseError FormClosedWrong</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_FormInappropriate" data-uid="AngleSharp.Html.Parser.HtmlParseError.FormInappropriate">FormInappropriate</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;The given form cannot be placed at the current position.&quot;)]
+public const HtmlParseError FormInappropriate</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_FormNotInScope" data-uid="AngleSharp.Html.Parser.HtmlParseError.FormNotInScope">FormNotInScope</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;No form has been found within the local scope.&quot;)]
+public const HtmlParseError FormNotInScope</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_FramesetMisplaced" data-uid="AngleSharp.Html.Parser.HtmlParseError.FramesetMisplaced">FramesetMisplaced</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;The frameset element has been misplaced.&quot;)]
+public const HtmlParseError FramesetMisplaced</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_HeadingNested" data-uid="AngleSharp.Html.Parser.HtmlParseError.HeadingNested">HeadingNested</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;Headings cannot be nested.&quot;)]
+public const HtmlParseError HeadingNested</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_HeadingNotInScope" data-uid="AngleSharp.Html.Parser.HtmlParseError.HeadingNotInScope">HeadingNotInScope</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;No heading element has been found within the local scope.&quot;)]
+public const HtmlParseError HeadingNotInScope</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_HeadTagMisplaced" data-uid="AngleSharp.Html.Parser.HtmlParseError.HeadTagMisplaced">HeadTagMisplaced</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;The head tag can only be placed once inside the html tag.&quot;)]
+public const HtmlParseError HeadTagMisplaced</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_HtmlTagMisplaced" data-uid="AngleSharp.Html.Parser.HtmlParseError.HtmlTagMisplaced">HtmlTagMisplaced</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;The html tag can only be placed once as the root element.&quot;)]
+public const HtmlParseError HtmlTagMisplaced</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_IllegalElementInSelectDetected" data-uid="AngleSharp.Html.Parser.HtmlParseError.IllegalElementInSelectDetected">IllegalElementInSelectDetected</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;An illegal element has been detected in a select.&quot;)]
+public const HtmlParseError IllegalElementInSelectDetected</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_IllegalElementInTableDetected" data-uid="AngleSharp.Html.Parser.HtmlParseError.IllegalElementInTableDetected">IllegalElementInTableDetected</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;An illegal element has been detected in a table.&quot;)]
+public const HtmlParseError IllegalElementInTableDetected</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_ImageTagNamedWrong" data-uid="AngleSharp.Html.Parser.HtmlParseError.ImageTagNamedWrong">ImageTagNamedWrong</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;The image tag has been named image instead of img.&quot;)]
+public const HtmlParseError ImageTagNamedWrong</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_InputUnexpected" data-uid="AngleSharp.Html.Parser.HtmlParseError.InputUnexpected">InputUnexpected</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;The given input cannot be placed at the current position.&quot;)]
+public const HtmlParseError InputUnexpected</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_ItemNotFound" data-uid="AngleSharp.Html.Parser.HtmlParseError.ItemNotFound">ItemNotFound</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;The specified item has not been found.&quot;)]
+public const HtmlParseError ItemNotFound</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_LineBreakUnexpected" data-uid="AngleSharp.Html.Parser.HtmlParseError.LineBreakUnexpected">LineBreakUnexpected</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;This position does not support a linebreak (LF, FF).&quot;)]
+public const HtmlParseError LineBreakUnexpected</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_ListItemNotInScope" data-uid="AngleSharp.Html.Parser.HtmlParseError.ListItemNotInScope">ListItemNotInScope</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;No list item has been found within the local scope.&quot;)]
+public const HtmlParseError ListItemNotInScope</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_NobrInScope" data-uid="AngleSharp.Html.Parser.HtmlParseError.NobrInScope">NobrInScope</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;No nobr element has been found within the local scope.&quot;)]
+public const HtmlParseError NobrInScope</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_NotationPublicInvalid" data-uid="AngleSharp.Html.Parser.HtmlParseError.NotationPublicInvalid">NotationPublicInvalid</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;The given public identifier for the notation declaration is invalid.&quot;)]
+public const HtmlParseError NotationPublicInvalid</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_NotationSystemInvalid" data-uid="AngleSharp.Html.Parser.HtmlParseError.NotationSystemInvalid">NotationSystemInvalid</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;The given system identifier for the notation declaration is invalid.&quot;)]
+public const HtmlParseError NotationSystemInvalid</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_Null" data-uid="AngleSharp.Html.Parser.HtmlParseError.Null">Null</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;NULL character replaced by repl. character.&quot;)]
+public const HtmlParseError Null</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_ObjectNotInScope" data-uid="AngleSharp.Html.Parser.HtmlParseError.ObjectNotInScope">ObjectNotInScope</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;No object element has been found within the local scope.&quot;)]
+public const HtmlParseError ObjectNotInScope</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_ParagraphNotInScope" data-uid="AngleSharp.Html.Parser.HtmlParseError.ParagraphNotInScope">ParagraphNotInScope</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;No paragraph has been found within the local scope.&quot;)]
+public const HtmlParseError ParagraphNotInScope</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_QuantifierMissing" data-uid="AngleSharp.Html.Parser.HtmlParseError.QuantifierMissing">QuantifierMissing</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;A required quantifier is missing in the provided expression.&quot;)]
+public const HtmlParseError QuantifierMissing</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_SelectNesting" data-uid="AngleSharp.Html.Parser.HtmlParseError.SelectNesting">SelectNesting</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;Select elements cannot be nested.&quot;)]
+public const HtmlParseError SelectNesting</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_SelectNotInScope" data-uid="AngleSharp.Html.Parser.HtmlParseError.SelectNotInScope">SelectNotInScope</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;No select tag has been found within the local scope.&quot;)]
+public const HtmlParseError SelectNotInScope</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_SingleQuotationMarkUnexpected" data-uid="AngleSharp.Html.Parser.HtmlParseError.SingleQuotationMarkUnexpected">SingleQuotationMarkUnexpected</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;The single quotation marks have been misplaced.&quot;)]
+public const HtmlParseError SingleQuotationMarkUnexpected</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_TableCellNotInScope" data-uid="AngleSharp.Html.Parser.HtmlParseError.TableCellNotInScope">TableCellNotInScope</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;No table cell has been found within the local scope.&quot;)]
+public const HtmlParseError TableCellNotInScope</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_TableNesting" data-uid="AngleSharp.Html.Parser.HtmlParseError.TableNesting">TableNesting</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;Tables cannot be nested.&quot;)]
+public const HtmlParseError TableNesting</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_TableNotInScope" data-uid="AngleSharp.Html.Parser.HtmlParseError.TableNotInScope">TableNotInScope</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;No table has been found within the local scope.&quot;)]
+public const HtmlParseError TableNotInScope</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_TableRowNotInScope" data-uid="AngleSharp.Html.Parser.HtmlParseError.TableRowNotInScope">TableRowNotInScope</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;No table row has been found within the local scope.&quot;)]
+public const HtmlParseError TableRowNotInScope</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_TableSectionNotInScope" data-uid="AngleSharp.Html.Parser.HtmlParseError.TableSectionNotInScope">TableSectionNotInScope</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;No table section has been found within the local scope.&quot;)]
+public const HtmlParseError TableSectionNotInScope</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_TagCannotBeSelfClosed" data-uid="AngleSharp.Html.Parser.HtmlParseError.TagCannotBeSelfClosed">TagCannotBeSelfClosed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;The given tag cannot be self-closed.&quot;)]
+public const HtmlParseError TagCannotBeSelfClosed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_TagCannotEndHere" data-uid="AngleSharp.Html.Parser.HtmlParseError.TagCannotEndHere">TagCannotEndHere</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;The given tag cannot end at the current position.&quot;)]
+public const HtmlParseError TagCannotEndHere</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_TagCannotStartHere" data-uid="AngleSharp.Html.Parser.HtmlParseError.TagCannotStartHere">TagCannotStartHere</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;The given tag cannot start at the current position.&quot;)]
+public const HtmlParseError TagCannotStartHere</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_TagClosedWrong" data-uid="AngleSharp.Html.Parser.HtmlParseError.TagClosedWrong">TagClosedWrong</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;The tag has been closed unexpectedly.&quot;)]
+public const HtmlParseError TagClosedWrong</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_TagClosingMismatch" data-uid="AngleSharp.Html.Parser.HtmlParseError.TagClosingMismatch">TagClosingMismatch</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;The closing tag and the currently open tag do not match.&quot;)]
+public const HtmlParseError TagClosingMismatch</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_TagDoesNotMatchCurrentNode" data-uid="AngleSharp.Html.Parser.HtmlParseError.TagDoesNotMatchCurrentNode">TagDoesNotMatchCurrentNode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;The given end tag does not match the current node.&quot;)]
+public const HtmlParseError TagDoesNotMatchCurrentNode</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_TagInappropriate" data-uid="AngleSharp.Html.Parser.HtmlParseError.TagInappropriate">TagInappropriate</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;The given tag is not appropriate for the current position.&quot;)]
+public const HtmlParseError TagInappropriate</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_TagInvalidInFragmentMode" data-uid="AngleSharp.Html.Parser.HtmlParseError.TagInvalidInFragmentMode">TagInvalidInFragmentMode</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;This tag is invalid in fragment mode.&quot;)]
+public const HtmlParseError TagInvalidInFragmentMode</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_TagMustBeInHead" data-uid="AngleSharp.Html.Parser.HtmlParseError.TagMustBeInHead">TagMustBeInHead</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;The given tag must be placed in head tag.&quot;)]
+public const HtmlParseError TagMustBeInHead</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_TokenNotPossible" data-uid="AngleSharp.Html.Parser.HtmlParseError.TokenNotPossible">TokenNotPossible</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;The given token cannot be inserted here.&quot;)]
+public const HtmlParseError TokenNotPossible</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_TypeDeclarationUndefined" data-uid="AngleSharp.Html.Parser.HtmlParseError.TypeDeclarationUndefined">TypeDeclarationUndefined</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;The type declaration is missing a valid definition.&quot;)]
+public const HtmlParseError TypeDeclarationUndefined</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_UndefinedMarkupDeclaration" data-uid="AngleSharp.Html.Parser.HtmlParseError.UndefinedMarkupDeclaration">UndefinedMarkupDeclaration</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomDescription(&quot;Undefined markup declaration found.&quot;)]
+public const HtmlParseError UndefinedMarkupDeclaration</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Html.Parser.HtmlParseError.html">HtmlParseError</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="AngleSharp_Html_Parser_HtmlParseError_value__" data-uid="AngleSharp.Html.Parser.HtmlParseError.value__">value__</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte value__</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="AngleSharp.Common.ObjectExtensions.html#AngleSharp_Common_ObjectExtensions_ToDictionary_System_Object_">ObjectExtensions.ToDictionary(Object)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

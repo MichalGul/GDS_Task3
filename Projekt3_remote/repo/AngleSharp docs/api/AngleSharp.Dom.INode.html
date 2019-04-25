@@ -1,0 +1,1200 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface INode
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface INode
+   ">
+    <meta name="generator" content="docfx 2.41.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="AngleSharp.Dom.INode">
+  
+  
+  <h1 id="AngleSharp_Dom_INode" data-uid="AngleSharp.Dom.INode" class="text-break">Interface INode
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IEventTarget.html#AngleSharp_Dom_IEventTarget_AddEventListener_System_String_AngleSharp_Dom_DomEventHandler_System_Boolean_">IEventTarget.AddEventListener(String, DomEventHandler, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IEventTarget.html#AngleSharp_Dom_IEventTarget_RemoveEventListener_System_String_AngleSharp_Dom_DomEventHandler_System_Boolean_">IEventTarget.RemoveEventListener(String, DomEventHandler, Boolean)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IEventTarget.html#AngleSharp_Dom_IEventTarget_InvokeEventListener_AngleSharp_Dom_Events_Event_">IEventTarget.InvokeEventListener(Event)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.Dom.IEventTarget.html#AngleSharp_Dom_IEventTarget_Dispatch_AngleSharp_Dom_Events_Event_">IEventTarget.Dispatch(Event)</a>
+    </div>
+    <div>
+      <a class="xref" href="AngleSharp.IMarkupFormattable.html#AngleSharp_IMarkupFormattable_ToHtml_System_IO_TextWriter_AngleSharp_IMarkupFormatter_">IMarkupFormattable.ToHtml(TextWriter, IMarkupFormatter)</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="AngleSharp.Dom.html">AngleSharp.Dom</a></h6>
+  <h6><strong>Assembly</strong>: AngleSharp.dll</h6>
+  <h5 id="AngleSharp_Dom_INode_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;Node&quot;)]
+public interface INode : IEventTarget, IMarkupFormattable</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="AngleSharp_Dom_INode_BaseUri_" data-uid="AngleSharp.Dom.INode.BaseUri*"></a>
+  <h4 id="AngleSharp_Dom_INode_BaseUri" data-uid="AngleSharp.Dom.INode.BaseUri">BaseUri</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;baseURI&quot;)]
+string BaseUri { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Dom_INode_BaseUrl_" data-uid="AngleSharp.Dom.INode.BaseUrl*"></a>
+  <h4 id="AngleSharp_Dom_INode_BaseUrl" data-uid="AngleSharp.Dom.INode.BaseUrl">BaseUrl</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Url BaseUrl { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Url.html">Url</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Dom_INode_ChildNodes_" data-uid="AngleSharp.Dom.INode.ChildNodes*"></a>
+  <h4 id="AngleSharp_Dom_INode_ChildNodes" data-uid="AngleSharp.Dom.INode.ChildNodes">ChildNodes</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;childNodes&quot;)]
+INodeList ChildNodes { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.INodeList.html">INodeList</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Dom_INode_FirstChild_" data-uid="AngleSharp.Dom.INode.FirstChild*"></a>
+  <h4 id="AngleSharp_Dom_INode_FirstChild" data-uid="AngleSharp.Dom.INode.FirstChild">FirstChild</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;firstChild&quot;)]
+INode FirstChild { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.INode.html">INode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Dom_INode_HasChildNodes_" data-uid="AngleSharp.Dom.INode.HasChildNodes*"></a>
+  <h4 id="AngleSharp_Dom_INode_HasChildNodes" data-uid="AngleSharp.Dom.INode.HasChildNodes">HasChildNodes</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;hasChildNodes&quot;)]
+bool HasChildNodes { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Dom_INode_LastChild_" data-uid="AngleSharp.Dom.INode.LastChild*"></a>
+  <h4 id="AngleSharp_Dom_INode_LastChild" data-uid="AngleSharp.Dom.INode.LastChild">LastChild</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;lastChild&quot;)]
+INode LastChild { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.INode.html">INode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Dom_INode_NextSibling_" data-uid="AngleSharp.Dom.INode.NextSibling*"></a>
+  <h4 id="AngleSharp_Dom_INode_NextSibling" data-uid="AngleSharp.Dom.INode.NextSibling">NextSibling</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;nextSibling&quot;)]
+INode NextSibling { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.INode.html">INode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Dom_INode_NodeName_" data-uid="AngleSharp.Dom.INode.NodeName*"></a>
+  <h4 id="AngleSharp_Dom_INode_NodeName" data-uid="AngleSharp.Dom.INode.NodeName">NodeName</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;nodeName&quot;)]
+string NodeName { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Dom_INode_NodeType_" data-uid="AngleSharp.Dom.INode.NodeType*"></a>
+  <h4 id="AngleSharp_Dom_INode_NodeType" data-uid="AngleSharp.Dom.INode.NodeType">NodeType</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;nodeType&quot;)]
+NodeType NodeType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.NodeType.html">NodeType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Dom_INode_NodeValue_" data-uid="AngleSharp.Dom.INode.NodeValue*"></a>
+  <h4 id="AngleSharp_Dom_INode_NodeValue" data-uid="AngleSharp.Dom.INode.NodeValue">NodeValue</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;nodeValue&quot;)]
+string NodeValue { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Dom_INode_Owner_" data-uid="AngleSharp.Dom.INode.Owner*"></a>
+  <h4 id="AngleSharp_Dom_INode_Owner" data-uid="AngleSharp.Dom.INode.Owner">Owner</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;ownerDocument&quot;)]
+IDocument Owner { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.IDocument.html">IDocument</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Dom_INode_Parent_" data-uid="AngleSharp.Dom.INode.Parent*"></a>
+  <h4 id="AngleSharp_Dom_INode_Parent" data-uid="AngleSharp.Dom.INode.Parent">Parent</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;parentNode&quot;)]
+INode Parent { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.INode.html">INode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Dom_INode_ParentElement_" data-uid="AngleSharp.Dom.INode.ParentElement*"></a>
+  <h4 id="AngleSharp_Dom_INode_ParentElement" data-uid="AngleSharp.Dom.INode.ParentElement">ParentElement</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;parentElement&quot;)]
+IElement ParentElement { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.IElement.html">IElement</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Dom_INode_PreviousSibling_" data-uid="AngleSharp.Dom.INode.PreviousSibling*"></a>
+  <h4 id="AngleSharp_Dom_INode_PreviousSibling" data-uid="AngleSharp.Dom.INode.PreviousSibling">PreviousSibling</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;previousSibling&quot;)]
+INode PreviousSibling { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.INode.html">INode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Dom_INode_TextContent_" data-uid="AngleSharp.Dom.INode.TextContent*"></a>
+  <h4 id="AngleSharp_Dom_INode_TextContent" data-uid="AngleSharp.Dom.INode.TextContent">TextContent</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;textContent&quot;)]
+string TextContent { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="AngleSharp_Dom_INode_AppendChild_" data-uid="AngleSharp.Dom.INode.AppendChild*"></a>
+  <h4 id="AngleSharp_Dom_INode_AppendChild_AngleSharp_Dom_INode_" data-uid="AngleSharp.Dom.INode.AppendChild(AngleSharp.Dom.INode)">AppendChild(INode)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;appendChild&quot;)]
+INode AppendChild(INode child)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.INode.html">INode</a></td>
+        <td><span class="parametername">child</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.INode.html">INode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Dom_INode_Clone_" data-uid="AngleSharp.Dom.INode.Clone*"></a>
+  <h4 id="AngleSharp_Dom_INode_Clone_System_Boolean_" data-uid="AngleSharp.Dom.INode.Clone(System.Boolean)">Clone(Boolean)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;cloneNode&quot;)]
+INode Clone(bool deep = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">deep</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.INode.html">INode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Dom_INode_CompareDocumentPosition_" data-uid="AngleSharp.Dom.INode.CompareDocumentPosition*"></a>
+  <h4 id="AngleSharp_Dom_INode_CompareDocumentPosition_AngleSharp_Dom_INode_" data-uid="AngleSharp.Dom.INode.CompareDocumentPosition(AngleSharp.Dom.INode)">CompareDocumentPosition(INode)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;compareDocumentPosition&quot;)]
+DocumentPositions CompareDocumentPosition(INode otherNode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.INode.html">INode</a></td>
+        <td><span class="parametername">otherNode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.DocumentPositions.html">DocumentPositions</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Dom_INode_Contains_" data-uid="AngleSharp.Dom.INode.Contains*"></a>
+  <h4 id="AngleSharp_Dom_INode_Contains_AngleSharp_Dom_INode_" data-uid="AngleSharp.Dom.INode.Contains(AngleSharp.Dom.INode)">Contains(INode)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;contains&quot;)]
+bool Contains(INode otherNode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.INode.html">INode</a></td>
+        <td><span class="parametername">otherNode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Dom_INode_Equals_" data-uid="AngleSharp.Dom.INode.Equals*"></a>
+  <h4 id="AngleSharp_Dom_INode_Equals_AngleSharp_Dom_INode_" data-uid="AngleSharp.Dom.INode.Equals(AngleSharp.Dom.INode)">Equals(INode)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;isEqualNode&quot;)]
+bool Equals(INode otherNode)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.INode.html">INode</a></td>
+        <td><span class="parametername">otherNode</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Dom_INode_InsertBefore_" data-uid="AngleSharp.Dom.INode.InsertBefore*"></a>
+  <h4 id="AngleSharp_Dom_INode_InsertBefore_AngleSharp_Dom_INode_AngleSharp_Dom_INode_" data-uid="AngleSharp.Dom.INode.InsertBefore(AngleSharp.Dom.INode,AngleSharp.Dom.INode)">InsertBefore(INode, INode)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;insertBefore&quot;)]
+INode InsertBefore(INode newElement, INode referenceElement)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.INode.html">INode</a></td>
+        <td><span class="parametername">newElement</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.INode.html">INode</a></td>
+        <td><span class="parametername">referenceElement</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.INode.html">INode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Dom_INode_IsDefaultNamespace_" data-uid="AngleSharp.Dom.INode.IsDefaultNamespace*"></a>
+  <h4 id="AngleSharp_Dom_INode_IsDefaultNamespace_System_String_" data-uid="AngleSharp.Dom.INode.IsDefaultNamespace(System.String)">IsDefaultNamespace(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;isDefaultNamespace&quot;)]
+bool IsDefaultNamespace(string namespaceUri)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">namespaceUri</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Dom_INode_LookupNamespaceUri_" data-uid="AngleSharp.Dom.INode.LookupNamespaceUri*"></a>
+  <h4 id="AngleSharp_Dom_INode_LookupNamespaceUri_System_String_" data-uid="AngleSharp.Dom.INode.LookupNamespaceUri(System.String)">LookupNamespaceUri(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;lookupNamespaceURI&quot;)]
+string LookupNamespaceUri(string prefix)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">prefix</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Dom_INode_LookupPrefix_" data-uid="AngleSharp.Dom.INode.LookupPrefix*"></a>
+  <h4 id="AngleSharp_Dom_INode_LookupPrefix_System_String_" data-uid="AngleSharp.Dom.INode.LookupPrefix(System.String)">LookupPrefix(String)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;lookupPrefix&quot;)]
+string LookupPrefix(string namespaceUri)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">namespaceUri</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Dom_INode_Normalize_" data-uid="AngleSharp.Dom.INode.Normalize*"></a>
+  <h4 id="AngleSharp_Dom_INode_Normalize" data-uid="AngleSharp.Dom.INode.Normalize">Normalize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;normalize&quot;)]
+void Normalize()</code></pre>
+  </div>
+  
+  
+  <a id="AngleSharp_Dom_INode_RemoveChild_" data-uid="AngleSharp.Dom.INode.RemoveChild*"></a>
+  <h4 id="AngleSharp_Dom_INode_RemoveChild_AngleSharp_Dom_INode_" data-uid="AngleSharp.Dom.INode.RemoveChild(AngleSharp.Dom.INode)">RemoveChild(INode)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;removeChild&quot;)]
+INode RemoveChild(INode child)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.INode.html">INode</a></td>
+        <td><span class="parametername">child</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.INode.html">INode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="AngleSharp_Dom_INode_ReplaceChild_" data-uid="AngleSharp.Dom.INode.ReplaceChild*"></a>
+  <h4 id="AngleSharp_Dom_INode_ReplaceChild_AngleSharp_Dom_INode_AngleSharp_Dom_INode_" data-uid="AngleSharp.Dom.INode.ReplaceChild(AngleSharp.Dom.INode,AngleSharp.Dom.INode)">ReplaceChild(INode, INode)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[DomName(&quot;replaceChild&quot;)]
+INode ReplaceChild(INode newChild, INode oldChild)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.INode.html">INode</a></td>
+        <td><span class="parametername">newChild</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.INode.html">INode</a></td>
+        <td><span class="parametername">oldChild</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="AngleSharp.Dom.INode.html">INode</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="AngleSharp.FormatExtensions.html#AngleSharp_FormatExtensions_ToHtml_AngleSharp_IMarkupFormattable_">FormatExtensions.ToHtml(IMarkupFormattable)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.FormatExtensions.html#AngleSharp_FormatExtensions_ToHtml_AngleSharp_IMarkupFormattable_AngleSharp_IMarkupFormatter_">FormatExtensions.ToHtml(IMarkupFormattable, IMarkupFormatter)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.FormatExtensions.html#AngleSharp_FormatExtensions_ToHtml_AngleSharp_IMarkupFormattable_System_IO_TextWriter_">FormatExtensions.ToHtml(IMarkupFormattable, TextWriter)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Common.ObjectExtensions.html#AngleSharp_Common_ObjectExtensions_ToDictionary_System_Object_">ObjectExtensions.ToDictionary(Object)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.EventTargetExtensions.html#AngleSharp_Dom_EventTargetExtensions_FireSimpleEvent_AngleSharp_Dom_IEventTarget_System_String_System_Boolean_System_Boolean_">EventTargetExtensions.FireSimpleEvent(IEventTarget, String, Boolean, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.EventTargetExtensions.html#AngleSharp_Dom_EventTargetExtensions_Fire_AngleSharp_Dom_IEventTarget_AngleSharp_Dom_Events_Event_">EventTargetExtensions.Fire(IEventTarget, Event)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.EventTargetExtensions.html#AngleSharp_Dom_EventTargetExtensions_Fire__1_AngleSharp_Dom_IEventTarget_System_Action___0__AngleSharp_Dom_IEventTarget_">EventTargetExtensions.Fire&lt;T&gt;(IEventTarget, Action&lt;T&gt;, IEventTarget)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.EventTargetExtensions.html#AngleSharp_Dom_EventTargetExtensions_AwaitEventAsync__1___0_System_String_">EventTargetExtensions.AwaitEventAsync&lt;TEventTarget&gt;(TEventTarget, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.CollectionExtensions.html#AngleSharp_Dom_CollectionExtensions_GetNodes__1_AngleSharp_Dom_INode_System_Boolean_System_Func___0_System_Boolean__">CollectionExtensions.GetNodes&lt;T&gt;(INode, Boolean, Func&lt;T, Boolean&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_GetRoot_AngleSharp_Dom_INode_">NodeExtensions.GetRoot(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_IsEndPoint_AngleSharp_Dom_INode_">NodeExtensions.IsEndPoint(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_IsInsertable_AngleSharp_Dom_INode_">NodeExtensions.IsInsertable(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_HyperReference_AngleSharp_Dom_INode_System_String_">NodeExtensions.HyperReference(INode, String)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_IsDescendantOf_AngleSharp_Dom_INode_AngleSharp_Dom_INode_">NodeExtensions.IsDescendantOf(INode, INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_GetDescendants_AngleSharp_Dom_INode_">NodeExtensions.GetDescendants(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_GetDescendantsAndSelf_AngleSharp_Dom_INode_">NodeExtensions.GetDescendantsAndSelf(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_IsInclusiveDescendantOf_AngleSharp_Dom_INode_AngleSharp_Dom_INode_">NodeExtensions.IsInclusiveDescendantOf(INode, INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_IsAncestorOf_AngleSharp_Dom_INode_AngleSharp_Dom_INode_">NodeExtensions.IsAncestorOf(INode, INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_GetAncestors_AngleSharp_Dom_INode_">NodeExtensions.GetAncestors(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_GetInclusiveAncestors_AngleSharp_Dom_INode_">NodeExtensions.GetInclusiveAncestors(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_IsInclusiveAncestorOf_AngleSharp_Dom_INode_AngleSharp_Dom_INode_">NodeExtensions.IsInclusiveAncestorOf(INode, INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_GetAncestor__1_AngleSharp_Dom_INode_">NodeExtensions.GetAncestor&lt;T&gt;(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_HasDataListAncestor_AngleSharp_Dom_INode_">NodeExtensions.HasDataListAncestor(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_IsSiblingOf_AngleSharp_Dom_INode_AngleSharp_Dom_INode_">NodeExtensions.IsSiblingOf(INode, INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_Index_AngleSharp_Dom_INode_">NodeExtensions.Index(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_IndexOf_AngleSharp_Dom_INode_AngleSharp_Dom_INode_">NodeExtensions.IndexOf(INode, INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_IsPreceding_AngleSharp_Dom_INode_AngleSharp_Dom_INode_">NodeExtensions.IsPreceding(INode, INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_IsFollowing_AngleSharp_Dom_INode_AngleSharp_Dom_INode_">NodeExtensions.IsFollowing(INode, INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_GetAssociatedHost_AngleSharp_Dom_INode_">NodeExtensions.GetAssociatedHost(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_IsHostIncludingInclusiveAncestor_AngleSharp_Dom_INode_AngleSharp_Dom_INode_">NodeExtensions.IsHostIncludingInclusiveAncestor(INode, INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_EnsurePreInsertionValidity_AngleSharp_Dom_INode_AngleSharp_Dom_INode_AngleSharp_Dom_INode_">NodeExtensions.EnsurePreInsertionValidity(INode, INode, INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_PreInsert_AngleSharp_Dom_INode_AngleSharp_Dom_INode_AngleSharp_Dom_INode_">NodeExtensions.PreInsert(INode, INode, INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_PreRemove_AngleSharp_Dom_INode_AngleSharp_Dom_INode_">NodeExtensions.PreRemove(INode, INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_HasTextNodes_AngleSharp_Dom_INode_">NodeExtensions.HasTextNodes(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_IsFollowedByDoctype_AngleSharp_Dom_INode_">NodeExtensions.IsFollowedByDoctype(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_IsPrecededByElement_AngleSharp_Dom_INode_">NodeExtensions.IsPrecededByElement(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_GetElementCount_AngleSharp_Dom_INode_">NodeExtensions.GetElementCount(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_FindChild__1_AngleSharp_Dom_INode_">NodeExtensions.FindChild&lt;TNode&gt;(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_FindDescendant__1_AngleSharp_Dom_INode_">NodeExtensions.FindDescendant&lt;TNode&gt;(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.NodeExtensions.html#AngleSharp_Dom_NodeExtensions_Text_AngleSharp_Dom_INode_">NodeExtensions.Text(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ParentNodeExtensions.html#AngleSharp_Dom_ParentNodeExtensions_PrependNodes_AngleSharp_Dom_INode_AngleSharp_Dom_INode___">ParentNodeExtensions.PrependNodes(INode, INode[])</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ParentNodeExtensions.html#AngleSharp_Dom_ParentNodeExtensions_AppendNodes_AngleSharp_Dom_INode_AngleSharp_Dom_INode___">ParentNodeExtensions.AppendNodes(INode, INode[])</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ParentNodeExtensions.html#AngleSharp_Dom_ParentNodeExtensions_InsertBefore_AngleSharp_Dom_INode_AngleSharp_Dom_INode___">ParentNodeExtensions.InsertBefore(INode, INode[])</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ParentNodeExtensions.html#AngleSharp_Dom_ParentNodeExtensions_InsertAfter_AngleSharp_Dom_INode_AngleSharp_Dom_INode___">ParentNodeExtensions.InsertAfter(INode, INode[])</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ParentNodeExtensions.html#AngleSharp_Dom_ParentNodeExtensions_ReplaceWith_AngleSharp_Dom_INode_AngleSharp_Dom_INode___">ParentNodeExtensions.ReplaceWith(INode, INode[])</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ParentNodeExtensions.html#AngleSharp_Dom_ParentNodeExtensions_RemoveFromParent_AngleSharp_Dom_INode_">ParentNodeExtensions.RemoveFromParent(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ParentNodeExtensions.html#AngleSharp_Dom_ParentNodeExtensions_AppendElement__1_AngleSharp_Dom_INode___0_">ParentNodeExtensions.AppendElement&lt;TElement&gt;(INode, TElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ParentNodeExtensions.html#AngleSharp_Dom_ParentNodeExtensions_InsertElement__1_AngleSharp_Dom_INode___0_AngleSharp_Dom_INode_">ParentNodeExtensions.InsertElement&lt;TElement&gt;(INode, TElement, INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ParentNodeExtensions.html#AngleSharp_Dom_ParentNodeExtensions_RemoveElement__1_AngleSharp_Dom_INode___0_">ParentNodeExtensions.RemoveElement&lt;TElement&gt;(INode, TElement)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ParentNodeExtensions.html#AngleSharp_Dom_ParentNodeExtensions_Descendents__1_AngleSharp_Dom_INode_">ParentNodeExtensions.Descendents&lt;TNode&gt;(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ParentNodeExtensions.html#AngleSharp_Dom_ParentNodeExtensions_Descendents_AngleSharp_Dom_INode_">ParentNodeExtensions.Descendents(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ParentNodeExtensions.html#AngleSharp_Dom_ParentNodeExtensions_DescendentsAndSelf__1_AngleSharp_Dom_INode_">ParentNodeExtensions.DescendentsAndSelf&lt;TNode&gt;(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ParentNodeExtensions.html#AngleSharp_Dom_ParentNodeExtensions_DescendentsAndSelf_AngleSharp_Dom_INode_">ParentNodeExtensions.DescendentsAndSelf(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ParentNodeExtensions.html#AngleSharp_Dom_ParentNodeExtensions_Ancestors__1_AngleSharp_Dom_INode_">ParentNodeExtensions.Ancestors&lt;TNode&gt;(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Dom.ParentNodeExtensions.html#AngleSharp_Dom_ParentNodeExtensions_Ancestors_AngleSharp_Dom_INode_">ParentNodeExtensions.Ancestors(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Css.Dom.StyleExtensions.html#AngleSharp_Css_Dom_StyleExtensions_CreateStyleSheets_AngleSharp_Dom_INode_">StyleExtensions.CreateStyleSheets(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Css.Dom.StyleExtensions.html#AngleSharp_Css_Dom_StyleExtensions_CreateStyleSheetSets_AngleSharp_Dom_INode_">StyleExtensions.CreateStyleSheetSets(INode)</a>
+  </div>
+  <div>
+      <a class="xref" href="AngleSharp.Css.Dom.StyleExtensions.html#AngleSharp_Css_Dom_StyleExtensions_GetStyleSheets_AngleSharp_Dom_INode_">StyleExtensions.GetStyleSheets(INode)</a>
+  </div>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

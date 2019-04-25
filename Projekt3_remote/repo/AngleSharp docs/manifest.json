@@ -1,0 +1,5202 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/selus/Desktop/TMP/docfx/docfx_project",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Attributes.Accessors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Attributes.Accessors.html",
+          "hash": "QA8uQ8n+oAUEGavDdaOUMQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Attributes.DomAccessorAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Attributes.DomAccessorAttribute.html",
+          "hash": "+OqLExajlE4KEVBfCrFeuQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Attributes.DomConstructorAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Attributes.DomConstructorAttribute.html",
+          "hash": "yK4iGnzmOY3lMR37PkuSqQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Attributes.DomDescriptionAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Attributes.DomDescriptionAttribute.html",
+          "hash": "sIqvAOcI1K6akooBS+IEjQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Attributes.DomExposedAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Attributes.DomExposedAttribute.html",
+          "hash": "ie9SVOu7zl7MA1IzHw9qBg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Attributes.DomHistoricalAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Attributes.DomHistoricalAttribute.html",
+          "hash": "YjrX0Zy9yMRB7bJwFpnpaw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Attributes.DomInitDictAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Attributes.DomInitDictAttribute.html",
+          "hash": "PfEij4OqDE1Ww4gCnR5NnQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Attributes.DomLenientThisAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Attributes.DomLenientThisAttribute.html",
+          "hash": "32nRcXi1VuMjpvEo7A+Mlw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Attributes.DomLiteralsAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Attributes.DomLiteralsAttribute.html",
+          "hash": "ghBJPG+LIX4YAug0436eSA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Attributes.DomNameAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Attributes.DomNameAttribute.html",
+          "hash": "l34emuVW2sMvuOvNFUx+6A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Attributes.DomNoInterfaceObjectAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Attributes.DomNoInterfaceObjectAttribute.html",
+          "hash": "uCQPfTW+7sfed6uJ68QBlA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Attributes.DomPutForwardsAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Attributes.DomPutForwardsAttribute.html",
+          "hash": "PzlzUVura9XOHrYIQF0tKw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Attributes.html",
+          "hash": "LPYcLxBULA+6zp59+P0yFA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Browser.Dom.CacheStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Browser.Dom.CacheStatus.html",
+          "hash": "9u3/ioODK1TDE82ACUGYBg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Browser.Dom.Events.InteractivityEvent-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Browser.Dom.Events.InteractivityEvent-1.html",
+          "hash": "nNds5IpAYVckZswImb2EYw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Browser.Dom.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Browser.Dom.Events.html",
+          "hash": "bcyGF/+7KDJ9LPoxVFM0rw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Browser.Dom.IApplicationCache.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Browser.Dom.IApplicationCache.html",
+          "hash": "g1Y9BQ54+CrkWp5FXjShpA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Browser.Dom.IHistory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Browser.Dom.IHistory.html",
+          "hash": "y3NHKSY3HSuQ3UBOFHwgNA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Browser.Dom.INavigator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Browser.Dom.INavigator.html",
+          "hash": "EBk/Ausi9EoEzSBMBl58hQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Browser.Dom.INavigatorContentUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Browser.Dom.INavigatorContentUtilities.html",
+          "hash": "atVgYeRSdC0j3SOKBRqfdg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Browser.Dom.INavigatorId.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Browser.Dom.INavigatorId.html",
+          "hash": "5iTE2JwlqvZveyB9WndMHg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Browser.Dom.INavigatorOnline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Browser.Dom.INavigatorOnline.html",
+          "hash": "API4E5ftXNtqFFuRLOIeAw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Browser.Dom.INavigatorStorageUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Browser.Dom.INavigatorStorageUtilities.html",
+          "hash": "nQsnOEQ2YjtQ5R/JLSqYbg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Browser.Dom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Browser.Dom.html",
+          "hash": "jemNg0oy4v8cIQSU+b6aAw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Browser.EncodingMetaHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Browser.EncodingMetaHandler.html",
+          "hash": "WsyanYz3/MxrLDd66RW3SQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Browser.ICommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Browser.ICommand.html",
+          "hash": "ODKC3AHMArBp0t9qIiohng=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Browser.ICommandProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Browser.ICommandProvider.html",
+          "hash": "NVyf4vJvM4kQhM+aqYgoJg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Browser.IEncodingProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Browser.IEncodingProvider.html",
+          "hash": "dyAKbbTee69+DGeX8/Phuw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Browser.IEventLoop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Browser.IEventLoop.html",
+          "hash": "LRlOudyTaqL4kRKHzXfAHQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Browser.IMetaHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Browser.IMetaHandler.html",
+          "hash": "ZMgW/cpM2wGxDf4V/qeqIw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Browser.IParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Browser.IParser.html",
+          "hash": "YULnClu73M+abuk50rKLYw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Browser.ISpellCheckService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Browser.ISpellCheckService.html",
+          "hash": "s0VfDLA67rAS8w6Bg8lDNA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Browser.LocaleEncodingProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Browser.LocaleEncodingProvider.html",
+          "hash": "Xa1MDoTR4DKUjepXdZC1+w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Browser.RefreshMetaHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Browser.RefreshMetaHandler.html",
+          "hash": "Ckt2XsSmfUi+ovpQyMdmQw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Browser.Sandboxes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Browser.Sandboxes.html",
+          "hash": "6Ldv4DQAjTz3cFLivTZXuQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Browser.TaskPriority.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Browser.TaskPriority.html",
+          "hash": "W393B+v00WFpZcYc9FtXCg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Browser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Browser.html",
+          "hash": "II1xJIi0BxHVnG7um6iVVw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.BrowsingContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.BrowsingContext.html",
+          "hash": "Y8Pbnt4FnFVVDVUdEPHNPQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.BrowsingContextExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.BrowsingContextExtensions.html",
+          "hash": "LxP62KCye/JwPzmTD8BRwg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Common.BaseTokenizer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Common.BaseTokenizer.html",
+          "hash": "cq1Hl67V2rStv2qCCqL14g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Common.IBindable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Common.IBindable.html",
+          "hash": "MVZ1kdJDUKPMM3MctHFnKw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Common.ICancellable-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Common.ICancellable-1.html",
+          "hash": "AdcIkSJkq2w08/8DCo8U2g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Common.ICancellable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Common.ICancellable.html",
+          "hash": "6bllfcf1u4IVx4eiQooXsQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Common.Keywords.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Common.Keywords.html",
+          "hash": "NaDlzQ582uyNCdTujFW7Xg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Common.ObjectExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Common.ObjectExtensions.html",
+          "hash": "k7hYfpw0PIh+B+KPAvcYEw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Common.html",
+          "hash": "fOcTB7Sg3fKBmIY5Pd5Blw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Configuration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Configuration.html",
+          "hash": "2hMaleKClopdzuoYDtQWJA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.ConfigurationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.ConfigurationExtensions.html",
+          "hash": "ifOruW3F3jdubDj2T8N52w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Css.CombinatorSymbols.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Css.CombinatorSymbols.html",
+          "hash": "JfAlubwgnx32iCDn6nIk6g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Css.CssStyleFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Css.CssStyleFormatter.html",
+          "hash": "MYu7Q+YoDArmkJ57sIHJAA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Css.DefaultAttributeSelectorFactory.Creator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Css.DefaultAttributeSelectorFactory.Creator.html",
+          "hash": "qH4XgJEsc4KqPoLVR2T5VA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Css.DefaultAttributeSelectorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Css.DefaultAttributeSelectorFactory.html",
+          "hash": "J9rMVA4m891ctiF1JTVUyg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Css.DefaultPseudoClassSelectorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Css.DefaultPseudoClassSelectorFactory.html",
+          "hash": "MET1/RDAN96Gi3EpAnYq7Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Css.DefaultPseudoElementSelectorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Css.DefaultPseudoElementSelectorFactory.html",
+          "hash": "DcQxecoKWh0Q5QJNSN+rwQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Css.Dom.ICssMedium.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Css.Dom.ICssMedium.html",
+          "hash": "14s11NgLoQ/rGUobwcIxEg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Css.Dom.IMediaFeature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Css.Dom.IMediaFeature.html",
+          "hash": "nRn9IvuS6PRvRXyvZGnm1g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Css.Dom.IMediaList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Css.Dom.IMediaList.html",
+          "hash": "Y06G9XI9mQkHAQGcfS3ejg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Css.Dom.ISelector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Css.Dom.ISelector.html",
+          "hash": "jk6yKmOF4dOTA9pv8JekQQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Css.Dom.SelectorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Css.Dom.SelectorExtensions.html",
+          "hash": "s1RliYYgZB1tMZlaVRaZ3g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Css.Dom.StyleExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Css.Dom.StyleExtensions.html",
+          "hash": "0ics6uYoTsQJPKcZ4zkf7w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Css.Dom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Css.Dom.html",
+          "hash": "hy9sBly3geaqg4xHQ48PmQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Css.IAttributeSelectorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Css.IAttributeSelectorFactory.html",
+          "hash": "DDTVAcMluWTjvEk9g0gSvw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Css.IPseudoClassSelectorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Css.IPseudoClassSelectorFactory.html",
+          "hash": "+j6cX6ztshjC4JFl6ynKeA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Css.IPseudoElementSelectorFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Css.IPseudoElementSelectorFactory.html",
+          "hash": "yT7qpc9+0lm0s2mjM6pHsg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Css.ISelectorVisitor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Css.ISelectorVisitor.html",
+          "hash": "+mCQ1vag9OaVm4BxT7AAJA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Css.IStylingService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Css.IStylingService.html",
+          "hash": "M48t3kQOqi1jDOvRyo8iHw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Css.Parser.CssSelectorParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Css.Parser.CssSelectorParser.html",
+          "hash": "Omvdks6l5RMtoX0hlVmvRQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Css.Parser.CssStringSourceExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Css.Parser.CssStringSourceExtensions.html",
+          "hash": "2myHGsNUWuaUmKwJc+XtFg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Css.Parser.ICssSelectorParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Css.Parser.ICssSelectorParser.html",
+          "hash": "jp7OLBB6XK0XviZYUCkBqQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Css.Parser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Css.Parser.html",
+          "hash": "rEghLI2j9W/kU0Y2f+FtiQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Css.Priority.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Css.Priority.html",
+          "hash": "NSsA0hFc2cx0M9sZ5n7dEw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Css.PseudoClassNames.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Css.PseudoClassNames.html",
+          "hash": "/9YT9Tz8OpS6DwIc6f4BWg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Css.PseudoElementNames.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Css.PseudoElementNames.html",
+          "hash": "84foMNn925hlPRXHfdPPPg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Css.StyleOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Css.StyleOptions.html",
+          "hash": "qW2iwfbNvYNPgBxeM6v38A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Css.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Css.html",
+          "hash": "rKcLc4TW6kJfils6v3OAhg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.AdjacentPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.AdjacentPosition.html",
+          "hash": "ZsWbkFcTKEOGKSv5SgDtOQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.Attr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.Attr.html",
+          "hash": "iULKiXClX+5RyYS3pkeU4w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.AttrExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.AttrExtensions.html",
+          "hash": "QeIfegYcVRCWebEvhtUIeQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.AttributeNames.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.AttributeNames.html",
+          "hash": "pVEAgcNJttG29E+Wy6MTMw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.CollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.CollectionExtensions.html",
+          "hash": "IJsB7hRVA7MKVdMac7WiRg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.CreateDocumentOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.CreateDocumentOptions.html",
+          "hash": "EY2QsVEHAsfU9T4yY3ukhw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.DefaultAttributeObserver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.DefaultAttributeObserver.html",
+          "hash": "kiBsGbgFv81LCXwW46ZSRQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.DefaultDocumentFactory.Creator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.DefaultDocumentFactory.Creator.html",
+          "hash": "4yo3oXhRnMsLjnSVrCGfmA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.DefaultDocumentFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.DefaultDocumentFactory.html",
+          "hash": "eZf/bUl3pC+KcKpqxASwDw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.DirectionMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.DirectionMode.html",
+          "hash": "6yRmqubS3NtHnjJ9u6I2qg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.Document.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.Document.html",
+          "hash": "gORRXGuIGhxlcdqOIpiTew=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.DocumentExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.DocumentExtensions.html",
+          "hash": "kf94gwAzAd7Enno2gb4lfg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.DocumentPositions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.DocumentPositions.html",
+          "hash": "hQU+IbEYjeB71vx3l2sO4w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.DocumentReadyState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.DocumentReadyState.html",
+          "hash": "F/kUtKWtU8KG286nXNa3hw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.DomError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.DomError.html",
+          "hash": "87f31nbnFnYTMmDN3vPy4g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.DomEventHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.DomEventHandler.html",
+          "hash": "DuTk3305G36InVvGhXHBiA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.DomException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.DomException.html",
+          "hash": "8v2VCNsSlDSdHe+nTgRaGQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.Element.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.Element.html",
+          "hash": "mNJcUBJy7kwt9f09/RHGrw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.ElementExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.ElementExtensions.html",
+          "hash": "wT8I6FfX41zUzwTWtxcVxA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.Entity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.Entity.html",
+          "hash": "9VMTSwlK9/3qg4IDk+jTIA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.EventNames.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.EventNames.html",
+          "hash": "vzFdJ/8eKkbhOWD25fjpYA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.EventTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.EventTarget.html",
+          "hash": "6zfBUwY73O1FgOcEkyAT6Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.EventTargetExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.EventTargetExtensions.html",
+          "hash": "zS3PAqVXSA78jPsKuZkoxg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.Events.CustomEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.Events.CustomEvent.html",
+          "hash": "tUP04rOgcjCf/1Qz4dXPmw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.Events.DefaultEventFactory.Creator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.Events.DefaultEventFactory.Creator.html",
+          "hash": "ulV3p+a8wExTdnPEZ7L8sg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.Events.DefaultEventFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.Events.DefaultEventFactory.html",
+          "hash": "zE+2pNyVhPQzkSehEiyibw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.Events.ErrorEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.Events.ErrorEvent.html",
+          "hash": "YrJzM0ORXzcnnacfPPyG5w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.Events.Event.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.Events.Event.html",
+          "hash": "5+f0uMb/aBm5X1ASbXsqtQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.Events.EventPhase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.Events.EventPhase.html",
+          "hash": "4eJxbEr7W55Kr952ygBv/A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.Events.FocusEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.Events.FocusEvent.html",
+          "hash": "CeKQCoBrRK7zhooAEIqxyw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.Events.HashChangedEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.Events.HashChangedEvent.html",
+          "hash": "PaQgFVHjI9WcgSmt1Pz17w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.Events.IEventFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.Events.IEventFactory.html",
+          "hash": "BWDT4SjekXNpS6EBzk8dpQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.Events.IGlobalEventHandlers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.Events.IGlobalEventHandlers.html",
+          "hash": "uY+HnpRT208WlcOkVC/Hew=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.Events.IMessagePort.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.Events.IMessagePort.html",
+          "hash": "0FxvXeS6r4w8S9xiEYdgCg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.Events.IWindowEventHandlers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.Events.IWindowEventHandlers.html",
+          "hash": "bQox9A7CmyAS1P4Dohq1DA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.Events.MessageEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.Events.MessageEvent.html",
+          "hash": "C5d89RyyvbLuMHQCLTiM0w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.Events.PageTransitionEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.Events.PageTransitionEvent.html",
+          "hash": "ILbh9f0l+40ULHeTJgfoVQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.Events.RequestEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.Events.RequestEvent.html",
+          "hash": "Ti1qa2UPSsPVSHegEePbcQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.Events.UiEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.Events.UiEvent.html",
+          "hash": "DcTvIzWwYsoTovU4wzT+Lg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.Events.html",
+          "hash": "u9Oz6ROI+BmlBga01bCg3g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.FilterResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.FilterResult.html",
+          "hash": "byeHqFG8ITLD2UZOirgOMQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.FilterSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.FilterSettings.html",
+          "hash": "DAQSD+4mkO4YXncVUkUzZA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.HorizontalAlignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.HorizontalAlignment.html",
+          "hash": "wThgOisuLX4xjM50HM4N/g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.IAttr.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.IAttr.html",
+          "hash": "8R452aMgCeKPaQIxNgYGVQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.IAttributeObserver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.IAttributeObserver.html",
+          "hash": "fkJBgtV0pny1S5DD4heG4w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.ICharacterData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.ICharacterData.html",
+          "hash": "w16pXAYJrZfevfh0rT865w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.IChildNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.IChildNode.html",
+          "hash": "Y9RdUlx6+7OeuBLufK1XHw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.IComment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.IComment.html",
+          "hash": "fmk/H8QH7DH+Jpa3+fDekw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.IDocument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.IDocument.html",
+          "hash": "L1EYvZauwCGu2vwyc5NwcQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.IDocumentFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.IDocumentFactory.html",
+          "hash": "bQsErj9qWYM0Bu4ahyoQ4A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.IDocumentFragment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.IDocumentFragment.html",
+          "hash": "RGGGMIefYhzx7nct5yF7GQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.IDocumentStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.IDocumentStyle.html",
+          "hash": "yDX6CX8/5zdlZ3fd2XNXTQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.IDocumentType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.IDocumentType.html",
+          "hash": "YR+htfSvC2bvQnFwLPrwfQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.IDomException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.IDomException.html",
+          "hash": "vYsse0fF5h9wfls7h2kQZQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.IElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.IElement.html",
+          "hash": "sBnDD6tg6v7miwqiWthWKw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.IElementFactory-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.IElementFactory-2.html",
+          "hash": "wGvaJfXOw3xmHEq1vvPMYA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.IEntityProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.IEntityProvider.html",
+          "hash": "KGsw2oGRRp+k12tAyUrPxw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.IEventTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.IEventTarget.html",
+          "hash": "DRxgMGNpFPGS10I8C/M9+w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.IHtmlAllCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.IHtmlAllCollection.html",
+          "hash": "XMA1bRKPNlGi/ojKu3lObg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.IHtmlCollection-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.IHtmlCollection-1.html",
+          "hash": "G0EDIdkKk2jq9eOA53/qOA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.IImplementation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.IImplementation.html",
+          "hash": "SIOiRGF59jjrNPRbDkhr/Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.ILinkImport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.ILinkImport.html",
+          "hash": "0Pq3XogUvzqxnGlZySdUcg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.ILinkStyle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.ILinkStyle.html",
+          "hash": "xyEhwLfxjeB6Vl2wXyBhUQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.ILocation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.ILocation.html",
+          "hash": "z8xXOpy50Ft1B2a4OZvjlQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.IMutationRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.IMutationRecord.html",
+          "hash": "FC9nXAV6z6pCUqneFmei1w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.INamedNodeMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.INamedNodeMap.html",
+          "hash": "z4WSYIvvuxGzr9krXIuCjA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.INode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.INode.html",
+          "hash": "KJHvf66uZDx/rtRjxp0+ag=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.INodeIterator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.INodeIterator.html",
+          "hash": "kMXwhj/zX+BUfKKYDzc9qw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.INodeList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.INodeList.html",
+          "hash": "MrTXEg7zz4d9QNY0zpzeUw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.INonDocumentTypeChildNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.INonDocumentTypeChildNode.html",
+          "hash": "NvSa3t6AO64HWnoSMASU/Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.INonElementParentNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.INonElementParentNode.html",
+          "hash": "myWGApmNTQImu5oocVnTnA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.IParentNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.IParentNode.html",
+          "hash": "HNjN2qaz5Oy0rM2ytk1Eyw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.IProcessingInstruction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.IProcessingInstruction.html",
+          "hash": "7bL8txLwml3NsxTK847DOw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.IPseudoElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.IPseudoElement.html",
+          "hash": "IkRGWU3sgA5W122sXZkEtA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.IRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.IRange.html",
+          "hash": "csE5U7UcTxgBftKw2HcWkg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.ISettableTokenList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.ISettableTokenList.html",
+          "hash": "BznWzXJ4QsoQDueIPYBncA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.IShadowRoot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.IShadowRoot.html",
+          "hash": "x6jV0ShiQmPgse3e9JetyQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.IStringList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.IStringList.html",
+          "hash": "IMbJqly/vH2I2tAR9mPSbA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.IStringMap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.IStringMap.html",
+          "hash": "Z+gtIv2TNtHgb0dEgpSQNA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.IStyleSheet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.IStyleSheet.html",
+          "hash": "bN+yKOiPY3jt35JdhafLNQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.IStyleSheetList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.IStyleSheetList.html",
+          "hash": "/sfvBg3vGwmUWuGLoQ4S0A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.IText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.IText.html",
+          "hash": "brXb7I5eU+74d/2Ah8xdBw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.ITokenList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.ITokenList.html",
+          "hash": "hGwa1oCgYQOA7xCA0GI6ZA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.ITreeWalker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.ITreeWalker.html",
+          "hash": "d7BBMii5zALQTnF9iaDu6A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.IUrlUtilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.IUrlUtilities.html",
+          "hash": "lYhA40R604jFyb/e7XjEZA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.IWindow.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.IWindow.html",
+          "hash": "V5ecp+0sdj6t+tMt9i5dpw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.IWindowTimers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.IWindowTimers.html",
+          "hash": "uq1zoV3jvnTA8EGhs/2yrw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.MutationCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.MutationCallback.html",
+          "hash": "noZsF98wMLSzlvbVQDiPow=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.MutationObserver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.MutationObserver.html",
+          "hash": "zU/LGrei35zufUnUiHgnAQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.NamespaceNames.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.NamespaceNames.html",
+          "hash": "6rT0IOVpiEXB2flNfMcHAg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.Node.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.Node.html",
+          "hash": "+bA77BKP0U96w9duXiciHg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.NodeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.NodeExtensions.html",
+          "hash": "fAwz46rz2ZtD9eZJtgoK7Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.NodeFilter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.NodeFilter.html",
+          "hash": "l58cOzfwiMzAjB4ypAw9uw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.NodeFlags.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.NodeFlags.html",
+          "hash": "6kvIqQAmzw2ZHB6LrgDcIQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.NodeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.NodeType.html",
+          "hash": "mWJWEYnJGu/INancDCztHA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.Notation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.Notation.html",
+          "hash": "j4MT7ZgJMSTX3g1dm99rgA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.ParentNodeExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.ParentNodeExtensions.html",
+          "hash": "oLbCw8Ltf5pFxiKFcwgtpw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.QueryExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.QueryExtensions.html",
+          "hash": "4C89xNnSjNcvUrDUvY/eYQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.RangePosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.RangePosition.html",
+          "hash": "y1UN0MEbhKYOpXqNu1qyZg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.RangeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.RangeType.html",
+          "hash": "mn7ry7oKtZkecECJCXBOvw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.SelectorExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.SelectorExtensions.html",
+          "hash": "XUs/hbttXk/uYcQ+sPBPvg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.ShadowRootMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.ShadowRootMode.html",
+          "hash": "LX/q/5iIq6hICwyDGeKHrw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.TagNames.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.TagNames.html",
+          "hash": "FD2z6uq7gTMSupXMp8+O+Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.VerticalAlignment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.VerticalAlignment.html",
+          "hash": "9rz6lIYXa/hbj1e4t4LSLA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.Visibility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.Visibility.html",
+          "hash": "pNreMah6NLxHjM7Ffz44XA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.WordBreak.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.WordBreak.html",
+          "hash": "9tRS4VM9NFi/FblKEVoG2A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Dom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Dom.html",
+          "hash": "WFJfweZQwVOucLUg8Aotyw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.FormatExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.FormatExtensions.html",
+          "hash": "h2TssiKpv3hiLEMOXncpoA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.DefaultInputTypeFactory.Creator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.DefaultInputTypeFactory.Creator.html",
+          "hash": "KEXM4jlrl2LEG55/KfVinA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.DefaultInputTypeFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.DefaultInputTypeFactory.html",
+          "hash": "CNb/x2F3NiBASGgwD9myKA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.DefaultLinkRelationFactory.Creator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.DefaultLinkRelationFactory.Creator.html",
+          "hash": "JdxCbtDLy0pdhoF0619HHg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.DefaultLinkRelationFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.DefaultLinkRelationFactory.html",
+          "hash": "ShDoKIAfzKWl5qp1OHnxHg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.Events.CompositionEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.Events.CompositionEvent.html",
+          "hash": "au8k/d3FiM2GHumKprLhdg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.Events.HtmlErrorEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.Events.HtmlErrorEvent.html",
+          "hash": "54iUsmQERgio67/w6yD2mw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.Events.HtmlParseEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.Events.HtmlParseEvent.html",
+          "hash": "vhqjsF0jHrDTRwlW/F6EjQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.Events.ITouchList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.Events.ITouchList.html",
+          "hash": "Owuff5IUr4G/XeDC/1pEDw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.Events.ITouchPoint.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.Events.ITouchPoint.html",
+          "hash": "RFqN2oo4vS1Gu0A2Y51V1A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.Events.InputEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.Events.InputEvent.html",
+          "hash": "5D8JyCm4kBgCv/IMgkk1RQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.Events.KeyboardEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.Events.KeyboardEvent.html",
+          "hash": "ItPpzwLHQOZA9PH7F1G4CQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.Events.KeyboardLocation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.Events.KeyboardLocation.html",
+          "hash": "QpHLvSEqVueG3us/gT/MSA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.Events.MouseButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.Events.MouseButton.html",
+          "hash": "TfrzvDLl7U2wwbnmuT3SWw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.Events.MouseButtons.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.Events.MouseButtons.html",
+          "hash": "KrAcja0Kx1oRkGfIrLrQtQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.Events.MouseEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.Events.MouseEvent.html",
+          "hash": "1mgczfAfrGF5vsasFpOrtA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.Events.TouchEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.Events.TouchEvent.html",
+          "hash": "2CEaROMLMZChep1G32Hyrg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.Events.TrackEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.Events.TrackEvent.html",
+          "hash": "b23miNvyQG2JU6vN+1EpyA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.Events.WheelEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.Events.WheelEvent.html",
+          "hash": "wZJPe64R+MIYo8KktJfbHQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.Events.WheelMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.Events.WheelMode.html",
+          "hash": "P71bWnDZbOtyfB4DxdwoVw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.Events.html",
+          "hash": "/0oD1iDomRJLnK7ITAcgqA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.FormExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.FormExtensions.html",
+          "hash": "SJgZ2NZ14U9yFUzOm4VACw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.HtmlElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.HtmlElement.html",
+          "hash": "3k9G8LbmHqLibpyfco9fQg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.HtmlLinkElementExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.HtmlLinkElementExtensions.html",
+          "hash": "ZmcKbg3JBSQp179LvcjJYQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlAnchorElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlAnchorElement.html",
+          "hash": "1wooO50Y1a2JM1N8G/a5wQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlAreaElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlAreaElement.html",
+          "hash": "9I1rGQl70CJVV4N6vZOZuw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlAudioElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlAudioElement.html",
+          "hash": "76EBF5TUQBrOIbzG2EmdlA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlBaseElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlBaseElement.html",
+          "hash": "rkPmniWPsmdCHvFnUq4lcA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlBodyElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlBodyElement.html",
+          "hash": "o910KqlyGvCxS8wHNEAE+A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlBreakRowElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlBreakRowElement.html",
+          "hash": "/qMpLfMPwdrjg4JQ7cAxBA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlButtonElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlButtonElement.html",
+          "hash": "Kagr7pFX5tQQ+XgR+5+XfA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlCanvasElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlCanvasElement.html",
+          "hash": "U3BZiNQbiknljHsAMGeiwQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlCommandElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlCommandElement.html",
+          "hash": "fp+b8AsSpJww2m0aZ2hZpg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlDataElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlDataElement.html",
+          "hash": "5Fd1WlBFk1r4Gih+E/i9hw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlDataListElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlDataListElement.html",
+          "hash": "AOaw0EC3IplbcANUCI6P1Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlDetailsElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlDetailsElement.html",
+          "hash": "3/bWpdQR+BccU8s5PeU85A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlDialogElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlDialogElement.html",
+          "hash": "zJvJj4Cx5gUajrxJnEQRqw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlDivElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlDivElement.html",
+          "hash": "Fqg8AxBZZshCZkDdTTUdrQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlDocument.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlDocument.html",
+          "hash": "jluN4kdCL+XUMzncP7N6hg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlElement.html",
+          "hash": "9y/iS/CyMbXwqfim9PdbHQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlEmbedElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlEmbedElement.html",
+          "hash": "TMUv301J+hKR6cHuTOeFqA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlFieldSetElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlFieldSetElement.html",
+          "hash": "YvjXuNOmaSRjQkNWBU7Hhg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlFormControlsCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlFormControlsCollection.html",
+          "hash": "cMItMRvYKvya27svTsR9yA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlFormElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlFormElement.html",
+          "hash": "foe08DfxM+P+NNDXOittYg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlHeadElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlHeadElement.html",
+          "hash": "EE2jADyUt5tbBn1I2QgjpQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlHeadingElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlHeadingElement.html",
+          "hash": "hUoCMU2NUv6UKkN09Ioa6Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlHrElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlHrElement.html",
+          "hash": "DtCqrVsJjZCb5MZdyevM/Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlHtmlElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlHtmlElement.html",
+          "hash": "ZhwRkb6J5UvDA+RTTW+aCw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlImageElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlImageElement.html",
+          "hash": "+k0vYx0IWLoP+6tuwCn05w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlInlineFrameElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlInlineFrameElement.html",
+          "hash": "Yf1uetEzG1/aef/VJ5JqbQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlInputElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlInputElement.html",
+          "hash": "MHsOYQBRe0QtBQxniSCIIw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlKeygenElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlKeygenElement.html",
+          "hash": "ROZFdLrX6bVsXvVjs1GuWg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlLabelElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlLabelElement.html",
+          "hash": "M3fjCPOfzrwCrrCga17FwQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlLegendElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlLegendElement.html",
+          "hash": "JYB0My3XrdnUFCPjtPCTwQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlLinkElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlLinkElement.html",
+          "hash": "S+qSKVXK8XYYkc8iYIPE9g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlListItemElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlListItemElement.html",
+          "hash": "61hzsDyg2tIlIgHLJZnm1w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlMapElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlMapElement.html",
+          "hash": "1GeE3RS9o07ToB42pZ5GgQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlMarqueeElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlMarqueeElement.html",
+          "hash": "BGMxtut37fN+cU1wJBSq7Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlMediaElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlMediaElement.html",
+          "hash": "KHomp8JPvw+3rl8NoppLtw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlMenuElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlMenuElement.html",
+          "hash": "3tq9/y3wTq6pliP9CgTDiQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlMenuItemElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlMenuItemElement.html",
+          "hash": "L8XpC9jEETv266duahPCRw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlMetaElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlMetaElement.html",
+          "hash": "LFM2iNl+WXUVooLJMuRAkg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlMeterElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlMeterElement.html",
+          "hash": "zwnwO/f6ovvSGdkZlvOYhQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlModElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlModElement.html",
+          "hash": "DDLkeK7SJw4UHmqkyXTVzQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlObjectElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlObjectElement.html",
+          "hash": "3kOmQKTtAhUhnTJpsXKYrw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlOptionElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlOptionElement.html",
+          "hash": "VgHnqwySaPD6zADwd2rlYw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlOptionsCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlOptionsCollection.html",
+          "hash": "0hV3iTnCx0YK0NuxI7qMuw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlOptionsGroupElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlOptionsGroupElement.html",
+          "hash": "mSXt4JXetwKoWd2TEkdxKg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlOrderedListElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlOrderedListElement.html",
+          "hash": "EPZOPGzcCC9pCQY+GygYFg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlOutputElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlOutputElement.html",
+          "hash": "Jvc/6TAa5Qc9Bn2zV691hw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlParagraphElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlParagraphElement.html",
+          "hash": "sL5Xjp4sw41mFsoaOMaO1A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlParamElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlParamElement.html",
+          "hash": "BuwpTH7TVNEH5PWEGfXJkg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlPreElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlPreElement.html",
+          "hash": "JgvzRB4oq0+apU3PvRIx4w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlProgressElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlProgressElement.html",
+          "hash": "2+0YvWuCtAGmMCk44j11MQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlQuoteElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlQuoteElement.html",
+          "hash": "7CPOxlowl+obrCISlkgneA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlScriptElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlScriptElement.html",
+          "hash": "Hf8gjQt+MgbpulvM70VopA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlSelectElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlSelectElement.html",
+          "hash": "hGz6+dM2wl4DDaqNr8Ymxg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlSlotElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlSlotElement.html",
+          "hash": "bSLbCr2aaQWAzkBzQqIJUQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlSourceElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlSourceElement.html",
+          "hash": "OSRmtV/AsRyuZ5hzWWJcgQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlSpanElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlSpanElement.html",
+          "hash": "COCf8sY5Ix0qipBkg4sctw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlStyleElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlStyleElement.html",
+          "hash": "FIQO/BLg7k+9dpHkUQ/vYg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlTableCaptionElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlTableCaptionElement.html",
+          "hash": "Icmuhq7BcL6Gtyy7jfG16g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlTableCellElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlTableCellElement.html",
+          "hash": "PWwID98N9ioE9WEksNljow=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlTableColumnElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlTableColumnElement.html",
+          "hash": "GdGlb3LzCum+WXvNoFsCDw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlTableDataCellElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlTableDataCellElement.html",
+          "hash": "DX1gODAaSYuDzKtxHhynmw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlTableElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlTableElement.html",
+          "hash": "4GJAfGv2gcYC4I34veQM6g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlTableHeaderCellElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlTableHeaderCellElement.html",
+          "hash": "5b0atdqrAohEhqX1uVzqrA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlTableRowElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlTableRowElement.html",
+          "hash": "TsA38f3t7k3iAV9WiIfqKg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlTableSectionElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlTableSectionElement.html",
+          "hash": "d+Yr/osk/mtLd2qWG/o78A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlTemplateElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlTemplateElement.html",
+          "hash": "2FxpOOR3keRm8Uww8THG4A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlTextAreaElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlTextAreaElement.html",
+          "hash": "+SD8wSdFTxm1oM7hxmGX8g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlTimeElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlTimeElement.html",
+          "hash": "n7eSlv9qnMDFPq9cLr0HKg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlTitleElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlTitleElement.html",
+          "hash": "85j/oTziXQ6yW2rd99tLDQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlTrackElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlTrackElement.html",
+          "hash": "H90qbjzZGTMw7he28OGOUg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlUnknownElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlUnknownElement.html",
+          "hash": "Q55myFkTSKskDKzh6jf8cg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlUnorderedListElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlUnorderedListElement.html",
+          "hash": "5Kk+WAp1XQ8zQPyM4yQbUQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IHtmlVideoElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IHtmlVideoElement.html",
+          "hash": "F9cuIyydWvSpqnkInMl89g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.ILabelabelElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.ILabelabelElement.html",
+          "hash": "Wi4NFZAwBY4ET9eNQJyu1Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IValidation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IValidation.html",
+          "hash": "aGpNLSoIwJGDtDmBasKEoA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.IValidityState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.IValidityState.html",
+          "hash": "3jQ2zzwqLsD8ImvHhraTlA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.ImageExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.ImageExtensions.html",
+          "hash": "EBBiYlO2TFdUE3BNwm3J6Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.TableFrames.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.TableFrames.html",
+          "hash": "a2xnVj4yTAzTjk51PRVMVg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.TableRules.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.TableRules.html",
+          "hash": "BWWvIlpbgEraeZeZAc3WbA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.TrackReadyState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.TrackReadyState.html",
+          "hash": "Hh147fAlLz02VL/i2wMQJw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Dom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Dom.html",
+          "hash": "1uajeFkcs6lIlmTvjEVQ+w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.FormDataSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.FormDataSet.html",
+          "hash": "ZX285ENpO9IrL0+5u7I8NA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Forms.FormDataSetEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Forms.FormDataSetEntry.html",
+          "hash": "OFv4bzANROgVt5LBPEyltg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Forms.IFormDataSetVisitor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Forms.IFormDataSetVisitor.html",
+          "hash": "jRUvtx6K2b219uYOolQm/A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Forms.IFormSubmitter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Forms.IFormSubmitter.html",
+          "hash": "JBd6yqVDPisOUTMg52zkYA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Forms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Forms.html",
+          "hash": "wmXJEqQ2ElQlWJB6QhmFXw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.HtmlEntityProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.HtmlEntityProvider.html",
+          "hash": "ka1kpyiwQl3dgaJm2OKOGg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.HtmlMarkupFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.HtmlMarkupFormatter.html",
+          "hash": "Db/gkBwAarswsFPmHjBp4Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.IInputTypeFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.IInputTypeFactory.html",
+          "hash": "VbLD1yOr4iEOhqJGYMZxjw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.ILinkRelationFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.ILinkRelationFactory.html",
+          "hash": "olNrjVd7u8qyCjvYqRpOpA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.InputTypeNames.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.InputTypeNames.html",
+          "hash": "Yiq/etSmDAHllld5bi3clg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.InputTypes.BaseInputType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.InputTypes.BaseInputType.html",
+          "hash": "wbqPM7PmrcMUpemCWU/leA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.InputTypes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.InputTypes.html",
+          "hash": "WQKjZKAfA7gUNGbPwpeCmA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.LinkRelNames.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.LinkRelNames.html",
+          "hash": "xqw/4FSlG3g/tfLzChr2pw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.LinkRels.BaseLinkRelation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.LinkRels.BaseLinkRelation.html",
+          "hash": "auluONwUdwpNPFir8M9k+Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.LinkRels.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.LinkRels.html",
+          "hash": "UoxhMCnuMLcxzdfVvKVm6g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Parser.HtmlParseError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Parser.HtmlParseError.html",
+          "hash": "62FZpwYjiqekIllSYh8Ilw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Parser.HtmlParseException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Parser.HtmlParseException.html",
+          "hash": "efRc4uToVYF+qceqBvH2kA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Parser.HtmlParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Parser.HtmlParser.html",
+          "hash": "FSYfeylDY0m+90w/PTrJkg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Parser.HtmlParserExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Parser.HtmlParserExtensions.html",
+          "hash": "1jzEa7OWBFF1+U7EdqTRrQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Parser.HtmlParserOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Parser.HtmlParserOptions.html",
+          "hash": "FER2kMFL+GXXVIBQk4cCiA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Parser.HtmlTokenType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Parser.HtmlTokenType.html",
+          "hash": "4v/jPOqBhJsK7aV90JXT+w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Parser.IHtmlParser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Parser.IHtmlParser.html",
+          "hash": "mp6ZyqEu2hilMHgOSMxF5g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Parser.TokenizerExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Parser.TokenizerExtensions.html",
+          "hash": "5sHkA64IlP+DfLbklQ98uA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Parser.Tokens.HtmlDoctypeToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Parser.Tokens.HtmlDoctypeToken.html",
+          "hash": "HOCXfQ1zOFGmMrlsByi5qQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Parser.Tokens.HtmlTagToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Parser.Tokens.HtmlTagToken.html",
+          "hash": "xlDBOSoA+Qo6Q2eEFMuZyw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Parser.Tokens.HtmlToken.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Parser.Tokens.HtmlToken.html",
+          "hash": "klHc5TFilXF84xJB00aUUA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Parser.Tokens.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Parser.Tokens.html",
+          "hash": "KUUxwGu4kXxeOpnBEe9VEw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.Parser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.Parser.html",
+          "hash": "9awQZaKoFWA3EYEcENM2GQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.PrettyMarkupFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.PrettyMarkupFormatter.html",
+          "hash": "E9PookqX4KeipUd1Q6g0Sg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.SourceSet.ImageCandidate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.SourceSet.ImageCandidate.html",
+          "hash": "mUL1PsG2wdwBdq25lozljg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.SourceSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.SourceSet.html",
+          "hash": "alEs0WAPInI3/6NLkWFNWw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.ValidationErrors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.ValidationErrors.html",
+          "hash": "P5PrkGPSwfXAoHVRBL12jg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Html.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Html.html",
+          "hash": "bRBJ9K6FHyQdwlPIM5LRKA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.IBrowsingContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.IBrowsingContext.html",
+          "hash": "eLOk0v3khDYrjwJ8K/PFIQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.IConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.IConfiguration.html",
+          "hash": "qQPSv1eBaSV1gWc9fyLHZA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.IMarkupFormattable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.IMarkupFormattable.html",
+          "hash": "Qx9noiZM9efhTDySEZtHDA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.IMarkupFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.IMarkupFormatter.html",
+          "hash": "IuTo3kr5f9ceuMwx2Di5sg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.IStyleFormattable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.IStyleFormattable.html",
+          "hash": "6zjJZ/4EJ6lF64AM00UEQA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.IStyleFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.IStyleFormatter.html",
+          "hash": "p67PklZDhHfzTg7VfjEqwQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Io.BaseLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Io.BaseLoader.html",
+          "hash": "1HdlhIP8zrxUN5jhszR0Sw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Io.BaseRequester.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Io.BaseRequester.html",
+          "hash": "K9z7C5ormxL30RHjx6UWrQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Io.CorsRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Io.CorsRequest.html",
+          "hash": "kxFom7bo7bah/S0kKhQvmw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Io.CorsSetting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Io.CorsSetting.html",
+          "hash": "nyi+ku17BvYzOuVICwSMew=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Io.DefaultDocumentLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Io.DefaultDocumentLoader.html",
+          "hash": "l7qbOt7pgY/Y5bam5RKz6g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Io.DefaultHttpRequester.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Io.DefaultHttpRequester.html",
+          "hash": "yA0jbKEvN5HQ5aZJGwn7iA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Io.DefaultResourceLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Io.DefaultResourceLoader.html",
+          "hash": "CnPtpczdLfoT0QNIxVIXhA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Io.DefaultResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Io.DefaultResponse.html",
+          "hash": "ccU4aP6iWkYBlDTUh94tZw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Io.DocumentRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Io.DocumentRequest.html",
+          "hash": "NIK7D9HFuPmg/RAAwjNHUQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Io.Dom.IBlob.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Io.Dom.IBlob.html",
+          "hash": "DDmm/5D3ozWs5zyHERYaGQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Io.Dom.IFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Io.Dom.IFile.html",
+          "hash": "xqCNU97SUO2wWE7Dv0IXNA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Io.Dom.IFileList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Io.Dom.IFileList.html",
+          "hash": "gcOkak7sv0YP0pbL/dze5Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Io.Dom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Io.Dom.html",
+          "hash": "/iLt/q6tBcQL+z+YN5uwnA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Io.HeaderNames.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Io.HeaderNames.html",
+          "hash": "w12Ki8JgIy2QABFbFsoo5g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Io.HttpMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Io.HttpMethod.html",
+          "hash": "gRQhcpIyXZTdVGQzTNSD9A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Io.ICookieProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Io.ICookieProvider.html",
+          "hash": "AO9MEtIsVjisFkDjjvnFYg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Io.IDocumentLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Io.IDocumentLoader.html",
+          "hash": "Cgs6AIvkohZFPUaifxocWw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Io.IDownload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Io.IDownload.html",
+          "hash": "XxEAbyzkVVkKOB0pIOXm+Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Io.IIntegrityProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Io.IIntegrityProvider.html",
+          "hash": "3jlNPldc7Gbn+hUTe73pug=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Io.ILoadableElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Io.ILoadableElement.html",
+          "hash": "wk8bOSE0QlcjG/OEaEc4vg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Io.ILoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Io.ILoader.html",
+          "hash": "nUua23aY07MAYf06Z3iaVQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Io.IRequester.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Io.IRequester.html",
+          "hash": "PLCbG+wycfuS8xELDLCmCA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Io.IResourceLoader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Io.IResourceLoader.html",
+          "hash": "/EN7uL9zmV0h52dt8q2UZA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Io.IResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Io.IResponse.html",
+          "hash": "RkbitvhqggbrAv2lPPMuig=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Io.LoaderOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Io.LoaderOptions.html",
+          "hash": "bE6iPuIiTveqDkk9vgs1RQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Io.MemoryCookieProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Io.MemoryCookieProvider.html",
+          "hash": "m9pStgClNkKUh+Cg4GfbLQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Io.MimeType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Io.MimeType.html",
+          "hash": "VySqt6SKCSboT6GimjV+1g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Io.MimeTypeNames.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Io.MimeTypeNames.html",
+          "hash": "qinmA6sfdYgMUKQ3erStYg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Io.OriginBehavior.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Io.OriginBehavior.html",
+          "hash": "nVPkpaWQhrx4KyG3WAyLyw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Io.Processors.BaseRequestProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Io.Processors.BaseRequestProcessor.html",
+          "hash": "VGaMZJFD/7WBdz9nkZxthA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Io.Processors.IRequestProcessor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Io.Processors.IRequestProcessor.html",
+          "hash": "b8fWefmJxNoTr74eiZlopg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Io.Processors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Io.Processors.html",
+          "hash": "JCPNR9M4DyBBt+ICw/fzkA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Io.ProtocolNames.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Io.ProtocolNames.html",
+          "hash": "NMRkKna4v5v2kg3fPubhkg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Io.Request.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Io.Request.html",
+          "hash": "W25EkyKJs4cj6+43qcNDMw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Io.RequesterExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Io.RequesterExtensions.html",
+          "hash": "20GTmGF5xZQruWaKQZPCdQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Io.ResourceRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Io.ResourceRequest.html",
+          "hash": "H1x4emPWEygr52662lyG7A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Io.ResponseExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Io.ResponseExtensions.html",
+          "hash": "VaagXTuftCRi88n7alMMHw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Io.VirtualResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Io.VirtualResponse.html",
+          "hash": "n9RnWgRv9fPJ1J2S7/ePcg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Io.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Io.html",
+          "hash": "irWUjORkkQW+61pNGHk3LQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Mathml.Dom.MathElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Mathml.Dom.MathElement.html",
+          "hash": "q1D72co8Q88Skd+nWB5v3g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Mathml.Dom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Mathml.Dom.html",
+          "hash": "lQsyEBh2BWZCabT6KWvr1w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Media.Dom.IAudioTrack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Media.Dom.IAudioTrack.html",
+          "hash": "lefvAUqJhp5KZR64HkzQeA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Media.Dom.IAudioTrackList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Media.Dom.IAudioTrackList.html",
+          "hash": "06QWBvRUxSHC2DCqc041qg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Media.Dom.ICanvasRenderingContext2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Media.Dom.ICanvasRenderingContext2D.html",
+          "hash": "zdxtb859IVbAoZN/qsOKew=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Media.Dom.IMediaController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Media.Dom.IMediaController.html",
+          "hash": "mpH59qSF/kfUDnBXlsZcNA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Media.Dom.IMediaError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Media.Dom.IMediaError.html",
+          "hash": "ALjIx2ErwKZtIuthLydQuw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Media.Dom.IRenderingContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Media.Dom.IRenderingContext.html",
+          "hash": "E/lBLDmQ8eYDOSD6ta0HAA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Media.Dom.IRenderingService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Media.Dom.IRenderingService.html",
+          "hash": "3eGGkFBkS2XZzpH9wllgXA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Media.Dom.ITextTrack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Media.Dom.ITextTrack.html",
+          "hash": "zagdFSpyUyaIy8VaLYyYmA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Media.Dom.ITextTrackCue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Media.Dom.ITextTrackCue.html",
+          "hash": "uUhP2t8BNNzB0w5rw4wueA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Media.Dom.ITextTrackCueList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Media.Dom.ITextTrackCueList.html",
+          "hash": "V65M1NPCcCqlpi+Vd0Wc6g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Media.Dom.ITextTrackList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Media.Dom.ITextTrackList.html",
+          "hash": "bfbY1t83lwI9nlbb6ZyfxA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Media.Dom.ITimeRanges.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Media.Dom.ITimeRanges.html",
+          "hash": "jcotjz2bzNQD+uhfw0hHsw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Media.Dom.IVideoTrack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Media.Dom.IVideoTrack.html",
+          "hash": "TeY+ygZWCPsoUEcL207A0w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Media.Dom.IVideoTrackList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Media.Dom.IVideoTrackList.html",
+          "hash": "7WVHSR3eKdFLHpZcCYFJLw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Media.Dom.MediaControllerPlaybackState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Media.Dom.MediaControllerPlaybackState.html",
+          "hash": "/LzAB8jbiguEYp+sNGCf0g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Media.Dom.MediaErrorCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Media.Dom.MediaErrorCode.html",
+          "hash": "ldJygjVDv2ITtanG4Guaug=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Media.Dom.MediaNetworkState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Media.Dom.MediaNetworkState.html",
+          "hash": "P1v9koeQKGcHImOBRxjF7Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Media.Dom.MediaReadyState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Media.Dom.MediaReadyState.html",
+          "hash": "eAxK7/wwWJibH2C8LiRx5w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Media.Dom.TextTrackMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Media.Dom.TextTrackMode.html",
+          "hash": "lFA7N+0V1PyAf8kNuo/6zw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Media.Dom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Media.Dom.html",
+          "hash": "GX/mTCN6+V6lzS3MnlqoeA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Media.IAudioInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Media.IAudioInfo.html",
+          "hash": "7NB/NulxK+dJtIr6uMTcmQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Media.IImageInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Media.IImageInfo.html",
+          "hash": "X1OoNar9HVcGTLxNQFtj7A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Media.IMediaInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Media.IMediaInfo.html",
+          "hash": "AUdIqJgIz/N4sqV7P48lOg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Media.IObjectInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Media.IObjectInfo.html",
+          "hash": "N+ElUCnI+m90l/sc6+hJGA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Media.IResourceInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Media.IResourceInfo.html",
+          "hash": "IQd0+H2NbhtH1t1wVv2PiA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Media.IResourceService-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Media.IResourceService-1.html",
+          "hash": "UXiFToCZNFBOnQ02voytcw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Media.IVideoInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Media.IVideoInfo.html",
+          "hash": "NpWqH6/C8dWbOMJ/6scWjw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Media.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Media.html",
+          "hash": "Jd+iSV/I315e3qPD8Qk8HQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Scripting.IScriptingService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Scripting.IScriptingService.html",
+          "hash": "IKB7XOmmud09nLk8K4qFQQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Scripting.ScriptOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Scripting.ScriptOptions.html",
+          "hash": "A+LWl4d3JED+fa26b2X9XA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Scripting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Scripting.html",
+          "hash": "FK2l7VxwYfs3mmQseWLTwg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Svg.Dom.ISvgCircleElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Svg.Dom.ISvgCircleElement.html",
+          "hash": "siI6l2A7oE5V3U7alzuRKA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Svg.Dom.ISvgDescriptionElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Svg.Dom.ISvgDescriptionElement.html",
+          "hash": "jLnF0ZmWBGCX0Lphdc8PcA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Svg.Dom.ISvgElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Svg.Dom.ISvgElement.html",
+          "hash": "jKAF51stWqb8CPMsVLznIQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Svg.Dom.ISvgForeignObjectElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Svg.Dom.ISvgForeignObjectElement.html",
+          "hash": "jirXzydOnm9ckAAChu7V0A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Svg.Dom.ISvgSvgElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Svg.Dom.ISvgSvgElement.html",
+          "hash": "goep1/qpRsg49WVQY/FYuQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Svg.Dom.ISvgTitleElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Svg.Dom.ISvgTitleElement.html",
+          "hash": "wwo8/ZGGLlQzw+o/LtvnqA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Svg.Dom.SvgElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Svg.Dom.SvgElement.html",
+          "hash": "346GUq2EmzKR5L94Byxj4A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Svg.Dom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Svg.Dom.html",
+          "hash": "LAsJcXIAj34iSizJWXvY0g=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Text.CharExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Text.CharExtensions.html",
+          "hash": "oUnq/DKcbaC4c5ZOc6clwQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Text.StringBuilderPool.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Text.StringBuilderPool.html",
+          "hash": "jCigoZzCU08KanM4JxMqiQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Text.StringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Text.StringExtensions.html",
+          "hash": "79IxZQr95TUW10+rdzGjXw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Text.StringSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Text.StringSource.html",
+          "hash": "RowMkGHQNcmQEf9gJ9r1EQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Text.StringSourceExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Text.StringSourceExtensions.html",
+          "hash": "IfTpz+5pBsUgLOcG+XCitg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Text.Symbols.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Text.Symbols.html",
+          "hash": "FNV7gqMXiOLMtmww8G+Ufw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Text.TextEncoding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Text.TextEncoding.html",
+          "hash": "uEL60c5Xbe+MfkNGFAeXKA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Text.TextPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Text.TextPosition.html",
+          "hash": "cTVrSPOcFN+v5hakYh57TA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Text.TextRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Text.TextRange.html",
+          "hash": "yFgO08/zHgYtqu64RUcSbA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Text.TextSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Text.TextSource.html",
+          "hash": "WuYk+VrJYVEy0htqU40YCw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Text.TextView.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Text.TextView.html",
+          "hash": "cu5178gnlUyFZ/cmvI+/Lg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Text.XmlExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Text.XmlExtensions.html",
+          "hash": "dOu8ZOz31UqV5xUt9td8fA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Text.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Text.html",
+          "hash": "1z8DYcDs42LO4mF4iDfSUA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Url.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Url.html",
+          "hash": "4Mav8WCI7A5TT/Ep5ONUEw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Xhtml.XhtmlMarkupFormatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Xhtml.XhtmlMarkupFormatter.html",
+          "hash": "/zDyap/H5KNcJeRQWRIDcQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.Xhtml.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.Xhtml.html",
+          "hash": "Su38jqoqRWQntsMzBD+YKw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/AngleSharp.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AngleSharp.html",
+          "hash": "TL8X0IINUI9Hj03URGKHgw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "1aGnHgRQT187ugqZluvy5Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "UC+gPVZNtu2PuZ6o0GNlCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "xMu4a70b+dlpVzE2oY1Ogg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "t7iiFrmuYmrKWisdq+lN6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "WAEDyt32KMvRuLaGNKTXHQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "k+/dkjFuwAVS32HduMpmBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 423,
+          "skipped_file_count": 423
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
