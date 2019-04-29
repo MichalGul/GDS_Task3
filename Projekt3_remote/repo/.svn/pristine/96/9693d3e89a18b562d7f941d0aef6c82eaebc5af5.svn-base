@@ -1,0 +1,43 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class YoungWorker : Interactable
+{
+    public Prankster prankster;
+    public bool offended;
+    //setup event
+    public delegate void OnStateChange();
+    public event OnStateChange StateChange;
+
+    public override void Interact()
+    {
+        if(!prankster.spokenTo)
+        {
+            //TODO [Dialog] Dojechanie mlodemu
+            Debug.Log("Dojechanie, młodemu");
+            //broadcast event to all listeners (if exists)
+            offended = true;
+            StateChange?.Invoke();
+          
+        }
+        else
+        {
+            //TODO [Dialog] Zwykly dialog
+            Debug.Log("Dialog zwykly");
+        }
+        
+    }
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        offended = false;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}

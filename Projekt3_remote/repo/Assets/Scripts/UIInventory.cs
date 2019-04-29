@@ -9,7 +9,7 @@ public class UIInventory : MonoBehaviour
     public Transform slotPanel;
     public int maxItemNumber = 11;
 
-    private void Start()
+    private void Awake()
     {
         //Initialize all the slots
         for (int i = 0; i < maxItemNumber; i++)
@@ -19,7 +19,7 @@ public class UIInventory : MonoBehaviour
             uiItems.Add(instance.GetComponentInChildren<UIItem>());
         }
         //Set to not be destroyed when reloading scene
-        DontDestroyOnLoad(gameObject);
+        //DontDestroyOnLoad(gameObject);
         //UpdateInventory();
     }
 

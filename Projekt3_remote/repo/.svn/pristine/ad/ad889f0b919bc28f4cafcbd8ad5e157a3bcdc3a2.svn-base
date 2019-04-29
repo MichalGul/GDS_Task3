@@ -1,0 +1,71 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class OldWorkerInteract : Interactable
+{
+    public YoungWorker youngWorker;
+    public bool informationGiven;
+    public bool offended;
+
+    [Tooltip("Item, ktorego trzeba uzyc na pracowniku zeby zdobyć informacje")]
+    public Item itemRequiredToClickOn;
+
+    public override void Interact()
+    {
+        if (GameManager.instance.itemPointerSelectedItem != null)
+        {
+            if (GameManager.instance.itemPointerSelectedItem.id == itemRequiredToClickOn.id)
+            {
+
+                if (youngWorker.offended)
+                {
+                    // TODO!  [DIALOG] dialog info od starego robotnika
+                    Debug.Log("Dostajemy Informacje od starego robotnika");
+                    GameManager.instance.selectedItem.UpdateItem(null);
+                    GameManager.instance.playerInventory.RemoveItem(itemRequiredToClickOn.id);
+                    GameManager.instance.UpdatePointerSelectedItem();
+                    informationGiven = true;
+                }
+                else
+                {
+                    // TODO!  [DIALOG] Nie dojechalismy młodego
+                    Debug.Log("Nie przyjmuje butelki");
+                }
+            }
+            else
+            {// TODO!  [DIALOG] bledny item
+                Debug.Log("Zly item");
+            }
+
+        }
+        else
+        {
+            if (!youngWorker.offended)
+            {
+                // TODO!  [DIALOG] Kontrowanie pierdolenia starego robotnika
+                Debug.Log("Kontra gadania i opuszcza bar");
+                offended = true;
+            }
+            else
+            {
+                // TODO!  [DIALOG] Zwykly dialog
+                Debug.Log("Chce mu sie pic");
+
+            }
+
+        }
+
+    }
+    // Start is called before the first frame update
+    void Start()
+    {
+        offended = false;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}

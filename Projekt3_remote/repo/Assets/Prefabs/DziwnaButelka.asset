@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 3
   title: Dziwna butelka
-  description: Brakuje kasy..
+  description: 
   interactionComment: Cos tam mowi bohater
-  inventoryIcon: {fileID: 21300000, guid: 5ade747bd96064e42841a556746dc3aa, type: 3}
+  inventoryIcon: {fileID: 21300000, guid: c7d7dfe6045c8dc428374ab027be7f23, type: 3}
   worldIcon: {fileID: 0}

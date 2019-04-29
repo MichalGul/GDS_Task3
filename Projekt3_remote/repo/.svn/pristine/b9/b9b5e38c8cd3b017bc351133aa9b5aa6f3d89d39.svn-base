@@ -1,0 +1,109 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class GameManager : MonoBehaviour
+{
+    public static GameManager instance;
+    public int levelNumber;
+
+    //our UI item
+    public UIItem selectedItem; 
+
+    public Inventory playerInventory;
+    //public List<Item> sceneStartupItems = new List<Item>();
+
+    public Item wallet;
+    public Item vodka;
+    public Item weirdBottle;
+
+    //This field will be used to check using item on other interactables
+    public Item itemPointerSelectedItem;
+
+    private void Awake()
+    {
+        InitializeScene();
+
+        SceneManager.sceneLoaded += OnSceneLoaded;
+
+    }
+
+    private void InitializeScene()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else if (instance != this)
+        {
+            Destroy(gameObject);
+        }
+
+        //Set to not be destroyed when reloading scene
+        DontDestroyOnLoad(gameObject);
+
+        selectedItem = GameObject.Find("SelectedItem").GetComponent<UIItem>();
+        playerInventory = GameObject.Find("Player").GetComponent<Inventory>();
+        levelNumber = SceneManager.GetActiveScene().buildIndex;
+    }
+
+    void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
+        Debug.Log("OnSceneLoaded: " + scene.name);
+        Debug.Log(mode);
+        InitializeScene();
+        if (scene.name == "Bar")
+        {    
+            playerInventory.GiveItem(wallet);            
+        }
+
+    }
+
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        //AddStartupItemsToPlayer();
+    }
+
+    public void UpdatePointerSelectedItem()
+    {
+        itemPointerSelectedItem = selectedItem.GetComponent<UIItem>().selectedItem.item;
+    }
+
+    void CheckInventoryOnSceneLoad()
+    {
+
+    }
+
+
+    public void LoadNextLevel()
+    {
+        levelNumber++;
+        if (levelNumber == SceneManager.sceneCountInBuildSettings)
+        {
+            SceneManager.LoadScene(0);
+        }
+        else
+        {
+            SceneManager.LoadScene(levelNumber);
+        }
+    }
+
+    //public void AddStartupItemsToPlayer()
+    //{
+    //    if (sceneStartupItems.Count > 0)
+    //    {
+    //        foreach (var item in sceneStartupItems)
+    //        {
+    //            playerInventory.GiveItem(item);
+    //        } 
+    //    }
+    //}
+
+
+    
+        
+
+}

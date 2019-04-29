@@ -16,5 +16,5 @@ MonoBehaviour:
   title: Flaszka
   description: Mocna...
   interactionComment: Mdli mnie od samego zapachu
-  inventoryIcon: {fileID: 21300000, guid: 5ade747bd96064e42841a556746dc3aa, type: 3}
+  inventoryIcon: {fileID: 21300000, guid: fe49a6aa7a09d7e4a925e09dca1458e4, type: 3}
   worldIcon: {fileID: 0}

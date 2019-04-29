@@ -10,6 +10,7 @@ public class Switcher : Interactable
 {
 
     public bool State;
+
     //setup event
     public delegate void OnStateChange();
     public event OnStateChange StateChange ;
@@ -18,7 +19,6 @@ public class Switcher : Interactable
     {
         //change state
         State = !State;
-
         //broadcast event to all listeners (if exists)
         StateChange?.Invoke();
     }

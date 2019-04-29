@@ -6,11 +6,15 @@
 public abstract class Interactable : MonoBehaviour
 {
     public string interactableName;
+
     [Tooltip("In unity units") ]
     public float interactionDistance;
+
     private Transform playerPosition;
+
     private Tooltip toolTip;
     private MoveToClickInput playerMovementController;
+
     public string secondaryInteractionComment;
 
     private void Awake()
@@ -41,9 +45,8 @@ public abstract class Interactable : MonoBehaviour
             }
             else //Order player to come to object
             {
-                //Debug.Log("PODCHODZE!!!");
+
                 Vector3 interactableDir = (transform.position - playerPosition.position).normalized;
-                //Debug.Log("INTERACTION DIR: " + interactableDir);
                 playerMovementController.ApproachInteractable(transform.position - 1f * (interactableDir * interactionDistance));
             }
 
@@ -58,8 +61,6 @@ public abstract class Interactable : MonoBehaviour
         }
 
     }
-
-
 
     private void OnMouseEnter()
     {
@@ -80,8 +81,6 @@ public abstract class Interactable : MonoBehaviour
             toolTip.gameObject.SetActive(false);
         }
     }
-
-
 
 
     private void UpdatePlayerPosition()

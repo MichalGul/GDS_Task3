@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Caller : Interactable
 {
-    public string dialogText; //? Text that player will say after interaction, mayby some other twine type
+    public string dialogText; 
 
     public override void Interact()
     {
